@@ -1,0 +1,32 @@
+{
+    "name": "BKDiablo",
+    "savepath": "BKDiablo/"
+
+/*
+--My Mod Details--
+Mod Download:  https://github.com/BaronBeefStick/BKDiablo-Ascension
+Mod Config Download: https://drive.google.com/uc?export=download&id=1X9Nl4cY53vGuLAOSlQwZGpsYOTY_osCN
+Mod Version: 0.0.1
+News 1 Title: "BKDiablo: Ascension Beta"
+News 1 Message: "Welcome"
+News 2 Title: "TEST IT ALL"
+News 2 Message: "Need feedback!"
+ 
+--General Options--
+Map Layouts: Enabled
+UI Themes: Enabled
+Customizations: Enabled
+Vault Access: Enabled
+
+--Additional Options--
+Item Icons: Disabled
+Runeword Sorting: Disabled
+HUD Display: Disabled
+Monster Stats Display: Enabled
+
+--Author Links--
+Discord: https://discord.gg/HZAshrGAFd
+UPDATE-Wiki: https://btd.miraheze.org/wiki/Main_Page
+*/
+
+}
