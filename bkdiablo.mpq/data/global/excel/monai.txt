@@ -6,13 +6,13 @@ Zombie	Approach Enemy (% Chance)	Enemy Awareness (Range)		"Attack1 (% Chance), e
 Bighead	Hurt State (Life % threshold)	Circle Walk (% Chance)	Ranged Attack Not Hurt (% Chance)	Ranged Attack Hurt (% Chance)					0
 BloodHawk	Charge (% Chance)	Wander behavior (% Chance)	Attack1 (% Chance)	Attack1 Move Velocity	Charge Velocity				0
 Fallen	Command Attack (% Chance)	Non-command Wander behavior (% Chance)	Attack Enemy (% Chance)	"Attack1 (% Chance), else Attack2"					0
-Brute			Attack Enemy / Circle Walk (% Chance) 	"Attack1 (% Chance), else Attack2"					0
+Brute			Attack Enemy / Circle Walk (% Chance)	"Attack1 (% Chance), else Attack2"					0
 SandRaider	Regroup Life % threshold	Circle Walk (% Chance)	Attack Enemy (% Chance)	Approach Enemy (% Chance)	Charge time (Frames)	"Charge overlay (1 = blue, else red)"	"Attack1 (% Chance), else Attack2"		0
 Wraith	Approach Enemy (% Chance)	AI Delay (Frames)	Attack Enemy (% Chance)						0
 CorruptRogue	Approach Enemy (% Chance)	AI Delay (Frames)	Attack Enemy (% Chance)	Run Velocity	Run During Approach (% Chance)				0
 Baboon	Hurt State (Life % threshold)	Circle Walk (% Chance)	Attack Enemy (% Chance)	"Attack1 (% Chance), else Attack2"	hpregen bonus when hurt				0
 Goatman	Approach Enemy (% Chance)	AI Delay (Frames)	Attack Enemy (% Chance)						0
-FallenShaman	Issue Attack Command / Resurrect (Skill1) (% Chance)	Fireball (Skill2) (% Chance)	Attack Enemy / Circle Walk (% Chance) 	Ally Corpse Search Range	Fireball (Skill2) Search Range				0
+FallenShaman	Issue Attack Command / Resurrect (Skill1) (% Chance)	Fireball (Skill2) (% Chance)	Attack Enemy / Circle Walk (% Chance)	Ally Corpse Search Range	Fireball (Skill2) Search Range				0
 QuillRat	Activate Range	Attack2 (% Chance)		Walk Away Range					0
 SandMaggot	Lay an egg (% Chance)	Attack2 (% Chance)	Max Egg Unit Spawn Count	Attack1 (% Chance)	Min Down/Up State Time (Frames)				0
 ClawViper	Charge (% Chance)	Charge Max Range	Attack Enemy (% Chance)	"Attack1 (% Chance), else Attack2"	AI Delay (Frames)	"Charge overlay (0 = none, 1 = red, else blue)"			0

@@ -24,7 +24,7 @@ hit_thorns	21	AuraThornsHit	0	10	paladin	0	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	
 target_thorns	22	AuraHfireIndicate	0	19	paladin	0	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
 aura_defiance_front	23	AuraDefianceFront	0	15	paladin	0	1	0	0	0	0	0	0	8	0	3	0	0	255	255	255	1	0			
 aura_defiance_back	24	AuraDefianceBack	0	15	paladin	1	1	0	0	0	0	0	0	8	0	3	0	0	255	255	255	1	0			
-aura_fanatic	25	AuraFanatic	0	20	paladin	1	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
+aura_fanatic	25	AuraFanatic	0	20	paladin	1	1	0	0	0	0	0	0	16	0	3	0	0	81	81	255	1	0			
 healing	26	OverlayH	0	17	common	0	1	0	0	0	0	0	0	16	0	3	0	0	255	255	255	1	0			
 receiving	27	AmazonHealSpell	0	20	amazon	0	1	0	0	0	0	0	0	16	0	3	1	8	255	184	199	1	0			
 cast_undead	28	HolyBoltCloud	0	16	common	0	1	0	0	0	0	0	0	16	0	3	0	0	0	0	0	1	0			

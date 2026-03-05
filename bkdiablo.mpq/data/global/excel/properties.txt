@@ -267,7 +267,7 @@ levelreq	263	1	1	item_levelreq																												Required Level: #		Min
 ethereal	264	1	23																													Ethereal		1	1		0
 oskill	265	1	22	item_nonclassskill																												+# to [Skill]	Skill	Min #	Max #		0
 state	266	1	24	state																													State	1	1	Applies a State on the unit	0
-randclassskill1	267	1	36	item_addclassskills		3																									3	+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
+randclassskill	267	1	36	item_addclassskills		3																									3	+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
 noconsume	268	1	1	item_noconsume																												+# to not Consume Quantity		Min %	Max %		0
 pierce-immunity-cold	269	1	1	item_pierce_cold_immunity																												Monster Cold Immunity is Sundered		Min %	Max %		0
 pierce-immunity-fire	270	1	1	item_pierce_fire_immunity																												Monster Fire Immunity is Sundered		Min %	Max %		0
@@ -287,7 +287,7 @@ extra-mag	283	1	1	passive_mag_mastery																												+#% to Magic Sk
 res-curse	284	1	1	curse_resistance																												Curse Resist +#%		Min %	Max %		0
 corruption1	285	1	1	corrupted																																	0
 corruption2	286	1	1	corruptordesc																																	0
-randclassskill2	287	1	36	item_addclassskills		2																										+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
+randclassskill2	287	1	36	item_addclassskills		2																									2	+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
 augmented1	288	1	1	augmented																																	0
 dyewhite1	289	1	15	dyewhite																																	0
 dyeblack1	290	1	15	dyeblack																																	0
@@ -299,8 +299,7 @@ dyelightpurple1	295	1	15	dyelightpurple																																	0
 dyedarkpurple1	296	1	15	dyedarkpurple																																	0
 dyeorange1	297	1	15	dyeorange																																	0
 dyed1	298	1	15	dyed																														Min %	Max %		0
-charge-noconsume	299	1	1	item_charge_noconsume																												+#% chance for finishing moves to not consume charges		Min Class ID	Max Class ID	val1 = # of Skill levels	0
-randclassskill3	300	1	36	item_addclassskills		1																										+# to [Class] Skill Levels		Min #	Max #		0
+randclassskill3	300	1	36	item_addclassskills		1																									1	+# to [Class] Skill Levels		Min #	Max #		0
 coldskill	301	1	21	item_elemskill		4	3	item_elemskill_cold																								+# to Cold Skills		Min #	Max #		0
 ltngskill	302	1	21	item_elemskill		2	3	item_elemskill_lightning																								+# to Lightning Skills		Min #	Max #		0
 poisskill	303	1	21	item_elemskill		5	3	item_elemskill_poison																								+# to Poison Skills		Min #	Max #		0
