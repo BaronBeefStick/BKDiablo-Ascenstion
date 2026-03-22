@@ -278,14 +278,14 @@ pierce-immunity-magic	274	1	1	item_pierce_magic_immunity																								
 charge-noconsume	275	1	1	item_charge_noconsume																												+#% chance for finishing moves to not consume charges		Min %	Max %		0
 war	276	1	21	item_addclassskills		7																										+# to Warlock Skill Levels		Min #	Max #		0
 dmg-mag/lvl	277	1	17	item_magic_damagemax_perlevel																												+# to Maximum Cold Damage (Based on Character Level)	#/8 per Level			Currently Not Used	0
-pierce-mag	278	1	1	passive_mag_pierce																												-#% to Enemy Fire Resistance		Min %	Max %		0
-pierce-dmg	279	1	1	passive_dmg_pierce																												-#% to Enemy Lightning Resistance		Min %	Max %		0
+pierce-mag	278	1	1	passive_mag_pierce																												-#% to Enemy Magic Resistance		Min %	Max %		0
+pierce-dmg	279	1	1	passive_dmg_pierce																												-#% to Enemy Physical Resistance		Min %	Max %		0
 affix-rand	280	1	25																													Add random affix from property	Index of property to use	Min Value for affix	Max Value for affix		0
 extra-skill-dmg%-rand	281	1	1	passive_fire_mastery			1	passive_ltng_mastery			1	passive_cold_mastery			1	passive_pois_mastery			1	passive_mag_mastery			7	dmg%								used to with affix-rand to roll a random stat					0
 war-tab-rand	282	1	10	item_addskill_tab		21	10	item_addskill_tab		22	10	item_addskill_tab		23																							0
 extra-mag	283	1	1	passive_mag_mastery																												+#% to Magic Skill Damage		Min %	Max %		0
 res-curse	284	1	1	curse_resistance																												Curse Resist +#%		Min %	Max %		0
-corruption1	285	1	1	corrupted																																	0
+corruption1	285	1	1	corrupted																												1 through 1000		Min #	Max #		0
 corruption2	286	1	1	corruptordesc																																	0
 randclassskill2	287	1	36	item_addclassskills		2																									2	+# to [Class] Skill Levels		Min Class ID	Max Class ID	val1 = # of Skill levels	0
 augmented1	288	1	1	augmented																																	0
