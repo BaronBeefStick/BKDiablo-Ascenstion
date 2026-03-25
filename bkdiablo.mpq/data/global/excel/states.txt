@@ -235,37 +235,17 @@ dyewhite	232																																																						tors	whit					
 dyeblack	233																																																						tors	blac																		0
 dyecblue	234																																																						tors	cblu																		0
 dyecred	235																																																						tors	cred																		0
-dyelightgreen	236																																																						tors	lgrn																		0
-dyedarkyellow	237																																																						tors	dyel																		0
-dyelightpurple	238																																																						tors	lpur																		0
-dyedarkpurple	239																																																						tors	dpur																		0
-dyeorange	240																																																						tors	oran																		0
-dyewhiteS	241																																																						shld	whit																		0
-dyeblackS	242																																																						shld	blac																		0
-dyecblueS	243																																																						shld	cblu																		0
-dyecredS	244																																																						shld	cred																		0
-dyelightgreenS	245																																																						shld	lgrn																		0
-dyedarkyellowS	246																																																						shld	dyel																		0
-dyelightpurpleS	247																																																						shld	lpur																		0
-dyedarkpurpleS	248																																																						shld	dpur																		0
-dyeorangeS	249																																																						shld	oran																		0
-dyewhiteH	250																																																						helm	whit																		0
-dyeblackH	251																																																						helm	blac																		0
-dyecblueH	252																																																						helm	cblu																		0
-dyecredH	253																																																						helm	cred																		0
-dyelightgreenH	254																																																						helm	lgrn																		0
-dyedarkyellowH	255																																																						helm	dyel																		0
-dyelightpurpleH	256																																																						helm	lpur																		0
-dyedarkpurpleH	257																																																						helm	dpur																		0
-dyeorangeH	258																																																						helm	oran																		0
-dyewhiteW	259																																																						weap	whit																		0
-dyeblackW	260																																																						weap	blac																		0
-dyecblueW	261																																																						weap	cblu																		0
-dyecredW	262																																																						weap	cred																		0
-dyelightgreenW	263																																																						weap	lgrn																		0
-dyedarkyellowW	264																																																						weap	dyel																		0
-dyelightpurpleW	265																																																						weap	lpur																		0
-dyedarkpurpleW	266																																																						weap	dpur																		0
-dyeorangeW	267																																																						weap	oran																		0
-magicconviction	268					1																																					mconvictionfront	mconvictionfront																		paladin_aura_sanctuary												0
-magicpierce	269					1																																																																				0
+dyelightgreen	236																																																						helm	whit																		0
+dyedarkpurple	237																																																						helm	blac																		0
+dyeorange	238																																																						helm	cblu																		0
+dyewhiteS	239																																																						helm	cred																		0
+dyeblackS	240																																																						shld	dpur																		0
+dyecblueS	241																																																						shld	cblu																		0
+dyecredS	242																																																						shld	cred																		0
+dyelightgreenS	243																																																						shld	lgrn																		0
+dyedarkyellowS	244																																																						weap	dyel																		0
+dyedarkpurpleS	245																																																						weap	lgrn																		0
+dyeorangeS	246																																																						weap	cred																		0
+dyewhiteW	247																																																						weap	whit																		0
+magicconviction	248					1																																					mconvictionfront	mconvictionfront																		paladin_aura_sanctuary												0
+magicpierce	249					1																																																																				0
