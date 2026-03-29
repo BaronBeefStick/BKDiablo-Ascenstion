@@ -1,5 +1,5 @@
 description	enabled	firstLadderSeason	lastLadderSeason	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
-1 mana potion	1				100					1	tsc							Resistbreaker	99		99																										Mindnumb	99		99																										Lightsabre	99		99																										0
+1 mana potion	1				100					1	mpot							Steeldriver	99		99																										The Grandfather	99		99																										Arcbane	99		99																										0
 ,qty=	1				100					1	hpot							The Stone of Jordan	99		99																																																																																				0
 ,uni	1				100					1	apot								99		99																																																																																				0
 ,set	0				100					2	mpot,qty=2								99		99																																																																																				0
@@ -36,14 +36,142 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit	1			2	100	28				5	ua1	ua2	ua3	ua4	ua5			"Red Portal,lvl=137,qty=1"																																																																																							0
 3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 3 Socket to Rare Item	1				0					5	"any,rar,nos"	"skz,qty=3"	The Stone of Jordan					"useitem,sock=3"																																																																																							0
 2 Unique Jewerly = SOH	1				0					3	jwly,uni,qty=2	wms						std																																																																																							0
-Seasonal Gift	1				100					1	gft							r15g	51																												"r01g,qty=5"	35																												"gem,qty=5"																													0
+Seasonal Gift	0				100					1	gft							r15g	51																												"r01g,qty=5"	35																												"gem,qty=5"																													0
 Infernal Mawstone + Item --> Rerolls Ethereal Set ; Potential Upgrade or Downgrade	1				100					2	any,set,eth	rrr						usetype,set	99		99	ethereal	100		1	1																																																																															0
 Infernal Mawstone + Item --> Rerolls Set; Potential Upgrade or Downgrade	1				100					2	any,set,noe	rrr						usetype,set	99		99																																																																																				0
 Infernal Mawstone + Item --> Rerolls Ethereal Unique ; Potential Upgrade or Downgrade	1				100					2	any,uni,eth	rrr						usetype,uni	99		99	ethereal	100		1	1																																																																															0
 Infernal Mawstone + Item --> Rerolls Unique ; Potential Upgrade or Downgrade	1				100					2	any,uni,noe	rrr						usetype,uni	99		99																																																																																				0
 Fracture Halo --> Return Base + Socketed Items	1				100					2	any,sock	rtr						useitem,rem																																																																																							0
-																																																																																																									0
-																																																																																																									0
+Gems																																																																																																									0
+3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1				100					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
+3 Chipped Amethysts -> Flawed Amethyst	1				100					3	"gcv,qty=3"							gfv																																																																																							0
+3 Flawed Amethysts -> Standard Amethyst	1				100					3	"gfv,qty=3"							gsv																																																																																							0
+3 Standard Amethysts -> Flawless Amethyst	1				100					3	"gsv,qty=3"							gzv																																																																																							0
+3 Flawless Amethysts -> Perfect Amethyst	1				100					3	"gzv,qty=3"							gpv																																																																																							0
+3 Chipped Rubies -> Flawed Ruby	1				100					3	"gcr,qty=3"							gfr																																																																																							0
+3 Flawed Rubies -> Standard Ruby	1				100					3	"gfr,qty=3"							gsr																																																																																							0
+3 Standard Rubies -> Flawless Ruby	1				100					3	"gsr,qty=3"							glr																																																																																							0
+3 Flawless Rubies -> Perfect Ruby	1				100					3	"glr,qty=3"							gpr																																																																																							0
+3 Chipped Sapphires -> Flawed Sapphire	1				100					3	"gcb,qty=3"							gfb																																																																																							0
+3 Flawed Sapphires -> Standard Sapphire	1				100					3	"gfb,qty=3"							gsb																																																																																							0
+3 Standard Sapphires -> Flawless Sapphire	1				100					3	"gsb,qty=3"							glb																																																																																							0
+3 Flawless Sapphires -> Perfect Sapphire	1				100					3	"glb,qty=3"							gpb																																																																																							0
+3 Chipped Topazes -> Flawed Topaz	1				100					3	"gcy,qty=3"							gfy																																																																																							0
+3 Flawed Topazes -> Standard Topaz	1				100					3	"gfy,qty=3"							gsy																																																																																							0
+3 Standard Topazes -> Flawless Topaz	1				100					3	"gsy,qty=3"							gly																																																																																							0
+3 Flawless Topazes -> Perfect Topaz	1				100					3	"gly,qty=3"							gpy																																																																																							0
+3 Chipped Emeralds -> Flawed Emerald	1				100					3	"gcg,qty=3"							gfg																																																																																							0
+3 Flawed Emeralds -> Standard Emerald	1				100					3	"gfg,qty=3"							gsg																																																																																							0
+3 Standard Emeralds -> Flawless Emerald	1				100					3	"gsg,qty=3"							glg																																																																																							0
+3 Flawless Emeralds -> Perfect Emerald	1				100					3	"glg,qty=3"							gpg																																																																																							0
+3 Chipped Diamonds -> Flawed Diamond	1				100					3	"gcw,qty=3"							gfw																																																																																							0
+3 Flawed Diamonds -> Standard Diamond	1				100					3	"gfw,qty=3"							gsw																																																																																							0
+3 Standard Diamonds -> Flawless Diamond	1				100					3	"gsw,qty=3"							glw																																																																																							0
+3 Flawless Diamonds -> Perfect Diamond	1				100					3	"glw,qty=3"							gpw																																																																																							0
+3 Chipped Skulls -> Flawed Skull	1				100					3	"skc,qty=3"							skf																																																																																							0
+3 Flawed Skulls -> Standard Skull	1				100					3	"skf,qty=3"							sku																																																																																							0
+3 Standard Skulls -> Flawless Skull	1				100					3	"sku,qty=3"							skl																																																																																							0
+3 Flawless Skulls -> Perfect Skull	1				100					3	"skl,qty=3"							skz																																																																																							0
+36 Chipped Amethysts -> Flawed Amethyst	1				100					36	"gcv,qty=36"							"gfv,qty=12"																																																																																							0
+36 Flawed Amethysts -> Standard Amethyst	1				100					36	"gfv,qty=36"							"gsv,qty=12"																																																																																							0
+36 Standard Amethysts -> Flawless Amethyst	1				100					36	"gsv,qty=36"							"gzv,qty=12"																																																																																							0
+36 Flawless Amethysts -> Perfect Amethyst	1				100					36	"gzv,qty=36"							"gcr,qty=12"																																																																																							0
+36 Chipped Rubies -> Flawed Ruby	1				100					36	"gcr,qty=36"							"gfr,qty=12"																																																																																							0
+36 Flawed Rubies -> Standard Ruby	1				100					36	"gfr,qty=36"							"gsr,qty=12"																																																																																							0
+36 Standard Rubies -> Flawless Ruby	1				100					36	"gsr,qty=36"							"glr,qty=12"																																																																																							0
+36 Flawless Rubies -> Perfect Ruby	1				100					36	"glr,qty=36"							"gcb,qty=12"																																																																																							0
+36 Chipped Sapphires -> Flawed Sapphire	1				100					36	"gcb,qty=36"							"gfb,qty=12"																																																																																							0
+36 Flawed Sapphires -> Standard Sapphire	1				100					36	"gfb,qty=36"							"gsb,qty=12"																																																																																							0
+36 Standard Sapphires -> Flawless Sapphire	1				100					36	"gsb,qty=36"							"glb,qty=12"																																																																																							0
+36 Flawless Sapphires -> Perfect Sapphire	1				100					36	"glb,qty=36"							"gcy,qty=12"																																																																																							0
+36 Chipped Topazes -> Flawed Topaz	1				100					36	"gcy,qty=36"							"gfy,qty=12"																																																																																							0
+36 Flawed Topazes -> Standard Topaz	1				100					36	"gfy,qty=36"							"gsy,qty=12"																																																																																							0
+36 Standard Topazes -> Flawless Topaz	1				100					36	"gsy,qty=36"							"gly,qty=12"																																																																																							0
+36 Flawless Topazes -> Perfect Topaz	1				100					36	"gly,qty=36"							"gcg,qty=12"																																																																																							0
+36 Chipped Emeralds -> Flawed Emerald	1				100					36	"gcg,qty=36"							"gfg,qty=12"																																																																																							0
+36 Flawed Emeralds -> Standard Emerald	1				100					36	"gfg,qty=36"							"gsg,qty=12"																																																																																							0
+36 Standard Emeralds -> Flawless Emerald	1				100					36	"gsg,qty=36"							"glg,qty=12"																																																																																							0
+36 Flawless Emeralds -> Perfect Emerald	1				100					36	"glg,qty=36"							"gcw,qty=12"																																																																																							0
+36 Chipped Diamonds -> Flawed Diamond	1				100					36	"gcw,qty=36"							"gfw,qty=12"																																																																																							0
+36 Flawed Diamonds -> Standard Diamond	1				100					36	"gfw,qty=36"							"gsw,qty=12"																																																																																							0
+36 Standard Diamonds -> Flawless Diamond	1				100					36	"gsw,qty=36"							"glw,qty=12"																																																																																							0
+36 Flawless Diamonds -> Perfect Diamond	1				100					36	"glw,qty=36"							"skc,qty=12"																																																																																							0
+36 Chipped Skulls -> Flawed Skull	1				100					36	"skc,qty=36"							"skf,qty=12"																																																																																							0
+36 Flawed Skulls -> Standard Skull	1				100					36	"skf,qty=36"							"sku,qty=12"																																																																																							0
+36 Standard Skulls -> Flawless Skull	1				100					36	"sku,qty=36"							"skl,qty=12"																																																																																							0
+36 Flawless Skulls -> Perfect Skull	1				100					36	"skl,qty=36"							"skz,qty=12"																																																																																							0
+9 Perfect Gems + 1 Perfect Amethyst -> 4 Perfect Amethysts	0				0	18	70	9		2																																																																																															0
+9 Perfect Gems + 1 Perfect Diamond -> 4 Perfect Diamonds	0				0	18	70	9		2																																																																																															0
+9 Perfect Gems + 1 Perfect Emerald -> 4 Perfect Emeralds	0				0	18	70	9		2																																																																																															0
+9 Perfect Gems + 1 Perfect Ruby-> 4 Perfect Rubies	0				0	18	70	9		2																																																																																															0
+9 Perfect Gems + 1 Perfect Sapphire -> 4 Perfect Sapphires	0				0	18	70	9		2																																																																																															0
+9 Perfect Gems + 1 Perfect Topaz -> 4 Perfect Topazes	0				0	18	70	9		2																																																																																															0
+Rune Conversions																																																																																																									0
+1 Zod + Standard Gem -> Cham Rune	1				100					2	r33,qty=1	gem2						r32																																																																																							0
+1 Cham + Standard Gem -> Jah Rune	1				100					2	r32,qty=1	gem2						r31																																																																																							0
+1 Jah + Standard Gem -> Ber Rune	1				100					2	r31,qty=1	gem2						r30																																																																																							0
+1 Ber + Standard Gem -> Sur Rune	1				100					2	r30,qty=1	gem2						r29																																																																																							0
+1 Sur + Standard Gem -> Lo  Rune	1				100					2	r29,qty=1	gem2						r28																																																																																							0
+1 Lo + Standard Gem -> Ohm Rune	1				100					2	r28,qty=1	gem2						r27																																																																																							0
+1 Ohm + Standard Gem -> Vex Rune	1				100					2	r27,qty=1	gem2						r26																																																																																							0
+1 Vex + Standard Gem -> Gul Rune	1				100					2	r26,qty=1	gem2						r25																																																																																							0
+1 Gul + Standard Gem -> Ist Rune	1				100					2	r25,qty=1	gem2						r24																																																																																							0
+1 Ist + Standard Gem -> Mal Rune	1				100					2	r24,qty=1	gem2						r23																																																																																							0
+1 Mal + Standard Gem -> Um Rune	1				100					2	r23,qty=1	gem2						r22																																																																																							0
+1 Um + Standard Gem -> Pul Rune	1				100					2	r22,qty=1	gem2						r21																																																																																							0
+1 Pul + Standard Gem -> Lem Rune	1				100					2	r21,qty=1	gem2						r20																																																																																							0
+1 Lem + Standard Gem -> Fal Rune	1				100					2	r20,qty=1	gem2						r19																																																																																							0
+1 Fal + Standard Gem -> Ko Rune	1				100					2	r19,qty=1	gem2						r18																																																																																							0
+1 Ko + Standard Gem -> Lum Rune	1				100					2	r18,qty=1	gem2						r17																																																																																							0
+1 Lum + Standard Gem -> Io Rune	1				100					2	r17,qty=1	gem2						r16																																																																																							0
+1 Io + Standard Gem -> Hel Rune	1				100					2	r16,qty=1	gem2						r15																																																																																							0
+1 Hel + Standard Gem -> Dol  Rune	1				100					2	r15,qty=1	gem2						r14																																																																																							0
+1 Dol + Standard Gem -> Shael Rune	1				100					2	r14,qty=1	gem2						r13																																																																																							0
+1 Shael + Standard Gem -> Sol Rune	1				100					2	r13,qty=1	gem2						r12																																																																																							0
+1 Sol + Standard Gem -> Amn Rune	1				100					2	r12,qty=1	gem2						r11																																																																																							0
+1 Amn + Standard Gem -> Thul Rune	1				100					2	r11,qty=1	gem2						r10																																																																																							0
+1 Thul + Standard Gem -> Ort Rune	1				100					2	r10,qty=1	gem2						r09																																																																																							0
+1 Ort + Standard Gem -> Ral Rune	1				100					2	r09,qty=1	gem2						r08																																																																																							0
+1 Ral + Standard Gem -> Tal Rune	1				100					2	r08,qty=1	gem2						r07																																																																																							0
+1 Tal + Standard Gem -> Ith Rune	1				100					2	r07,qty=1	gem2						r06																																																																																							0
+1 Ith + Standard Gem -> Eth Rune	1				100					2	r06,qty=1	gem2						r05																																																																																							0
+1 Eth + Standard Gem -> Nef Rune	1				100					2	r05,qty=1	gem2						r04																																																																																							0
+1 Nef + Standard Gem -> Tir Rune	1				100					2	r04,qty=1	gem2						r03																																																																																							0
+1 Tir + Standard Gem -> Eld Rune	1				100					2	r03,qty=1	gem2						r02																																																																																							0
+1 Eld + Standard Gem -> El Rune	1				100					2	r02,qty=1	gem2						r01																																																																																							0
+1 El + Standard Gem -> Rejuv	1				100					2	r01,qty=1	gem2						rvl																																																																																							0
+3 El Runes -> Eld Rune	1				100					3	r01,qty=3							r02																																																																																							0
+3 Eld Runes -> Tir Rune	1				100					3	r02,qty=3							r03																																																																																							0
+3 Tir Runes -> Nef Rune	1				100					3	r03,qty=3							r04																																																																																							0
+3 Nef Runes -> Eth Rune	1				100					3	r04,qty=3							r05																																																																																							0
+3 Eth Runes -> Ith Rune	1				100					3	r05,qty=3							r06																																																																																							0
+3 Ith Runes -> Tal Rune	1				100					3	r06,qty=3							r07																																																																																							0
+3 Tal Runes -> Ral Rune	1				100					3	r07,qty=3							r08																																																																																							0
+3 Ral Runes -> Ort Rune	1				100					3	r08,qty=3							r09																																																																																							0
+3 Ort Runes -> Thul Rune	1				100					3	r09,qty=3							r10																																																																																							0
+3 Thul Runes -> Amn Rune	1				100					3	r10,qty=3							r11																																																																																							0
+3 Amn Runes -> Sol Rune	1				100					3	r11,qty=3							r12																																																																																							0
+3 Sol Runes -> Shael Rune	1				100					3	r12,qty=3							r13																																																																																							0
+3 Shael Runes  -> Dol Rune	1				100					3	r13,qty=3							r14																																																																																							0
+3 Dol Runes  -> Hel Rune	1				100					3	r14,qty=3							r15																																																																																							0
+3 Hel Runes -> Io Rune	1				100					3	r15,qty=3							r16																																																																																							0
+3 Io Runes -> Lum Rune	1				100					3	r16,qty=3							r17																																																																																							0
+3 Lum Runes  -> Ko Rune	1				100					3	r17,qty=3							r18																																																																																							0
+3 Ko Runes -> Fal Rune	1				100					3	r18,qty=3							r19																																																																																							0
+3 Fal Runes -> Lem Rune	1				100					3	r19,qty=3							r20																																																																																							0
+3 Lem Runes -> Pul Rune	1				100					3	r20,qty=3							r21																																																																																							0
+2 Pul Runes -> Um Rune	1				100					2	r21,qty=2							r22																																																																																							0
+2 Um Runes -> Mal Rune	1				100					2	r22,qty=2							r23																																																																																							0
+2 Mal Runes -> Ist Rune	1				100					2	r23,qty=2							r24																																																																																							0
+2 Ist Runes -> Gul Rune	1				100					2	r24,qty=2							r25																																																																																							0
+2 Gul Runes -> Vex Rune	1				100					2	r25,qty=2							r26																																																																																							0
+2 Vex Runes -> Ohm Rune	1				100					2	r26,qty=2							r27																																																																																							0
+2 Ohm Runes -> Lo Rune	1				100					2	r27,qty=2							r28																																																																																							0
+2 Lo Runes -> Sur Rune	1				100					2	r28,qty=2							r29																																																																																							0
+2 Sur Runes -> Ber Rune	1				100					2	r29,qty=2							r30																																																																																							0
+2 Ber Runes -> Jah Rune	1				100					2	r30,qty=2							r31																																																																																							0
+2 Jah Runes  -> Cham Rune	1				100					2	r31,qty=2							r32																																																																																							0
+2 Cham Runes -> Zod Rune	1				100					2	r32,qty=2							r33																																																																																							0
 CRAFTING	1				0					3	"gcv,qty=3"							gfv																																																																																							0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,noe	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200																																																																					0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire + 1 Eth Rune + 1 Chasi's Malus -> Hit Power Helm	1				100					6	helm,mag,noe	jew	r06	gpb	r05	mls		usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1																																																																0
@@ -290,15 +418,15 @@ Repair																																																																										
 1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1				100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=500"																																																																																							0
 1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1				100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=500"																																																																																							0
 Ubers																																																																																																									0
-3 pk1 = Matrons Den	0				100	28				3	pk1,qty=3							Red Portal,qty=133																																																																																							0
-2 pk1 + 1 pk2 = Matrons Den	0				100	28				3	pk1,qty=2	pk2,qty=1						Red Portal,qty=133																																																																																							0
-2 pk1 + 1 pk3 = Matrons Den	0				100	28				3	pk1,qty=2	pk3,qty=1						Red Portal,qty=133																																																																																							0
-3 pk2 = Forgotten Sands	0				100	28				3	pk2,qty=3							Red Portal,qty=134																																																																																							0
-2 pk2 + 1 pk1 = Forgotten Sands	0				100	28				3	pk2,qty=2	pk1,qty=1						Red Portal,qty=134																																																																																							0
-2 pk2 + 1 pk3 = Forgotten Sands	0				100	28				3	pk2,qty=2	pk3,qty=1						Red Portal,qty=134																																																																																							0
-3 pk3 = Furnace of pain	0				100	28				3	pk3,qty=3							Red Portal,qty=135																																																																																							0
-2 pk3 + 1 pk1 = Furnace of pain	0				100	28				3	pk3,qty=2	pk1,qty=1						Red Portal,qty=135																																																																																							0
-2 pk3 + 1 pk2 = Furnace of pain	0				100	28				3	pk3,qty=2	pk2,qty=1						Red Portal,qty=135																																																																																							0
+3 pk1 = Matrons Den	1				100	28				3	pk1,qty=3							Red Portal,qty=133																																																																																							0
+2 pk1 + 1 pk2 = Matrons Den	1				100	28				3	pk1,qty=2	pk2,qty=1						Red Portal,qty=133																																																																																							0
+2 pk1 + 1 pk3 = Matrons Den	1				100	28				3	pk1,qty=2	pk3,qty=1						Red Portal,qty=133																																																																																							0
+3 pk2 = Forgotten Sands	1				100	28				3	pk2,qty=3							Red Portal,qty=134																																																																																							0
+2 pk2 + 1 pk1 = Forgotten Sands	1				100	28				3	pk2,qty=2	pk1,qty=1						Red Portal,qty=134																																																																																							0
+2 pk2 + 1 pk3 = Forgotten Sands	1				100	28				3	pk2,qty=2	pk3,qty=1						Red Portal,qty=134																																																																																							0
+3 pk3 = Furnace of pain	1				100	28				3	pk3,qty=3							Red Portal,qty=135																																																																																							0
+2 pk3 + 1 pk1 = Furnace of pain	1				100	28				3	pk3,qty=2	pk1,qty=1						Red Portal,qty=135																																																																																							0
+2 pk3 + 1 pk2 = Furnace of pain	1				100	28				3	pk3,qty=2	pk2,qty=1						Red Portal,qty=135																																																																																							0
 pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
 1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	orgn,qty=3							Pandemonium Finale Portal																																																																																							0
 1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Uber Keys	1				100					4	tes	ceh	bet	fed				pk1,qty=1																													pk2,qty=1																													pk3,qty=1																													0
@@ -309,214 +437,83 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 NA 3 Burning Essence of Terror -> 1 Festering Essence of Destruction	0				100	18	70	100		2	tes	wms						ceh,qty=33																													std																																																										0
 NA 3 Charged Essence of Hatred -> 1 Burning Essence of Terror	0				100	18	70	100		2	ceh	wms						bet,qty=33																													std																																																										0
 NA 3 Burning Essence of Terror -> 1 Festering Essence of Destruction	0				100	18	70	100		2	bet	wms						fed,qty=33																													std																																																										0
-Rune Conversions																																																																																																									0
-1 Zod + Standard Gem -> Cham Rune	1				100					2	r33,qty=1	gem2						r32																																																																																							0
-1 Cham + Standard Gem -> Jah Rune	1				100					2	r32,qty=1	gem2						r31																																																																																							0
-1 Jah + Standard Gem -> Ber Rune	1				100					2	r31,qty=1	gem2						r30																																																																																							0
-1 Ber + Standard Gem -> Sur Rune	1				100					2	r30,qty=1	gem2						r29																																																																																							0
-1 Sur + Standard Gem -> Lo  Rune	1				100					2	r29,qty=1	gem2						r28																																																																																							0
-1 Lo + Standard Gem -> Ohm Rune	1				100					2	r28,qty=1	gem2						r27																																																																																							0
-1 Ohm + Standard Gem -> Vex Rune	1				100					2	r27,qty=1	gem2						r26																																																																																							0
-1 Vex + Standard Gem -> Gul Rune	1				100					2	r26,qty=1	gem2						r25																																																																																							0
-1 Gul + Standard Gem -> Ist Rune	1				100					2	r25,qty=1	gem2						r24																																																																																							0
-1 Ist + Standard Gem -> Mal Rune	1				100					2	r24,qty=1	gem2						r23																																																																																							0
-1 Mal + Standard Gem -> Um Rune	1				100					2	r23,qty=1	gem2						r22																																																																																							0
-1 Um + Standard Gem -> Pul Rune	1				100					2	r22,qty=1	gem2						r21																																																																																							0
-1 Pul + Standard Gem -> Lem Rune	1				100					2	r21,qty=1	gem2						r20																																																																																							0
-1 Lem + Standard Gem -> Fal Rune	1				100					2	r20,qty=1	gem2						r19																																																																																							0
-1 Fal + Standard Gem -> Ko Rune	1				100					2	r19,qty=1	gem2						r18																																																																																							0
-1 Ko + Standard Gem -> Lum Rune	1				100					2	r18,qty=1	gem2						r17																																																																																							0
-1 Lum + Standard Gem -> Io Rune	1				100					2	r17,qty=1	gem2						r16																																																																																							0
-1 Io + Standard Gem -> Hel Rune	1				100					2	r16,qty=1	gem2						r15																																																																																							0
-1 Hel + Standard Gem -> Dol  Rune	1				100					2	r15,qty=1	gem2						r14																																																																																							0
-1 Dol + Standard Gem -> Shael Rune	1				100					2	r14,qty=1	gem2						r13																																																																																							0
-1 Shael + Standard Gem -> Sol Rune	1				100					2	r13,qty=1	gem2						r12																																																																																							0
-1 Sol + Standard Gem -> Amn Rune	1				100					2	r12,qty=1	gem2						r11																																																																																							0
-1 Amn + Standard Gem -> Thul Rune	1				100					2	r11,qty=1	gem2						r10																																																																																							0
-1 Thul + Standard Gem -> Ort Rune	1				100					2	r10,qty=1	gem2						r09																																																																																							0
-1 Ort + Standard Gem -> Ral Rune	1				100					2	r09,qty=1	gem2						r08																																																																																							0
-1 Ral + Standard Gem -> Tal Rune	1				100					2	r08,qty=1	gem2						r07																																																																																							0
-1 Tal + Standard Gem -> Ith Rune	1				100					2	r07,qty=1	gem2						r06																																																																																							0
-1 Ith + Standard Gem -> Eth Rune	1				100					2	r06,qty=1	gem2						r05																																																																																							0
-1 Eth + Standard Gem -> Nef Rune	1				100					2	r05,qty=1	gem2						r04																																																																																							0
-1 Nef + Standard Gem -> Tir Rune	1				100					2	r04,qty=1	gem2						r03																																																																																							0
-1 Tir + Standard Gem -> Eld Rune	1				100					2	r03,qty=1	gem2						r02																																																																																							0
-1 Eld + Standard Gem -> El Rune	1				100					2	r02,qty=1	gem2						r01																																																																																							0
-1 El + Standard Gem -> Rejuv	1				100					2	r01,qty=1	gem2						rvl																																																																																							0
-3 El Runes -> Eld Rune	1				100					3	r01,qty=3							r02																																																																																							0
-3 Eld Runes -> Tir Rune	1				100					3	r02,qty=3							r03																																																																																							0
-3 Tir Runes -> Nef Rune	1				100					3	r03,qty=3							r04																																																																																							0
-3 Nef Runes -> Eth Rune	1				100					3	r04,qty=3							r05																																																																																							0
-3 Eth Runes -> Ith Rune	1				100					3	r05,qty=3							r06																																																																																							0
-3 Ith Runes -> Tal Rune	1				100					3	r06,qty=3							r07																																																																																							0
-3 Tal Runes -> Ral Rune	1				100					3	r07,qty=3							r08																																																																																							0
-3 Ral Runes -> Ort Rune	1				100					3	r08,qty=3							r09																																																																																							0
-3 Ort Runes -> Thul Rune	1				100					3	r09,qty=3							r10																																																																																							0
-3 Thul Runes -> Amn Rune	1				100					3	r10,qty=3							r11																																																																																							0
-3 Amn Runes -> Sol Rune	1				100					3	r11,qty=3							r12																																																																																							0
-3 Sol Runes -> Shael Rune	1				100					3	r12,qty=3							r13																																																																																							0
-3 Shael Runes  -> Dol Rune	1				100					3	r13,qty=3							r14																																																																																							0
-3 Dol Runes  -> Hel Rune	1				100					3	r14,qty=3							r15																																																																																							0
-3 Hel Runes -> Io Rune	1				100					3	r15,qty=3							r16																																																																																							0
-3 Io Runes -> Lum Rune	1				100					3	r16,qty=3							r17																																																																																							0
-3 Lum Runes  -> Ko Rune	1				100					3	r17,qty=3							r18																																																																																							0
-3 Ko Runes -> Fal Rune	1				100					3	r18,qty=3							r19																																																																																							0
-3 Fal Runes -> Lem Rune	1				100					3	r19,qty=3							r20																																																																																							0
-3 Lem Runes -> Pul Rune	1				100					3	r20,qty=3							r21																																																																																							0
-2 Pul Runes -> Um Rune	1				100					2	r21,qty=2							r22																																																																																							0
-2 Um Runes -> Mal Rune	1				100					2	r22,qty=2							r23																																																																																							0
-2 Mal Runes -> Ist Rune	1				100					2	r23,qty=2							r24																																																																																							0
-2 Ist Runes -> Gul Rune	1				100					2	r24,qty=2							r25																																																																																							0
-2 Gul Runes -> Vex Rune	1				100					2	r25,qty=2							r26																																																																																							0
-2 Vex Runes -> Ohm Rune	1				100					2	r26,qty=2							r27																																																																																							0
-2 Ohm Runes -> Lo Rune	1				100					2	r27,qty=2							r28																																																																																							0
-2 Lo Runes -> Sur Rune	1				100					2	r28,qty=2							r29																																																																																							0
-2 Sur Runes -> Ber Rune	1				100					2	r29,qty=2							r30																																																																																							0
-2 Ber Runes -> Jah Rune	1				100					2	r30,qty=2							r31																																																																																							0
-2 Jah Runes  -> Cham Rune	1				100					2	r31,qty=2							r32																																																																																							0
-2 Cham Runes -> Zod Rune	1				100					2	r32,qty=2							r33																																																																																							0
 Rune Recipes																																																																																																									0
-1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor					100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
-1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon					100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
-1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring					100					3	"ring,mag"	jew	r08					"usetype,tmp"				levelreq			3	3																																																																															0
-1 Ral Rune + 1 Jewel + 1 Magic Amulet -> Tempered Amulet					100					3	"amu,mag"	jew	r08					"usetype,tmp"				levelreq			5	5																																																																															0
-1 El Rune + 1 Chipped Gem (Any) + 1 Tempered Weapon -> Weapon With Extra Attack Rating					100					3	"weap,tmp"	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Amulet -> Virulent Amulet	0				100					4	"amu,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Ring -> Virulent Ring	0				100					4	"ring,mag"	r18	gpg	xa1				"useitem,pre=673"				pierce-pois			1	2																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Helm -> Virulent Helm	0				100					4	"helm,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Boots -> Virulent Boots	0				100					4	"boot,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Gloves -> Virulent Gloves	0				100					4	"glov,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Armor -> Virulent Armor	0				100					4	"tors,mag"	r18	gpg	xa1				"useitem,pre=676"				pierce-pois			2	8																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Weapon -> Virulent Weapon	0				100					4	"weap,mag"	r18	gpg	xa1				"useitem,pre=675"				pierce-pois			1	4																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Shield -> Virulent Shield	0				100					4	"shie,mag"	r18	gpg	xa1				"useitem,pre=675"				pierce-pois			1	4																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm	0				100					4	"scha,mag"	r18	gpg	xa1				"useitem,pre=671"				pierce-pois			1	1																																																																															0
-1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm	0				100					4	"mcha,mag"	r18	gpg	xa1				"useitem,pre=673"				pierce-pois			1	2																																																																															0
+1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor	1				100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon	1				100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
+1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring	1				100					3	"ring,mag"	jew	r08					"usetype,tmp"				levelreq			3	3																																																																															0
+1 Ral Rune + 1 Jewel + 1 Magic Amulet -> Tempered Amulet	1				100					3	"amu,mag"	jew	r08					"usetype,tmp"				levelreq			5	5																																																																															0
+1 El Rune + 1 Chipped Gem (Any) + 1 Tempered Weapon -> Weapon With Extra Attack Rating	1				100					3	"weap,tmp"	r01	gcv					useitem				levelreq			2	2	att			30	50																																																																										0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Amulet -> Virulent Amulet	1				100					4	"amu,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Ring -> Virulent Ring	1				100					4	"ring,mag"	r18	gpg	xa1				"useitem,pre=673"				pierce-pois			1	2																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Helm -> Virulent Helm	1				100					4	"helm,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Boots -> Virulent Boots	1				100					4	"boot,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Gloves -> Virulent Gloves	1				100					4	"glov,mag"	r18	gpg	xa1				"useitem,pre=674"				pierce-pois			1	3																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Armor -> Virulent Armor	1				100					4	"tors,mag"	r18	gpg	xa1				"useitem,pre=676"				pierce-pois			2	8																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Weapon -> Virulent Weapon	1				100					4	"weap,mag"	r18	gpg	xa1				"useitem,pre=675"				pierce-pois			1	4																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Magic Shield -> Virulent Shield	1				100					4	"shie,mag"	r18	gpg	xa1				"useitem,pre=675"				pierce-pois			1	4																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Small Charm -> Virulent Small Charm	1				100					4	"scha,mag"	r18	gpg	xa1				"useitem,pre=671"				pierce-pois			1	1																																																																															0
+1 Ko Rune + 1 Perfect Emerald + 1 Western Worldstone Shard + 1 Large Charm -> Virulent Large Charm	1				100					4	"mcha,mag"	r18	gpg	xa1				"useitem,pre=673"				pierce-pois			1	2																																																																															0
 1 Ko Rune + 1 Perfect Emerald + 1 Uber Ancient Summon Material Act1 + 1 Rotting Fissure -> Virulent Rotting Fissure	1				100					4	PreCrafted Rotting Fissure	r18	gpg	xa1				Crafted Rotting Fissure			69																																																																																				0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Amulet -> Gelid Amulet	0				100					4	"amu,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Ring -> Gelid Ring	0				100					4	"ring,mag"	r17	gpb	xa2				"useitem,pre=683"				pierce-cold			1	2																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Helm -> Gelid Helm	0				100					4	"helm,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Boots -> Gelid Boots	0				100					4	"boot,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Gloves -> Gelid Gloves	0				100					4	"glov,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Armor -> Gelid Armor	0				100					4	"tors,mag"	r17	gpb	xa2				"useitem,pre=686"				pierce-cold			2	8																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Weapon -> Gelid Weapon	0				100					4	"weap,mag"	r17	gpb	xa2				"useitem,pre=685"				pierce-cold			1	4																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Shield -> Gelid Shield	0				100					4	"shie,mag"	r17	gpb	xa2				"useitem,pre=685"				pierce-cold			1	4																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm	0				100					4	"scha,mag"	r17	gpb	xa2				"useitem,pre=682"				pierce-cold			1	1																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm	0				100					4	"mcha,mag"	r17	gpb	xa2				"useitem,pre=683"				pierce-cold			1	2																																																																															0
-1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm	0				100					4	"lcha,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Amulet -> Gelid Amulet	1				100					4	"amu,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Ring -> Gelid Ring	1				100					4	"ring,mag"	r17	gpb	xa2				"useitem,pre=683"				pierce-cold			1	2																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Helm -> Gelid Helm	1				100					4	"helm,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Boots -> Gelid Boots	1				100					4	"boot,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Gloves -> Gelid Gloves	1				100					4	"glov,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Armor -> Gelid Armor	1				100					4	"tors,mag"	r17	gpb	xa2				"useitem,pre=686"				pierce-cold			2	8																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Weapon -> Gelid Weapon	1				100					4	"weap,mag"	r17	gpb	xa2				"useitem,pre=685"				pierce-cold			1	4																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Magic Shield -> Gelid Shield	1				100					4	"shie,mag"	r17	gpb	xa2				"useitem,pre=685"				pierce-cold			1	4																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Small Charm -> Gelid Small Charm	1				100					4	"scha,mag"	r17	gpb	xa2				"useitem,pre=682"				pierce-cold			1	1																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Large Charm -> Gelid Large Charm	1				100					4	"mcha,mag"	r17	gpb	xa2				"useitem,pre=683"				pierce-cold			1	2																																																																															0
+1 Lum Rune + 1 Perfect Sapphire + 1 Eastern Worldstone Shard + 1 Grand Charm -> Gelid Grand Charm	1				100					4	"lcha,mag"	r17	gpb	xa2				"useitem,pre=684"				pierce-cold			1	3																																																																															0
 1 Lum Rune + 1 Perfect Sapphire + 1 Uber Ancient Summon Material Act2 + 1 Cold Rupture -> Gelid Cold Rupture	1				100					4	PreCrafted Cold Rupture	r17	gpb	xa2				Crafted Cold Rupture			69																																																																																				0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Amulet -> Magnetic Amulet	0				100					4	"amu,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Ring -> Magnetic Ring	0				100					4	"ring,mag"	r19	gpy	xa3				"useitem,pre=688"				pierce-ltng			1	2																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Helm -> Magnetic Helm	0				100					4	"helm,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Boots -> Magnetic Boots	0				100					4	"boot,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Gloves -> Magnetic Gloves	0				100					4	"glov,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Armor -> Magnetic Armor	0				100					4	"tors,mag"	r19	gpy	xa3				"useitem,pre=691"				pierce-ltng			2	8																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Weapon -> Magnetic Weapon	0				100					4	"weap,mag"	r19	gpy	xa3				"useitem,pre=690"				pierce-ltng			1	4																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Shield -> Magnetic Shield	0				100					4	"shie,mag"	r19	gpy	xa3				"useitem,pre=690"				pierce-ltng			1	4																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm	0				100					4	"scha,mag"	r19	gpy	xa3				"useitem,pre=687"				pierce-ltng			1	1																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm	0				100					4	"mcha,mag"	r19	gpy	xa3				"useitem,pre=688"				pierce-ltng			1	2																																																																															0
-1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm	0				100					4	"lcha,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Amulet -> Magnetic Amulet	1				100					4	"amu,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Ring -> Magnetic Ring	1				100					4	"ring,mag"	r19	gpy	xa3				"useitem,pre=688"				pierce-ltng			1	2																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Helm -> Magnetic Helm	1				100					4	"helm,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Boots -> Magnetic Boots	1				100					4	"boot,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Gloves -> Magnetic Gloves	1				100					4	"glov,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Armor -> Magnetic Armor	1				100					4	"tors,mag"	r19	gpy	xa3				"useitem,pre=691"				pierce-ltng			2	8																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Weapon -> Magnetic Weapon	1				100					4	"weap,mag"	r19	gpy	xa3				"useitem,pre=690"				pierce-ltng			1	4																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Magic Shield -> Magnetic Shield	1				100					4	"shie,mag"	r19	gpy	xa3				"useitem,pre=690"				pierce-ltng			1	4																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Small Charm -> Magnetic Small Charm	1				100					4	"scha,mag"	r19	gpy	xa3				"useitem,pre=687"				pierce-ltng			1	1																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Large Charm -> Magnetic Large Charm	1				100					4	"mcha,mag"	r19	gpy	xa3				"useitem,pre=688"				pierce-ltng			1	2																																																																															0
+1 Fal Rune + 1 Perfect Topaz + 1 Southern Worldstone Shard + 1 Grand Charm -> Magnetic Grand Charm	1				100					4	"lcha,mag"	r19	gpy	xa3				"useitem,pre=689"				pierce-ltng			1	3																																																																															0
 1 Fal Rune + 1 Perfect Topaz + 1 Uber Ancient Summon Material Act3 + 1 Crack of the Heavens -> Magnetic Crack of the Heavens	1				100					4	PreCrafted Crack of the Heavens	r19	gpy	xa3				Crafted Crack of the Heavens			69																																																																																				0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Amulet -> Incendiary Amulet	0				100					4	"amu,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Ring -> Incendiary Ring	0				100					4	"ring,mag"	r16	gpr	xa4				"useitem,pre=678"				pierce-fire			1	2																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Helm -> Incendiary Helm	0				100					4	"helm,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Boots -> Incendiary Boots	0				100					4	"boot,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Gloves -> Incendiary Gloves	0				100					4	"glov,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Armor -> Incendiary Armor	0				100					4	"tors,mag"	r16	gpr	xa4				"useitem,pre=681"				pierce-fire			2	8																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Weapon -> Incendiary Weapon	0				100					4	"weap,mag"	r16	gpr	xa4				"useitem,pre=680"				pierce-fire			1	4																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Shield -> Incendiary Shield	0				100					4	"shie,mag"	r16	gpr	xa4				"useitem,pre=680"				pierce-fire			1	4																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm	0				100					4	"scha,mag"	r16	gpr	xa4				"useitem,pre=677"				pierce-fire			1	1																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm	0				100					4	"mcha,mag"	r16	gpr	xa4				"useitem,pre=678"				pierce-fire			1	2																																																																															0
-1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm	0				100					4	"lcha,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Amulet -> Incendiary Amulet	1				100					4	"amu,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Ring -> Incendiary Ring	1				100					4	"ring,mag"	r16	gpr	xa4				"useitem,pre=678"				pierce-fire			1	2																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Helm -> Incendiary Helm	1				100					4	"helm,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Boots -> Incendiary Boots	1				100					4	"boot,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Gloves -> Incendiary Gloves	1				100					4	"glov,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Armor -> Incendiary Armor	1				100					4	"tors,mag"	r16	gpr	xa4				"useitem,pre=681"				pierce-fire			2	8																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Weapon -> Incendiary Weapon	1				100					4	"weap,mag"	r16	gpr	xa4				"useitem,pre=680"				pierce-fire			1	4																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Magic Shield -> Incendiary Shield	1				100					4	"shie,mag"	r16	gpr	xa4				"useitem,pre=680"				pierce-fire			1	4																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Small Charm -> Incendiary Small Charm	1				100					4	"scha,mag"	r16	gpr	xa4				"useitem,pre=677"				pierce-fire			1	1																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Large Charm -> Incendiary Large Charm	1				100					4	"mcha,mag"	r16	gpr	xa4				"useitem,pre=678"				pierce-fire			1	2																																																																															0
+1 Io Rune + 1 Perfect Ruby + 1 Deep Worldstone Shard + 1 Grand Charm -> Incendiary Grand Charm	1				100					4	"lcha,mag"	r16	gpr	xa4				"useitem,pre=679"				pierce-fire			1	3																																																																															0
 1 Io Rune + 1 Perfect Ruby + 1 Uber Ancient Summon Material Act4 + 1 Flame Rift -> Incendiary Flame Rift	1				100					4	PreCrafted Flame Rift	r16	gpr	xa4				Crafted Flame Rift			69																																																																																				0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Amulet -> Breaching Amulet	0				100					4	"amu,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Ring -> Breaching Ring	0				100					4	"ring,mag"	r21	gpv	xa5				"useitem,pre=698"				pierce-dmg			1	2																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Helm -> Breaching Helm	0				100					4	"helm,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Boots -> Breaching Boots	0				100					4	"boot,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Gloves -> Breaching Gloves	0				100					4	"glov,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Armor -> Breaching Armor	0				100					4	"tors,mag"	r21	gpv	xa5				"useitem,pre=701"				pierce-dmg			1	8																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Weapon -> Breaching Weapon	0				100					4	"weap,mag"	r21	gpv	xa5				"useitem,pre=700"				pierce-dmg			1	4																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Shield -> Breaching Shield	0				100					4	"shie,mag"	r21	gpv	xa5				"useitem,pre=700"				pierce-dmg			1	4																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm	0				100					4	"scha,mag"	r21	gpv	xa5				"useitem,pre=697"				pierce-dmg			1	1																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm	0				100					4	"mcha,mag"	r21	gpv	xa5				"useitem,pre=698"				pierce-dmg			1	2																																																																															0
-1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm	0				100					4	"lcha,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Amulet -> Breaching Amulet	1				100					4	"amu,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Ring -> Breaching Ring	1				100					4	"ring,mag"	r21	gpv	xa5				"useitem,pre=698"				pierce-dmg			1	2																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Helm -> Breaching Helm	1				100					4	"helm,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Boots -> Breaching Boots	1				100					4	"boot,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Gloves -> Breaching Gloves	1				100					4	"glov,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Armor -> Breaching Armor	1				100					4	"tors,mag"	r21	gpv	xa5				"useitem,pre=701"				pierce-dmg			1	8																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Weapon -> Breaching Weapon	1				100					4	"weap,mag"	r21	gpv	xa5				"useitem,pre=700"				pierce-dmg			1	4																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Magic Shield -> Breaching Shield	1				100					4	"shie,mag"	r21	gpv	xa5				"useitem,pre=700"				pierce-dmg			1	4																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Small Charm -> Breaching Small Charm	1				100					4	"scha,mag"	r21	gpv	xa5				"useitem,pre=697"				pierce-dmg			1	1																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Large Charm -> Breaching Large Charm	1				100					4	"mcha,mag"	r21	gpv	xa5				"useitem,pre=698"				pierce-dmg			1	2																																																																															0
+1 Pul Rune + 1 Perfect Amethyst + 1 Northern Worldstone Shard + 1 Grand Charm -> Breaching Grand Charm	1				100					4	"lcha,mag"	r21	gpv	xa5				"useitem,pre=699"				pierce-dmg			1	3																																																																															0
 1 Pul Rune + 1 Perfect Amethyst + 1 Uber Ancient Summon Material Act5 + 1 Bone Break -> Breaching Bone Break	1				100					4	PreCrafted Bone Break	r21	gpv	xa5				Crafted Bone Break			69																																																																																				0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Amulet -> Mystical Amulet	0				100					4	"amu,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Ring -> Mystical Ring	0				100					4	"ring,mag"	r23	gpw	xa5				"useitem,pre=693"				pierce-mag			1	2																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Helm -> Mystical Helm	0				100					4	"helm,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Boots -> Mystical Boots	0				100					4	"boot,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Gloves -> Mystical Gloves	0				100					4	"glov,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Armor -> Mystical Armor	0				100					4	"tors,mag"	r23	gpw	xa5				"useitem,pre=696"				pierce-mag			2	8																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Weapon -> Mystical Weapon	0				100					4	"weap,mag"	r23	gpw	xa5				"useitem,pre=695"				pierce-mag			1	4																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Shield -> Mystical Shield	0				100					4	"shie,mag"	r23	gpw	xa5				"useitem,pre=695"				pierce-mag			1	4																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm	0				100					4	"scha,mag"	r23	gpw	xa5				"useitem,pre=692"				pierce-mag			1	1																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm	0				100					4	"mcha,mag"	r23	gpw	xa5				"useitem,pre=693"				pierce-mag			1	2																																																																															0
-1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm	0				100					4	"lcha,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Amulet -> Mystical Amulet	1				100					4	"amu,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Ring -> Mystical Ring	1				100					4	"ring,mag"	r23	gpw	xa5				"useitem,pre=693"				pierce-mag			1	2																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Helm -> Mystical Helm	1				100					4	"helm,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Boots -> Mystical Boots	1				100					4	"boot,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Gloves -> Mystical Gloves	1				100					4	"glov,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Armor -> Mystical Armor	1				100					4	"tors,mag"	r23	gpw	xa5				"useitem,pre=696"				pierce-mag			2	8																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Weapon -> Mystical Weapon	1				100					4	"weap,mag"	r23	gpw	xa5				"useitem,pre=695"				pierce-mag			1	4																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Magic Shield -> Mystical Shield	1				100					4	"shie,mag"	r23	gpw	xa5				"useitem,pre=695"				pierce-mag			1	4																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Small Charm -> Mystical Small Charm	1				100					4	"scha,mag"	r23	gpw	xa5				"useitem,pre=692"				pierce-mag			1	1																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm	1				100					4	"mcha,mag"	r23	gpw	xa5				"useitem,pre=693"				pierce-mag			1	2																																																																															0
+1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm	1				100					4	"lcha,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
 1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft	1				100					6	PreCrafted Black Cleft	r23	gpw	xa3	xa4	xa5		Crafted Black Cleft			69																																																																																				0
-																																																																																																									0
-Gems																																																																																																									0
-3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1				0					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
-3 Chipped Amethysts -> Flawed Amethyst	1				0					3	"gcv,qty=3"							gfv																																																																																							0
-3 Flawed Amethysts -> Standard Amethyst	1				0					3	"gfv,qty=3"							gsv																																																																																							0
-3 Standard Amethysts -> Flawless Amethyst	1				0					3	"gsv,qty=3"							gzv																																																																																							0
-3 Flawless Amethysts -> Perfect Amethyst	1				0					3	"gzv,qty=3"							gpv																																																																																							0
-3 Chipped Rubies -> Flawed Ruby	1				0					3	"gcr,qty=3"							gfr																																																																																							0
-3 Flawed Rubies -> Standard Ruby	1				0					3	"gfr,qty=3"							gsr																																																																																							0
-3 Standard Rubies -> Flawless Ruby	1				0					3	"gsr,qty=3"							glr																																																																																							0
-3 Flawless Rubies -> Perfect Ruby	1				0					3	"glr,qty=3"							gpr																																																																																							0
-3 Chipped Sapphires -> Flawed Sapphire	1				0					3	"gcb,qty=3"							gfb																																																																																							0
-3 Flawed Sapphires -> Standard Sapphire	1				0					3	"gfb,qty=3"							gsb																																																																																							0
-3 Standard Sapphires -> Flawless Sapphire	1				0					3	"gsb,qty=3"							glb																																																																																							0
-3 Flawless Sapphires -> Perfect Sapphire	1				0					3	"glb,qty=3"							gpb																																																																																							0
-3 Chipped Topazes -> Flawed Topaz	1				0					3	"gcy,qty=3"							gfy																																																																																							0
-3 Flawed Topazes -> Standard Topaz	1				0					3	"gfy,qty=3"							gsy																																																																																							0
-3 Standard Topazes -> Flawless Topaz	1				0					3	"gsy,qty=3"							gly																																																																																							0
-3 Flawless Topazes -> Perfect Topaz	1				0					3	"gly,qty=3"							gpy																																																																																							0
-3 Chipped Emeralds -> Flawed Emerald	1				0					3	"gcg,qty=3"							gfg																																																																																							0
-3 Flawed Emeralds -> Standard Emerald	1				0					3	"gfg,qty=3"							gsg																																																																																							0
-3 Standard Emeralds -> Flawless Emerald	1				0					3	"gsg,qty=3"							glg																																																																																							0
-3 Flawless Emeralds -> Perfect Emerald	1				0					3	"glg,qty=3"							gpg																																																																																							0
-3 Chipped Diamonds -> Flawed Diamond	1				0					3	"gcw,qty=3"							gfw																																																																																							0
-3 Flawed Diamonds -> Standard Diamond	1				0					3	"gfw,qty=3"							gsw																																																																																							0
-3 Standard Diamonds -> Flawless Diamond	1				0					3	"gsw,qty=3"							glw																																																																																							0
-3 Flawless Diamonds -> Perfect Diamond	1				0					3	"glw,qty=3"							gpw																																																																																							0
-3 Chipped Skulls -> Flawed Skull	1				0					3	"skc,qty=3"							skf																																																																																							0
-3 Flawed Skulls -> Standard Skull	1				0					3	"skf,qty=3"							sku																																																																																							0
-3 Standard Skulls -> Flawless Skull	1				0					3	"sku,qty=3"							skl																																																																																							0
-3 Flawless Skulls -> Perfect Skull	1				0					3	"skl,qty=3"							skz																																																																																							0
-36 Chipped Amethysts -> Flawed Amethyst	1				0					3	"gcv,qty=36"							"gfv,qty=12"																																																																																							0
-36 Flawed Amethysts -> Standard Amethyst	1				0					3	"gfv,qty=36"							"gsv,qty=12"																																																																																							0
-36 Standard Amethysts -> Flawless Amethyst	1				0					3	"gsv,qty=36"							"gzv,qty=12"																																																																																							0
-36 Flawless Amethysts -> Perfect Amethyst	1				0					3	"gzv,qty=36"							"gcr,qty=12"																																																																																							0
-36 Chipped Rubies -> Flawed Ruby	1				0					3	"gcr,qty=36"							"gfr,qty=12"																																																																																							0
-36 Flawed Rubies -> Standard Ruby	1				0					3	"gfr,qty=36"							"gsr,qty=12"																																																																																							0
-36 Standard Rubies -> Flawless Ruby	1				0					3	"gsr,qty=36"							"glr,qty=12"																																																																																							0
-36 Flawless Rubies -> Perfect Ruby	1				0					3	"glr,qty=36"							"gcb,qty=12"																																																																																							0
-36 Chipped Sapphires -> Flawed Sapphire	1				0					3	"gcb,qty=36"							"gfb,qty=12"																																																																																							0
-36 Flawed Sapphires -> Standard Sapphire	1				0					3	"gfb,qty=36"							"gsb,qty=12"																																																																																							0
-36 Standard Sapphires -> Flawless Sapphire	1				0					3	"gsb,qty=36"							"glb,qty=12"																																																																																							0
-36 Flawless Sapphires -> Perfect Sapphire	1				0					3	"glb,qty=36"							"gcy,qty=12"																																																																																							0
-36 Chipped Topazes -> Flawed Topaz	1				0					3	"gcy,qty=36"							"gfy,qty=12"																																																																																							0
-36 Flawed Topazes -> Standard Topaz	1				0					3	"gfy,qty=36"							"gsy,qty=12"																																																																																							0
-36 Standard Topazes -> Flawless Topaz	1				0					3	"gsy,qty=36"							"gly,qty=12"																																																																																							0
-36 Flawless Topazes -> Perfect Topaz	1				0					3	"gly,qty=36"							"gcg,qty=12"																																																																																							0
-36 Chipped Emeralds -> Flawed Emerald	1				0					3	"gcg,qty=36"							"gfg,qty=12"																																																																																							0
-36 Flawed Emeralds -> Standard Emerald	1				0					3	"gfg,qty=36"							"gsg,qty=12"																																																																																							0
-36 Standard Emeralds -> Flawless Emerald	1				0					3	"gsg,qty=36"							"glg,qty=12"																																																																																							0
-36 Flawless Emeralds -> Perfect Emerald	1				0					3	"glg,qty=36"							"gcw,qty=12"																																																																																							0
-36 Chipped Diamonds -> Flawed Diamond	1				0					3	"gcw,qty=36"							"gfw,qty=12"																																																																																							0
-36 Flawed Diamonds -> Standard Diamond	1				0					3	"gfw,qty=36"							"gsw,qty=12"																																																																																							0
-36 Standard Diamonds -> Flawless Diamond	1				0					3	"gsw,qty=36"							"glw,qty=12"																																																																																							0
-36 Flawless Diamonds -> Perfect Diamond	1				0					3	"glw,qty=36"							"skc,qty=12"																																																																																							0
-36 Chipped Skulls -> Flawed Skull	1				0					3	"skc,qty=36"							"skf,qty=12"																																																																																							0
-36 Flawed Skulls -> Standard Skull	1				0					3	"skf,qty=36"							"sku,qty=12"																																																																																							0
-36 Standard Skulls -> Flawless Skull	1				0					3	"sku,qty=36"							"skl,qty=12"																																																																																							0
-36 Flawless Skulls -> Perfect Skull	1				0					3	"skl,qty=36"							"skz,qty=12"																																																																																							0
-9 Perfect Gems + 1 Perfect Amethyst -> 4 Perfect Amethysts	0				0	18	70	9		2																																																																																															0
-9 Perfect Gems + 1 Perfect Diamond -> 4 Perfect Diamonds	0				0	18	70	9		2																																																																																															0
-9 Perfect Gems + 1 Perfect Emerald -> 4 Perfect Emeralds	0				0	18	70	9		2																																																																																															0
-9 Perfect Gems + 1 Perfect Ruby-> 4 Perfect Rubies	0				0	18	70	9		2																																																																																															0
-9 Perfect Gems + 1 Perfect Sapphire -> 4 Perfect Sapphires	0				0	18	70	9		2																																																																																															0
-9 Perfect Gems + 1 Perfect Topaz -> 4 Perfect Topazes	0				0	18	70	9		2																																																																																															0
 Wand of Lower Res	1			1	100					3	wand,mag	voa	mpot					usetype,mag				oskill	100	91	1	1																																																																															0
 Wand of Life Tap	1			1	100					3	wand,mag	voa	hpot					usetype,mag				oskill	100	82	1	1																																																																															0
 Staff of Teleportation	1				100					2	staf,mag	bgn						usetype,mag				charged	100	54	33	1																																																																															0
