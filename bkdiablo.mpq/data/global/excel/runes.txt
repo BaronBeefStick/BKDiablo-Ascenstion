@@ -180,6 +180,6 @@ Runeword179	Bulwark	1						helm									ShaelIoSol	r13	r16	r12				hp%		5	5	ac%		
 Runeword180	Coven	1						helm									IstRalIo	r24	r08	r16				gethit-skill	Sigil Lethargy	5	10	allskills		1	1	cast1		20	20	ac%		30	50	mag%		1	15	heal-kill		1	5					0
 Runeword181	Vigilance	1						grim	shld	head	ashd						DolGul	r14	r25					gethit-skill	Ring of Fire	5	10	move2		10	10	block2		30	30	hp		20	40	mana		20	40	res-all		25	35	ac%		75	100	0
 Runeword182	Ritual	1						knif									AmnShaelOhm	r11	r13	r27				gethit-skill	Sigil Death	13	1	swing1		20	20	dmg%		200	270	dmg-demon		150	250	att%		200	260	heal-kill		3	5	rip		1	1	0
-Runeword181	Dilemma	1					BTDIABLO	tors									DolLemMal	r14	r20	r23				oskill	Teleport	1	1	regen		-40	-20	heal-kill		-35	-25	mag%		35	50													0
-Runeword182	Shadows	1					BTDIABLO	tors									ShealSolKo	r13	r12	r18				swing1		45	45	kick		100	150	mana		100	150	ass		2	2	deadly		5	5	res-cold		30	30					0
-Runeword183	Revenge	1					BTDIABLO	mace	club	hamm							ThulOrtRal	r10	r09	r08				swing2		20	20	hit-skill	Nova	33	8	hit-skill	Fireball	33	8	hit-skill	Frost Nova	33	8													0
+Runeword183	Dilemma	1					BTDIABLO	tors									DolLemMal	r14	r20	r23				oskill	Teleport	1	1	regen		-40	-20	heal-kill		-35	-25	mag%		35	50													0
+Runeword184	Shadows	1					BTDIABLO	tors									ShealSolKo	r13	r12	r18				swing1		45	45	kick		100	150	mana		100	150	ass		2	2	deadly		5	5	res-cold		30	30					0
+Runeword185	Revenge	1					BTDIABLO	mace	club	hamm							ThulOrtRal	r10	r09	r08				swing2		20	20	hit-skill	Nova	33	8	hit-skill	Fireball	33	8	hit-skill	Frost Nova	33	8													0
