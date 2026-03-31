@@ -36650,7 +36650,7 @@
     "ptBR": "Portal Random Mini-UBER",
     "ruRU": "Случайный портал Mini-Uber",
     "zhCN": "随机迷你uber门户"
-  }, /*
+  },
   {
     "id": 29026,
     "Key": "strUberMiniPortalLilithIngredient",
@@ -36752,7 +36752,7 @@
     "ptBR": "Portal para Furância da Dor",
     "ruRU": "Портал для схватки боли",
     "zhCN": "痛苦愤怒的门户"
-  },*/
+  },
   {
     "id": 29032,
     "Key": "strUberPortalIngredient",

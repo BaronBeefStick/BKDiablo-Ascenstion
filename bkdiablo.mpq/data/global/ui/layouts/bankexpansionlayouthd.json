@@ -970,70 +970,21 @@
 				{
                     "type": "AdvancedStashSlotWidget", "name": "dw1",
                     "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 665, "y": 1151 },
+                        "rect": { "width": 98, "height": 98, "x": 726, "y": 1144 },
 						"itemCode": "dw1"
                     }
                 },
 				{
                     "type": "AdvancedStashSlotWidget", "name": "db1",
                     "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 665, "y": 1251 },
+                        "rect": { "width": 98, "height": 98, "x": 726, "y": 1244 },
 						"itemCode": "db1"
                     }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "dc1",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 665, "y": 1351 },
-						"itemCode": "dc1"
-                    }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "dc2",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 665, "y": 1451 },
-						"itemCode": "dc2"
-                    }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "dl3",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 665, "y": 1551 },
-						"itemCode": "dl3"
-                    }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "dd4",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 787, "y": 1151 },
-						"itemCode": "dd4"
-                    }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "dl6",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 787, "y": 1251 },
-						"itemCode": "dl6"
-                    }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "dd6",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 787, "y": 1351 },
-						"itemCode": "dd6"
-                    }
-                },
-				{
-                    "type": "AdvancedStashSlotWidget", "name": "do1",
-                    "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 787, "y": 1451 },
-						"itemCode": "do1"
-                    }
-                },
+                },   
 				{
                     "type": "AdvancedStashSlotWidget", "name": "1dr",
                     "fields": {
-                        "rect": { "width": 98, "height": 98, "x": 787, "y": 1551 },
+                        "rect": { "width": 98, "height": 98, "x": 726, "y": 1344 },
 						"itemCode": "1dr"
                     }
                 }

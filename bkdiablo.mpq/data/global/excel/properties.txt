@@ -291,22 +291,15 @@ randclassskill2	287	1	36	item_addclassskills		2																									2	+# to 
 augmented1	288	1	1	augmented																																	0
 dyewhite1	289	1	15	dyewhite																																	0
 dyeblack1	290	1	15	dyeblack																																	0
-dyecblue1	291	1	15	dyecblue																																	0
-dyecred1	292	1	15	dyecred																																	0
-dyelightgreen1	293	1	15	dyelightgreen																																	0
-dyedarkyellow1	294	1	15	dyedarkyellow																																	0
-dyelightpurple1	295	1	15	dyelightpurple																																	0
-dyedarkpurple1	296	1	15	dyedarkpurple																																	0
-dyeorange1	297	1	15	dyeorange																																	0
-dyed1	298	1	15	dyed																														Min %	Max %		0
-randclassskill3	300	1	36	item_addclassskills		1																									1	+# to [Class] Skill Levels		Min #	Max #		0
-coldskill	301	1	21	item_elemskill		4	3	item_elemskill_cold																								+# to Cold Skills		Min #	Max #		0
-ltngskill	302	1	21	item_elemskill		2	3	item_elemskill_lightning																								+# to Lightning Skills		Min #	Max #		0
-poisskill	303	1	21	item_elemskill		5	3	item_elemskill_poison																								+# to Poison Skills		Min #	Max #		0
-magskill	304	1	21	item_elemskill		3	3	item_elemskill_magic																								+# to Magic Skills		Min #	Max #		0
-hit-skill-splash	305	1	11	hit_skill_splash																												#% Chance to cast level # [Skill] on striking	Skill	Min %	Max %		0
-str%	306	1	1	item_str_percent																												+#% Strength		Min %	Max %		0
-dex%	307	1	1	item_dex_percent																												+#% Dexterity		Min %	Max %		0
-vit%	308	1	1	item_vit_percent																												+#% Vitality		Min %	Max %		0
-enr%	309	1	1	item_enr_percent																												+#% Energy		100	1		0
-splash	310	1	11	item_splashonhit																												splash	proc_SplashDamage				0
+dyed1	291	1	15	dyed																														Min %	Max %		0
+randclassskill3	292	1	36	item_addclassskills		1																									1	+# to [Class] Skill Levels		Min #	Max #		0
+coldskill	293	1	21	item_elemskill		4	3	item_elemskill_cold																								+# to Cold Skills		Min #	Max #		0
+ltngskill	294	1	21	item_elemskill		2	3	item_elemskill_lightning																								+# to Lightning Skills		Min #	Max #		0
+poisskill	295	1	21	item_elemskill		5	3	item_elemskill_poison																								+# to Poison Skills		Min #	Max #		0
+magskill	296	1	21	item_elemskill		3	3	item_elemskill_magic																								+# to Magic Skills		Min #	Max #		0
+hit-skill-splash	297	1	11	hit_skill_splash																												#% Chance to cast level # [Skill] on striking	Skill	Min %	Max %		0
+str%	298	1	1	item_str_percent																												+#% Strength		Min %	Max %		0
+dex%	299	1	1	item_dex_percent																												+#% Dexterity		Min %	Max %		0
+vit%	300	1	1	item_vit_percent																												+#% Vitality		Min %	Max %		0
+enr%	301	1	1	item_enr_percent																												+#% Energy		100	1		0
+splash	302	1	11	item_splashonhit																												splash	proc_SplashDamage				0
