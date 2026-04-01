@@ -35173,7 +35173,7 @@
     "zhCN": "%s 移动到堆叠栏"
   },
   {
-    "id": 28001,
+    "id": 38001,
     "Key": "InventoryItemTooltipKeyComboCtrlLC",
     "enUS": "Ctrl + Left Click",
     "zhTW": "Ctrl + 左鍵點擊",
@@ -35190,7 +35190,7 @@
     "zhCN": "Ctrl + 左键点击"
   },
   {
-    "id": 28002,
+    "id": 38002,
     "Key": "InventoryItemTooltipKeyComboCtrlShiftLC",
     "enUS": "Ctrl + Shift + Left Click",
     "zhTW": "Ctrl + Shift + 左鍵點擊",
@@ -35207,7 +35207,7 @@
     "zhCN": "Ctrl + Shift + 左键点击"
   },
   {
-    "id": 28003,
+    "id": 38003,
     "Key": "InventoryItemTooltipAppenderBulkMovePostfix",
     "enUS": " (Right Click to Move %u)",
     "zhTW": " （右鍵點擊以移動%u）",
@@ -35955,7 +35955,7 @@
     "zhCN": "隐藏劣质装备"
   },
   {
-    "id": 28077,
+    "id": 38077,
     "Key": "InventoryItemTooltipAppenderMoveStash",
     "enUS": "%s to Move",
     "zhTW": "%s以移動",
