@@ -37,17 +37,6 @@
                 "style": "$StyleTitleBlock",
             }
         },
-         // Class Breakpoints
-        {
-            "type": "ButtonWidget", "name": "classbreakpoints",
-            "fields": {
-                "rect": { "x": 65, "y": 60 },
-                "filename": "PANEL\\hud_02\\QuestLog",
-                "tooltipString": "@strClassBreakpoints",
-                "hoveredFrame": 2,
-                "onClickMessage": "PanelManager:OpenPanel:ClassBreakpoints"
-            }
-        },
         // Character Info
         {
             "type": "TextBoxWidget", "name": "CharacterName",
