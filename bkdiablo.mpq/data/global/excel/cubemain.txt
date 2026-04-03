@@ -25,8 +25,8 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech	1				0					6	"swor,mag"	gemr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
 1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1				0					4	kri	gemd	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
 1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
-2 Arrows -> Bolts	1				0					2	"aqv,qty=2"							cqv																																																																																							0
-2 Bolts -> Arrows	1				0					2	"cqv,qty=2"							aqv																																																																																							0
+2 Arrows -> Bolts	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
+2 Bolts -> Arrows	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
 3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
 6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
 1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
@@ -575,8 +575,8 @@ SUP 1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed He
 1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1				100					4	helm,nor,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
 SUP 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,hiq,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
-Arrows	1				100					2	aqv,nos	lmr						useitem				sock			6	6																																																																															0
-Bolts	1				100					2	cqv,nos	lmr						useitem				sock			6	6																																																																															0
+Arrows	1				100					2	aqv	tsc						aqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
+Bolts	1				100					2	cqv	tsc						cqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
 NORMAL																																																																																																									0
 Helm	1				0					2	helm,nor,nos	lmr						useitem				sock			6	6																																																																															0
 Helm Inf	1				0					2	helm,low	lmr						useitem				sock			6	6																																																																															0
