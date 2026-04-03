@@ -712,9 +712,9 @@ Fiendish	100	1	1	20		15	war			1	125	skilltab	21	1	1										knif	grim	amul	circ
 Dreadful	100	1	1	40		30	war			1	125	skilltab	21	2	2									lgld	knif	grim	amul	circ									0	0
 Malevolent	100	1		60		45	war			1	125	skilltab	21	3	3									lgld	knif	grim	amul	circ									0	0
 Devil's	100	1	1	36		27	war			4	125	war		1	1										amul	circ	tors	shld										
-Arch-Devil's	100	1	1	90		67	war			2	125	war		2	2									cgrn	amul	circ												
+Arch-Devil's	100	1	1	90		67	war			2	125	war		2	2									cgrn	amul	circ	tors	shld										
 Devil's	100	1	1	30		22	war			4	125	war		1	1										knif	grim	tors	shld										
-Arch-Devil's	100	1	1	50		42	war			2	125	war		2	2									cgrn	knif	grim												
+Arch-Devil's	100	1	1	50		42	war			2	125	war		2	2									cgrn	knif	grim	tors	shld										
 Virulent	100	0	1	92		75				1	307	pierce-pois	1	2	8	Virulent-Affix1		0	1	Virulent-Affix2		0	1		lcha													
 Incendiary	100	0	1	92		75				1	307	pierce-fire	1	2	8	Gelid-Affix1		0	1	Gelid-Affix2		0	1		lcha												0	0
 Gelid	100	0	1	92		75				1	307	pierce-cold	1	2	8	Magnetic-Affix1		0	1	Magnetic-Affix2		0	1		tors												0	0

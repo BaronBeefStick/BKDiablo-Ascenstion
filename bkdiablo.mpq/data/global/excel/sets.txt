@@ -51,3 +51,5 @@ Griswold's Masterwork	Griswold's Masterwork	100																																	
 Trang-Oul's Incarnation	Trang-Oul's Incarnation	100																																	allskills		2	2	oskill	teleport	20	20	res-all		100	100	red-dmg%		20	20	mag%		150	150	oskill	enchant	20	20	oskill	warmth	20	20	oskill	fire mastery	7	7	nec	0
 God of War M'avina	God of War M'avina	100																																	allskills		2	2	oskill	teleport	20	20	skill	lightning fury	7	7	skill	lightning strike	7	7	res-all		75	75	res-all-max		10	10	dmg%		200	200	mag%		150	150	ama	0
 M'avina's Disappointment	M'avina's Disappointment	100																																																																	ama	0
+Death's Embreace	Death's Embreace	100																																	oskill	Blood Oath	1	1	oskill	Death Mark	1	1	oskill	Bind Demon	1	1	addxp		15	15	mag%		100	100	res-all		40	40	gold%		150	150						0
+Destiny	Destiny	100																																	oskill	teleport	1	1	addxp		15	15	mag%		150	150	res-all		50	50	allskills		2	2	gold%		150	150										0

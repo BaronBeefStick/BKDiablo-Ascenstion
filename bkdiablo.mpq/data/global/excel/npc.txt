@@ -1,7 +1,7 @@
 npc	buy mult	sell mult	rep mult	questflag A	questbuymult A	questsellmult A	questrepmult A	questflag B	questbuymult B	questsellmult B	questrepmult B	questflag C	questbuymult C	questsellmult C	questrepmult C	max buy	max buy (N)	max buy (H)
-gheed	512	1088	128	4	1024	922	1024									2500	35000	50000
-charsi	512	960	128	4	1024	922	1024									2500	35000	50000
-akara	512	1024	128	4	1024	922	1024									2500	35000	50000
+gheed	512	1088	128	4	1024	922	1024									1000	35000	50000
+charsi	512	960	128	4	1024	922	1024									1000	35000	50000
+akara	512	1024	128	4	1024	922	1024									1000	35000	50000
 lysander	512	1024	128	9	1024	922	1024									5000	35000	50000
 drognan	512	1024	128	9	1024	922	1024									5000	35000	50000
 elzix	512	1024	128	9	1024	922	1024									5000	35000	50000
