@@ -45,17 +45,21 @@ Fracture Halo --> Return Base + Socketed Items	1				100					2	any,sock	rtr						
 1 Thaw for Blank Charm	1				100					1	wms							mfd	99		99																										mfd																													mfd																													0
 2 Thaw for Modifiers Charm	1				100					2	wms,qty=2							Charm Modifiers	99		99																																																																																				0
 3 Thaw for Level Reward Charm	1				100					3	wms,qty=3							Charm Level Reward	99		99																																																																																				0
+Wand of Lower Res	1				100					3	wand,mag	voa	mpot					usetype,mag				oskill	100	91	1	1																																																																															0
+Wand of Life Tap	1				100					3	wand,mag	voa	hpot					usetype,mag				oskill	100	82	1	1																																																																															0
+Staff of Teleportation	1				100					2	staf,mag	bgn						usetype,mag				charged	100	54	33	1																																																																															0
 WIP																																																																																																									0
-100 Standard of Heros + Thawing Potion = Flask of Etheric Light	1				100					2	std	wms						fel																																																																																							0
-100 Bricks = The Divine Standard	1				0					2	brk	wms						dsd																																																																																							0
-100 Bricks + Thawing Potion + TP Scroll = 1 Cham Rune	1				0					3	brk	wms	tsc					r32	99		99																																																																																				0
-100 P Diamonds -> Diablo's Soulstone	1				0					2	gg4d	wms						dss																																																																																							0
-100 P Amethyst to 2 Amulet	1				0					2	gg4a	wms						amu,uni	99		99																										amu,uni	99		99																																																							0
-100 P Ruby to 2 Ring	1				0					2	gg4r	wms						rin,uni	99		99																										rin,uni	99		99																																																							0
-100 P Sapphire to Jewel	1				0					2	gg4s	wms						jew,uni	99		99																																																																																				0
-100 P Emerald to Gheed	1				0					2	gg4e	wms						Gheed's Fortune	99		99																																																																																				0
-100 P Topaz to Vex	1				0					2	gg4t	wms						126																																																																																							0
-9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	1kz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
+35 Standard of Heroes + Thawing Potion = Flask of Etheric Light	1				100					36	std,qty=35	wms						fel																																																																																							0
+35 Bricks + Thawing Potion = The Divine Standard	1				100					36	brk,qty=35	wms						dsd																																																																																							0
+35 Bricks + TP Scroll = Cham Rune	1				100					36	brk,qty=35	tsc						r32	99		99																																																																																				0
+35 Perfect Diamonds + Thawing Potion = Diablo's Soulstone	1				100					36	gpw,qty=35	wms						dss																																																																																							0
+35 Perfect Amethysts + Thawing Potion = 2 Unique Amulets	1				100					36	gpv,qty=35	wms						amu,uni	99		99																										amu,uni	99		99																																																							0
+35 Perfect Rubies + Thawing Potion = 2 Unique Rings	1				100					36	gpr,qty=35	wms						rin,uni	99		99																										rin,uni	99		99																																																							0
+35 Perfect Sapphires + Thawing Potion = Jewel	1				100					36	gpb,qty=35	wms						jew,uni	99		99																																																																																				0
+35 Perfect Emeralds + Thawing Potion = Gheed	1				100					36	gpg,qty=35	wms						Gheed's Fortune	99		99																																																																																				0
+35 Perfect Topazes + Thawing Potion = Vex Rune	1				100					36	gpy,qty=35	wms						r24																																																																																							0
+35 Perfect Skulls + Thawing Potion = Fracture Halo + Infernal Maw	1				100					36	skz,qty=35	wms						rrr																													rtr																																																										0
+9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	skz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
 Gems																																																																																																									0
 3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1				100					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
 3 Chipped Amethysts -> Flawed Amethyst	1				100					3	"gcv,qty=3"							gfv																																																																																							0
@@ -525,9 +529,6 @@ Rune Recipes																																																																				
 1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm	1				100					4	"mcha,mag"	r23	gpw	xa5				"useitem,pre=693"				pierce-mag			1	2																																																																															0
 1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm	1				100					4	"lcha,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
 1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft	1				100					6	PreCrafted Black Cleft	r23	gpw	xa3	xa4	xa5		Crafted Black Cleft			69																																																																																				0
-Wand of Lower Res	1			1	100					3	wand,mag	voa	mpot					usetype,mag				oskill	100	91	1	1																																																																															0
-Wand of Life Tap	1			1	100					3	wand,mag	voa	hpot					usetype,mag				oskill	100	82	1	1																																																																															0
-Staff of Teleportation	1				100					2	staf,mag	bgn						usetype,mag				charged	100	54	33	1																																																																															0
 9 Magic Jewels + Charsi's Malus = 1 Rare Jewel	1				100					10	jew,qty=9	mls						usetype,rar	99																																																																																						0
 Imbues																																																																																																									0
 Helm	1				100					2	helm,nor,nos	mls						usetype,rar	99																																																																																						0
