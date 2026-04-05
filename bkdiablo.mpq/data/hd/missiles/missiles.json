@@ -762,7 +762,8 @@
     "taintedfirebolt": "firebolt",
     "colossalchargedbolt": "colossalchargedbolt",
     "thunderstormnova": "expansion_shockwave",
-    "frostnovamsl": "null",
+    "proc_splashdamage": "null",
+    "proc_splashinit": "null",
     "frostnovaarrow": "frost_nova",
     "firenovaarrow": "ground_fire_big",
     "powerstrikenova": "electric_nova"

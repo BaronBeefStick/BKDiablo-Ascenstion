@@ -1,7 +1,7 @@
 description	enabled	firstLadderSeason	lastLadderSeason	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
-1 mana potion	0				100					1	mpot							Titan's Echo	99		99																										gsr	99		99																										gsw	99		99																										0
-,qty=	0				100					1	hpot							dw1	99		99																										db1																													1dr																													0
-,uni	0				100					1	apot							Hellplague	99		99																										The Salamander	99		99																										gsv																													0
+1 mana potion	0				100					1	mpot							rin,uni	99		99																										rin,uni	99		99																										rin,uni	99		99																										0
+,qty=	0				100					1	hpot							amu,uni	99		99																										amu,uni																													amu,uni																													0
+,uni	0				100					1	apot								99		99																										The Salamander	99		99																										gsv																													0
 ,set	0				100					2	mpot,qty=2								99		99																																																																																				0
 ,mag	0				100					2	hpot,qty=2								99		99																																																																																				0
 Staff of Kings + Amulet of the Viper -> Horadric Staff	1				0	28				2	msf	vip						hst																																																																																							0
@@ -25,8 +25,8 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 4 Healing Potions (Any) + 1 Standard Ruby + 1 Magic Sword -> Sword of the Leech	1				0					6	"swor,mag"	gemr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
 1 Diamond (Any) + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	1				0					4	kri	gemd	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
 1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
-2 Arrows -> Bolts	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
-2 Bolts -> Arrows	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
+WIP 2 Arrows -> Bolts with MF + Sockets	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
+WIP 2 Bolts -> Arrows with MF + Sockets	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
 3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
 6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
 1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
@@ -45,6 +45,7 @@ Fracture Halo --> Return Base + Socketed Items	1				100					2	any,sock	rtr						
 1 Thaw for Blank Charm	1				100					1	wms							mfd	99		99																										mfd																													mfd																													0
 2 Thaw for Modifiers Charm	1				100					2	wms,qty=2							Charm Modifiers	99		99																																																																																				0
 3 Thaw for Level Reward Charm	1				100					3	wms,qty=3							Charm Level Reward	99		99																																																																																				0
+WIP																																																																																																									0
 100 Standard of Heros + Thawing Potion = Flask of Etheric Light	1				100					2	std	wms						fel																																																																																							0
 100 Bricks = The Divine Standard	1				0					2	brk	wms						dsd																																																																																							0
 100 Bricks + Thawing Potion + TP Scroll = 1 Cham Rune	1				0					3	brk	wms	tsc					r32	99		99																																																																																				0
@@ -92,23 +93,23 @@ Gems																																																																												
 9 Chipped Rubies -> 3 Flawed Ruby	1				100					9	"gcr,qty=9"							gfr																													gfr																													gfr																													0
 9 Flawed Rubies -> 3 Standard Ruby	1				100					9	"gfr,qty=9"							gsr																													gsr																													gsr																													0
 9 Standard Rubies -> 3 Flawless Ruby	1				100					9	"gsr,qty=9"							glr																													glr																													glr																													0
-9 Flawless Rubies -> 3 Perfect Ruby	1				100					9	"glr,qty=9"							gcb																													gcb																													gcb																													0
+9 Flawless Rubies -> 3 Perfect Ruby	1				100					9	"glr,qty=9"							gpr																													gpr																													gpr																													0
 9 Chipped Sapphires -> 3 Flawed Sapphire	1				100					9	"gcb,qty=9"							gfb																													gfb																													gfb																													0
 9 Flawed Sapphires -> 3 Standard Sapphire	1				100					9	"gfb,qty=9"							gsb																													gsb																													gsb																													0
 9 Standard Sapphires -> 3 Flawless Sapphire	1				100					9	"gsb,qty=9"							glb																													glb																													glb																													0
-9 Flawless Sapphires -> 3 Perfect Sapphire	1				100					9	"glb,qty=9"							gcy																													gcy																													gcy																													0
+9 Flawless Sapphires -> 3 Perfect Sapphire	1				100					9	"glb,qty=9"							gpb																													gpb																													gpb																													0
 9 Chipped Topazes -> 3 Flawed Topaz	1				100					9	"gcy,qty=9"							gfy																													gfy																													gfy																													0
 9 Flawed Topazes -> 3 Standard Topaz	1				100					9	"gfy,qty=9"							gsy																													gsy																													gsy																													0
 9 Standard Topazes -> 3 Flawless Topaz	1				100					9	"gsy,qty=9"							gly																													gly																													gly																													0
-9 Flawless Topazes -> 3 Perfect Topaz	1				100					9	"gly,qty=9"							gcg																													gcg																													gcg																													0
+9 Flawless Topazes -> 3 Perfect Topaz	1				100					9	"gly,qty=9"							gpy																													gpy																													gpy																													0
 9 Chipped Emeralds -> 3 Flawed Emerald	1				100					9	"gcg,qty=9"							gfg																													gfg																													gfg																													0
 9 Flawed Emeralds -> 3 Standard Emerald	1				100					9	"gfg,qty=9"							gsg																													gsg																													gsg																													0
 9 Standard Emeralds -> 3 Flawless Emerald	1				100					9	"gsg,qty=9"							glg																													glg																													glg																													0
-9 Flawless Emeralds -> 3 Perfect Emerald	1				100					9	"glg,qty=9"							gcw																													gcw																													gcw																													0
+9 Flawless Emeralds -> 3 Perfect Emerald	1				100					9	"glg,qty=9"							gpg																													gpg																													gpg																													0
 9 Chipped Diamonds -> 3 Flawed Diamond	1				100					9	"gcw,qty=9"							gfw																													gfw																													gfw																													0
 9 Flawed Diamonds -> 3 Standard Diamond	1				100					9	"gfw,qty=9"							gsw																													gsw																													gsw																													0
 9 Standard Diamonds -> 3 Flawless Diamond	1				100					9	"gsw,qty=9"							glw																													glw																													glw																													0
-9 Flawless Diamonds -> 3 Perfect Diamond	1				100					9	"glw,qty=9"							skc																													skc																													skc																													0
+9 Flawless Diamonds -> 3 Perfect Diamond	1				100					9	"glw,qty=9"							gpw																													gpw																													gpw																													0
 9 Chipped Skulls -> 3 Flawed Skull	1				100					9	"skc,qty=9"							skf																													skf																													skf																													0
 9 Flawed Skulls -> 3 Standard Skull	1				100					9	"skf,qty=9"							sku																													sku																													sku																													0
 9 Standard Skulls -> 3 Flawless Skull	1				100					9	"sku,qty=9"							skl																													skl																													skl																													0
@@ -575,8 +576,6 @@ SUP 1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed He
 1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1				100					4	helm,nor,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
 SUP 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,hiq,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
-Arrows	1				100					2	aqv	tsc						aqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
-Bolts	1				100					2	cqv	tsc						cqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
 NORMAL																																																																																																									0
 Helm	1				0					2	helm,nor,nos	lmr						useitem				sock			6	6																																																																															0
 Helm Inf	1				0					2	helm,low	lmr						useitem				sock			6	6																																																																															0
