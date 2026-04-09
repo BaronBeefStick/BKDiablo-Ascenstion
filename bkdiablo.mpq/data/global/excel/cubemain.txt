@@ -25,8 +25,8 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 4 Healing Potions (Any) + 1 Perfect Ruby + 1 Magic Sword -> Sword of the Leech	0				0					6	"swor,mag"	gpr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
 1 Perfect Diamond + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	0				0					4	kri	gpw	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
 1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
-2 Arrows -> Bolts	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
-2 Bolts -> Arrows	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
+WIP 2 Arrows -> Bolts with MF + Sockets	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
+WIP 2 Bolts -> Arrows with MF + Sockets	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
 3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
 6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
 1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
@@ -45,18 +45,78 @@ Fracture Halo --> Return Base + Socketed Items	1				100					2	any,sock	rtr						
 1 Thaw for Blank Charm	1				100					1	wms							mfd	99		99																										mfd																													mfd																													0
 2 Thaw for Modifiers Charm	1				100					2	wms,qty=2							Charm Modifiers	99		99																																																																																				0
 3 Thaw for Level Reward Charm	1				100					3	wms,qty=3							Charm Level Reward	99		99																																																																																				0
-100 Standard of Heros + Thawing Potion = Flask of Etheric Light	1				100					2	std	wms						fel																																																																																							0
-100 Bricks = The Divine Standard	1				0					2	brk	wms						dsd																																																																																							0
-100 Bricks + Thawing Potion + TP Scroll = 1 Cham Rune	1				0					3	brk	wms	tsc					r32	99		99																																																																																				0
-100 P Diamonds -> Diablo's Soulstone	1				0					2	gg4d	wms						dss																																																																																							0
-100 P Amethyst to 2 Amulet	1				0					2	gg4a	wms						amu,uni	99		99																										amu,uni	99		99																																																							0
-100 P Ruby to 2 Ring	1				0					2	gg4r	wms						rin,uni	99		99																										rin,uni	99		99																																																							0
-100 P Sapphire to Jewel	1				0					2	gg4s	wms						jew,uni	99		99																																																																																				0
-100 P Emerald to Gheed	1				0					2	gg4e	wms						Gheed's Fortune	99		99																																																																																				0
-100 P Topaz to Vex	1				0					2	gg4t	wms						126																																																																																							0
-9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	1kz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
-Gems																																																																																																									0
-3 Chipped Gems (Any) + 1 Magic Weapon -> Socketed Magic Weapon	1				100					4	"weap,mag"	"gem0,qty=3"						"usetype,mag"	25		50	sock			1	2																																																																															0
+Wand of Lower Res	1				100					3	wand,mag	voa	mpot					usetype,mag				oskill	100	91	1	1																																																																															0
+Wand of Life Tap	1				100					3	wand,mag	voa	hpot					usetype,mag				oskill	100	82	1	1																																																																															0
+Staff of Teleportation	1				100					2	staf,mag	bgn						usetype,mag				charged	100	54	33	1																																																																															0
+Replenishing TP Book	1				0					2	tbk	hsm						useitem				rep-quant		40																																																																																	0
+Replenishing ID Book	1				0					2	ibk	hsm						useitem				rep-quant		40																																																																																	0
+Repair Augment on Throwing Knife	1				0					3	tkni	std	hsm					useitem				rep-quant		40																																																																																	0
+Repair Augment on Throwing Axe	1				0					3	taxe	std	hsm					useitem				rep-quant		40																																																																																	0
+Repair Augment on Javelin	1				0					3	jave	std	hsm					useitem				rep-quant		40																																																																																	0
+Repair Augment on Magic Item	1				0					3	any,mag	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Rare Item	1				0					3	any,rar	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Set Armor	1				0					3	armo,set	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Set Weapon	1				0					3	weap,set	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Unique Armor	1				0					3	armo,uni	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Unique Weapon	1				0					3	weap,uni	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Crafted Item	1				0					3	any,crf	std	hsm					useitem				rep-dur		25																																																																																	0
+Block Bows	1				100					2	bow	fel						useitem																													fel																																																										0
+Weapon + Flask = Ethereal Weapon	1				100					2	weap,noe	fel						useitem	99		99	ethereal	100		1	1																																																																															0
+Armor + Flask = Ethereal Armor	1				100					2	armo,noe	fel						useitem	99		99	ethereal	100		1	1																																																																															0
+MF + GF on Helm	1				0					6	helm	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Weapon	1				0					6	weap	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Amulet	1				0					6	amu	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Shield	1				0					6	shld	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Ring	1				0					6	ring	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Gloves	1				0					6	glov	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Boots	1				0					6	boot	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Armor	1				0					6	tors	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Belt	1				0					6	belt	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+Melee Augment on Helm	1				0					5	helm	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Weapon	1				0					5	weap	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Amulet	1				0					5	amu	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Shield	1				0					5	shld	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Ring	1				0					5	ring	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Gloves	1				0					5	glov	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Boots	1				0					5	boot	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Armor	1				0					5	tors	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Belt	1				0					5	belt	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Teleport + MF + GF on Armor	1				0					6	tors	r33	r29	The Stone of Jordan	std	mls		useitem				oskill		54	1	1	augmented1			1	1	mag%/lvl		3			gold%/lvl		6			addxp			2	2																																																											0
+Break Down Hellfire Torch -> 1 Hellfire Ashes	1				0					2	Hellfire Torch	mls						tds																																																																																							0
+Hellfire Ash + Stamina Potion -> 2 Standard of Heroes	1				0					2	tds	wms						std																													std																																																										0
+Break Down Annihilus -> 3 Standard of Heroes	1				0					2	Annihilus	mls						std																													std																													std																													0
+Break Down Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	mls						mfp																													mfp																													mfp																													0
+1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1				100					2	"weap,noe"	r09						"useitem,rep,rch,qty=500"																																																																																							0
+1 Ral Rune + 1 Armor -> Fully Repaired Armor	1				100					2	"armo,noe"	r08						"useitem,rep,rch,qty=500"																																																																																							0
+1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1				100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=500"																																																																																							0
+1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1				100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=500"																																																																																							0
+3 pk1 = Matrons Den	1				100	28				3	pk1,qty=3							Red Portal,qty=133																																																																																							0
+2 pk1 + 1 pk2 = Matrons Den	1				100	28				3	pk1,qty=2	pk2,qty=1						Red Portal,qty=133																																																																																							0
+2 pk1 + 1 pk3 = Matrons Den	1				100	28				3	pk1,qty=2	pk3,qty=1						Red Portal,qty=133																																																																																							0
+3 pk2 = Forgotten Sands	1				100	28				3	pk2,qty=3							Red Portal,qty=134																																																																																							0
+2 pk2 + 1 pk1 = Forgotten Sands	1				100	28				3	pk2,qty=2	pk1,qty=1						Red Portal,qty=134																																																																																							0
+2 pk2 + 1 pk3 = Forgotten Sands	1				100	28				3	pk2,qty=2	pk3,qty=1						Red Portal,qty=134																																																																																							0
+3 pk3 = Furnace of pain	1				100	28				3	pk3,qty=3							Red Portal,qty=135																																																																																							0
+2 pk3 + 1 pk1 = Furnace of pain	1				100	28				3	pk3,qty=2	pk1,qty=1						Red Portal,qty=135																																																																																							0
+2 pk3 + 1 pk2 = Furnace of pain	1				100	28				3	pk3,qty=2	pk2,qty=1						Red Portal,qty=135																																																																																							0
+pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
+1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Uber Keys	1				100					4	tes	ceh	bet	fed				pk1																													pk2																													pk3																													0
+3 Twisted Essence of Suffering -> 1 Charged Essence of Hatred	1				100					3	tes,qty=3							ceh																																																																																							0
+3 Charged Essence of Hatred -> 1 Burning Essence of Terror	1				100					3	ceh,qty=3							bet																																																																																							0
+3 Burning Essence of Terror -> 1 Festering Essence of Destruction	1				100					3	bet,qty=3							fed																																																																																							0
+3 Festering Essence of Destruction -> Twisted Essence of Suffering	1				100					3	fed,qty=3							tes,qty=3																																																																																							0
+35 Standard of Heroes + Thawing Potion = Flask of Etheric Light	1				100					36	std,qty=35	wms						fel																																																																																							0
+35 Bricks + Thawing Potion = The Divine Standard	1				100					36	brk,qty=35	wms						dsd																																																																																							0
+35 Bricks + TP Scroll = Cham Rune	1				100					36	brk,qty=35	tsc						r32	99		99																																																																																				0
+35 Perfect Diamonds + Thawing Potion = Diablo's Soulstone	1				100					36	gpw,qty=35	wms						dss																																																																																							0
+35 Perfect Amethysts + Thawing Potion = 2 Unique Amulets	1				100					36	gpv,qty=35	wms						amu,uni	99		99																										amu,uni	99		99																																																							0
+35 Perfect Rubies + Thawing Potion = 2 Unique Rings	1				100					36	gpr,qty=35	wms						rin,uni	99		99																										rin,uni	99		99																																																							0
+35 Perfect Sapphires + Thawing Potion = Jewel	1				100					36	gpb,qty=35	wms						jew,uni	99		99																																																																																				0
+35 Perfect Emeralds + Thawing Potion = Gheed	1				100					36	gpg,qty=35	wms						Gheed's Fortune	99		99																																																																																				0
+35 Perfect Topazes + Thawing Potion = Vex Rune	1				100					36	gpy,qty=35	wms						r24																																																																																							0
+35 Perfect Skulls + Thawing Potion = Fracture Halo + Infernal Maw	1				100					36	skz,qty=35	wms						rrr																													rtr																																																										0
+9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	skz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
 3 Chipped Amethysts -> Flawed Amethyst	1				100					3	"gcv,qty=3"							gfv																																																																																							0
 3 Flawed Amethysts -> Standard Amethyst	1				100					3	"gfv,qty=3"							gsv																																																																																							0
 3 Standard Amethysts -> Flawless Amethyst	1				100					3	"gsv,qty=3"							gzv																																																																																							0
@@ -185,6 +245,38 @@ Rune Conversions																																																																
 2 Ber Runes -> Jah Rune	1				100					3	r30,qty=2	wms						r31																																																																																							0
 2 Jah Runes  -> Cham Rune	1				100					3	r31,qty=2	wms						r32																																																																																							0
 2 Cham Runes -> Zod Rune	1				100					3	r32,qty=2	wms						r33																																																																																							0
+9 El Runes -> 3 Eld Rune	1				100					9	r01,qty=9							r02																													r02																													r02																													0
+9 Eld Runes -> 3 Tir Rune	1				100					9	r02,qty=9							r03																													r03																													r03																													0
+9 Tir Runes -> 3 Nef Rune	1				100					9	r03,qty=9							r04																													r04																													r04																													0
+9 Nef Runes -> 3 Eth Rune	1				100					9	r04,qty=9							r05																													r05																													r05																													0
+9 Eth Runes -> 3 Ith Rune	1				100					9	r05,qty=9							r06																													r06																													r06																													0
+9 Ith Runes -> 3 Tal Rune	1				100					9	r06,qty=9							r07																													r07																													r07																													0
+9 Tal Runes -> 3 Ral Rune	1				100					9	r07,qty=9							r08																													r08																													r08																													0
+9 Ral Runes -> 3 Ort Rune	1				100					9	r08,qty=9							r09																													r09																													r09																													0
+9 Ort Runes -> 3 Thul Rune	1				100					9	r09,qty=9							r10																													r10																													r10																													0
+9 Thul Runes -> 3 Amn Rune	1				100					9	r10,qty=9							r11																													r11																													r11																													0
+9 Amn Runes -> 3 Sol Rune	1				100					9	r11,qty=9							r12																													r12																													r12																													0
+9 Sol Runes -> 3 Shael Rune	1				100					9	r12,qty=9							r13																													r13																													r13																													0
+9 Shael Runes -> 3 Dol Rune	1				100					9	r13,qty=9							r14																													r14																													r14																													0
+9 Dol Runes -> 3 Hel Rune	1				100					9	r14,qty=9							r15																													r15																													r15																													0
+9 Hel Runes -> 3 Io Rune	1				100					9	r15,qty=9							r16																													r16																													r16																													0
+9 Io Runes -> 3 Lum Rune	1				100					9	r16,qty=9							r17																													r17																													r17																													0
+9 Lum Runes -> 3 Ko Rune	1				100					9	r17,qty=9							r18																													r18																													r18																													0
+9 Ko Runes -> 3 Fal Rune	1				100					9	r18,qty=9							r19																													r19																													r19																													0
+9 Fal Runes -> 3 Lem Rune	1				100					9	r19,qty=9							r20																													r20																													r20																													0
+9 Lem Runes -> 3 Pul Rune	1				100					9	r20,qty=9							r21																													r21																													r21																													0
+6 Pul Runes -> 3 Um Rune	1				100					7	r21,qty=6	wms						r22																													r22																													r22																													0
+6 Um Runes -> 3 Mal Rune	1				100					7	r22,qty=6	wms						r23																													r23																													r23																													0
+6 Mal Runes -> 3 Ist Rune	1				100					7	r23,qty=6	wms						r24																													r24																													r24																													0
+6 Ist Runes -> 3 Gul Rune	1				100					7	r24,qty=6	wms						r25																													r25																													r25																													0
+6 Gul Runes -> 3 Vex Rune	1				100					7	r25,qty=6	wms						r26																													r26																													r26																													0
+6 Vex Runes -> 3 Ohm Rune	1				100					7	r26,qty=6	wms						r27																													r27																													r27																													0
+6 Ohm Runes -> 3 Lo Rune	1				100					7	r27,qty=6	wms						r28																													r28																													r28																													0
+6 Lo Runes -> 3 Sur Rune	1				100					7	r28,qty=6	wms						r29																													r29																													r29																													0
+6 Sur Runes -> 3 Ber Rune	1				100					7	r29,qty=6	wms						r30																													r30																													r30																													0
+6 Ber Runes -> 3 Jah Rune	1				100					7	r30,qty=6	wms						r31																													r31																													r31																													0
+6 Jah Runes -> 3 Cham Rune	1				100					7	r31,qty=6	wms						r32																													r32																													r32																													0
+6 Cham Runes -> 3 Zod Rune	1				100					7	r32,qty=6	wms						r33																													r33																													r33																													0
 CRAFTING																																																																																																									0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,noe	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200																																																																					0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire + 1 Eth Rune + 1 Chasi's Malus -> Hit Power Helm	1				100					6	helm,mag,noe	jew	r06	gpb	r05	mls		usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1																																																																0
@@ -425,28 +517,6 @@ Charsi Hammer + Larzuk Hammer  +  Standard of Heros + 1 Exceptional Set Armor ->
 1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor	0				100					4	"armo,bas,rar"	r08	r10	gpv				"useitem,mod,exc"				levelreq			5	5																																																																															0
 1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	0				100					4	"weap,exc,rar"	r19	r22	gpb				"useitem,mod,eli"				levelreq			7	7																																																																															0
 1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	0				100					4	"armo,exc,rar"	r18	r21	gpv				"useitem,mod,eli"				levelreq			7	7																																																																															0
-Repair																																																																																																									0
-1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1				100					2	"weap,noe"	r09						"useitem,rep,rch,qty=500"																																																																																							0
-1 Ral Rune + 1 Armor -> Fully Repaired Armor	1				100					2	"armo,noe"	r08						"useitem,rep,rch,qty=500"																																																																																							0
-1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1				100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=500"																																																																																							0
-1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1				100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=500"																																																																																							0
-Ubers																																																																																																									0
-3 pk1 = Matrons Den	1				100	28				3	pk1,qty=3							Red Portal,qty=133																																																																																							0
-2 pk1 + 1 pk2 = Matrons Den	1				100	28				3	pk1,qty=2	pk2,qty=1						Red Portal,qty=133																																																																																							0
-2 pk1 + 1 pk3 = Matrons Den	1				100	28				3	pk1,qty=2	pk3,qty=1						Red Portal,qty=133																																																																																							0
-3 pk2 = Forgotten Sands	1				100	28				3	pk2,qty=3							Red Portal,qty=134																																																																																							0
-2 pk2 + 1 pk1 = Forgotten Sands	1				100	28				3	pk2,qty=2	pk1,qty=1						Red Portal,qty=134																																																																																							0
-2 pk2 + 1 pk3 = Forgotten Sands	1				100	28				3	pk2,qty=2	pk3,qty=1						Red Portal,qty=134																																																																																							0
-3 pk3 = Furnace of pain	1				100	28				3	pk3,qty=3							Red Portal,qty=135																																																																																							0
-2 pk3 + 1 pk1 = Furnace of pain	1				100	28				3	pk3,qty=2	pk1,qty=1						Red Portal,qty=135																																																																																							0
-2 pk3 + 1 pk2 = Furnace of pain	1				100	28				3	pk3,qty=2	pk2,qty=1						Red Portal,qty=135																																																																																							0
-pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
-1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
-1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Uber Keys	1				100					4	tes	ceh	bet	fed				pk1																													pk2																													pk3																													0
-3 Twisted Essence of Suffering -> 1 Charged Essence of Hatred	1				100					3	tes,qty=3							ceh																																																																																							0
-3 Charged Essence of Hatred -> 1 Burning Essence of Terror	1				100					3	ceh,qty=3							bet																																																																																							0
-3 Burning Essence of Terror -> 1 Festering Essence of Destruction	1				100					3	bet,qty=3							fed																																																																																							0
-3 Festering Essence of Destruction -> Twisted Essence of Suffering	1				100					3	fed,qty=3							tes,qty=3																																																																																							0
 Rune Recipes																																																																																																									0
 1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor	1				100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
 1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon	1				100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
@@ -524,9 +594,6 @@ Rune Recipes																																																																				
 1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Large Charm -> Mystical Large Charm	1				100					4	"mcha,mag"	r23	gpw	xa5				"useitem,pre=693"				pierce-mag			1	2																																																																															0
 1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm	1				100					4	"lcha,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
 1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft	1				100					6	PreCrafted Black Cleft	r23	gpw	xa3	xa4	xa5		Crafted Black Cleft			69																																																																																				0
-Wand of Lower Res	1			1	100					3	wand,mag	voa	mpot					usetype,mag				oskill	100	91	1	1																																																																															0
-Wand of Life Tap	1			1	100					3	wand,mag	voa	hpot					usetype,mag				oskill	100	82	1	1																																																																															0
-Staff of Teleportation	1				100					2	staf,mag	bgn						usetype,mag				charged	100	54	33	1																																																																															0
 9 Magic Jewels + Charsi's Malus = 1 Rare Jewel	1				100					10	jew,qty=9	mls						usetype,rar	99																																																																																						0
 Imbues																																																																																																									0
 Helm	1				100					2	helm,nor,nos	mls						usetype,rar	99																																																																																						0
@@ -643,44 +710,44 @@ Block Bows	1				100					2	bow	fel						useitem																													fel		
 Weapon + Flask = Ethereal Weapon	1				100					2	weap,noe	fel						useitem	99		99	ethereal	100		1	1																																																																															0
 Armor + Flask = Ethereal Armor	1				100					2	armo,noe	fel						useitem	99		99	ethereal	100		1	1																																																																															0
 CHAM AUGMENT																																																																																																									0
-MF + GF	1				0					6	helm	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	weap	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	amu	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	shld	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	ring	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	glov	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	boot	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	tors	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MF + GF	1				0					6	belt	132	124	120	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Helm	1				0					6	helm	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Weapon	1				0					6	weap	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Amulet	1				0					6	amu	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Shield	1				0					6	shld	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Ring	1				0					6	ring	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Gloves	1				0					6	glov	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Boots	1				0					6	boot	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Armor	1				0					6	tors	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
+MF + GF on Belt	1				0					6	belt	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
 MELEE AUGMENT																																																																																																									0
-Melee Aug	1				0					5	helm	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	weap	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	amu	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	shld	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	ring	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	glov	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	boot	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	tors	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-Melee Aug	1				0					5	belt	125	119	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Helm	1				0					5	helm	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Weapon	1				0					5	weap	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Amulet	1				0					5	amu	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Shield	1				0					5	shld	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Ring	1				0					5	ring	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Gloves	1				0					5	glov	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Boots	1				0					5	boot	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Armor	1				0					5	tors	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
+Melee Augment on Belt	1				0					5	belt	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
 ZOD RECIPE																																																																																																									0
-Teleport + MF + GF	1				0					6	tors	133	129	The Stone of Jordan	std	mls		useitem				oskill		54	1	1	augmented1			1	1	mag%/lvl		3			gold%/lvl		6			addxp			2	2																																																											0
-Hellfire Ashes break down	1				0					2	Hellfire Torch	mls						tds																																																																																							0
-Hellfire Ash + Stam = SOH	1				0					2	tds	wms						std																													std																																																										0
-Break down Anni to SOH	1				0					2	Annihilus	mls						std																													std																													std																													0
-Break down Gheeds to MF potion	1				0					2	Gheed's Fortune	mls						mfp																													mfp																													mfp																													0
-Hratli's Herb																																																																																																									0
-TP Book + Spiritual Herb = TP Book that Replenishes	1				0					2	tbk	hsm						useitem				rep-quant		40																																																																																	0
-ID Book + Spiritual Herb = ID Book that Replenishes	1				0					2	ibk	hsm						useitem				rep-quant		40																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	tkni	std	hsm					useitem				rep-quant		40																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	taxe	std	hsm					useitem				rep-quant		40																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	jave	std	hsm					useitem				rep-quant		40																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	any,mag	std	hsm					useitem				rep-dur		25																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	any,rar	std	hsm					useitem				rep-dur		25																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	armo,set	std	hsm					useitem				rep-dur		25																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	weap,set	std	hsm					useitem				rep-dur		25																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	armo,uni	std	hsm					useitem				rep-dur		25																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	weap,uni	std	hsm					useitem				rep-dur		25																																																																																	0
-x + SOH + Hratli's Herb = Transmute with Repair Mod	1				0					3	any,crf	std	hsm					useitem				rep-dur		25																																																																																	0
+Teleport + MF + GF on Armor	1				0					6	tors	r33	r29	The Stone of Jordan	std	mls		useitem				oskill		54	1	1	augmented1			1	1	mag%/lvl		3			gold%/lvl		6			addxp			2	2																																																											0
+Break Down Hellfire Torch -> 1 Hellfire Ashes	1				0					2	Hellfire Torch	mls						tds																																																																																							0
+Hellfire Ash + Stamina Potion -> 2 Standard of Heroes	1				0					2	tds	wms						std																													std																																																										0
+Break Down Annihilus -> 3 Standard of Heroes	1				0					2	Annihilus	mls						std																													std																													std																													0
+Break Down Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	mls						mfp																													mfp																													mfp																													0
+HRATILI'S HERB AUGMENT																																																																																																									0
+Replenishing TP Book	1				0					2	tbk	hsm						useitem				rep-quant		40																																																																																	0
+Replenishing ID Book	1				0					2	ibk	hsm						useitem				rep-quant		40																																																																																	0
+Repair Augment on Throwing Knife	1				0					3	tkni	std	hsm					useitem				rep-quant		40																																																																																	0
+Repair Augment on Throwing Axe	1				0					3	taxe	std	hsm					useitem				rep-quant		40																																																																																	0
+Repair Augment on Javelin	1				0					3	jave	std	hsm					useitem				rep-quant		40																																																																																	0
+Repair Augment on Magic Item	1				0					3	any,mag	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Rare Item	1				0					3	any,rar	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Set Armor	1				0					3	armo,set	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Set Weapon	1				0					3	weap,set	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Unique Armor	1				0					3	armo,uni	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Unique Weapon	1				0					3	weap,uni	std	hsm					useitem				rep-dur		25																																																																																	0
+Repair Augment on Crafted Item	1				0					3	any,crf	std	hsm					useitem				rep-dur		25																																																																																	0
 MAGIC CORRUPTIONS																																																																																																									0
 BLOCK CHARMS	1									2	cm1,mag	std						useitem																													std																																																										0
 BLOCK CHARMS	1									2	cm2,mag	std						useitem																													std																																																										0
