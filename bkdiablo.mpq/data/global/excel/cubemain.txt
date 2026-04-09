@@ -92,23 +92,23 @@ Gems																																																																												
 9 Chipped Rubies -> 3 Flawed Ruby	1				100					9	"gcr,qty=9"							gfr																													gfr																													gfr																													0
 9 Flawed Rubies -> 3 Standard Ruby	1				100					9	"gfr,qty=9"							gsr																													gsr																													gsr																													0
 9 Standard Rubies -> 3 Flawless Ruby	1				100					9	"gsr,qty=9"							glr																													glr																													glr																													0
-9 Flawless Rubies -> 3 Perfect Ruby	1				100					9	"glr,qty=9"							gcb																													gcb																													gcb																													0
+9 Flawless Rubies -> 3 Perfect Ruby	1				100					9	"glr,qty=9"							gpr																													gpr																													gpr																													0
 9 Chipped Sapphires -> 3 Flawed Sapphire	1				100					9	"gcb,qty=9"							gfb																													gfb																													gfb																													0
 9 Flawed Sapphires -> 3 Standard Sapphire	1				100					9	"gfb,qty=9"							gsb																													gsb																													gsb																													0
 9 Standard Sapphires -> 3 Flawless Sapphire	1				100					9	"gsb,qty=9"							glb																													glb																													glb																													0
-9 Flawless Sapphires -> 3 Perfect Sapphire	1				100					9	"glb,qty=9"							gcy																													gcy																													gcy																													0
+9 Flawless Sapphires -> 3 Perfect Sapphire	1				100					9	"glb,qty=9"							gpb																													gpb																													gpb																													0
 9 Chipped Topazes -> 3 Flawed Topaz	1				100					9	"gcy,qty=9"							gfy																													gfy																													gfy																													0
 9 Flawed Topazes -> 3 Standard Topaz	1				100					9	"gfy,qty=9"							gsy																													gsy																													gsy																													0
 9 Standard Topazes -> 3 Flawless Topaz	1				100					9	"gsy,qty=9"							gly																													gly																													gly																													0
-9 Flawless Topazes -> 3 Perfect Topaz	1				100					9	"gly,qty=9"							gcg																													gcg																													gcg																													0
+9 Flawless Topazes -> 3 Perfect Topaz	1				100					9	"gly,qty=9"							gpy																													gpy																													gpy																													0
 9 Chipped Emeralds -> 3 Flawed Emerald	1				100					9	"gcg,qty=9"							gfg																													gfg																													gfg																													0
 9 Flawed Emeralds -> 3 Standard Emerald	1				100					9	"gfg,qty=9"							gsg																													gsg																													gsg																													0
 9 Standard Emeralds -> 3 Flawless Emerald	1				100					9	"gsg,qty=9"							glg																													glg																													glg																													0
-9 Flawless Emeralds -> 3 Perfect Emerald	1				100					9	"glg,qty=9"							gcw																													gcw																													gcw																													0
+9 Flawless Emeralds -> 3 Perfect Emerald	1				100					9	"glg,qty=9"							gpg																													gpg																													gpg																													0
 9 Chipped Diamonds -> 3 Flawed Diamond	1				100					9	"gcw,qty=9"							gfw																													gfw																													gfw																													0
 9 Flawed Diamonds -> 3 Standard Diamond	1				100					9	"gfw,qty=9"							gsw																													gsw																													gsw																													0
 9 Standard Diamonds -> 3 Flawless Diamond	1				100					9	"gsw,qty=9"							glw																													glw																													glw																													0
-9 Flawless Diamonds -> 3 Perfect Diamond	1				100					9	"glw,qty=9"							skc																													skc																													skc																													0
+9 Flawless Diamonds -> 3 Perfect Diamond	1				100					9	"glw,qty=9"							gpw																													gpw																													gpw																													0
 9 Chipped Skulls -> 3 Flawed Skull	1				100					9	"skc,qty=9"							skf																													skf																													skf																													0
 9 Flawed Skulls -> 3 Standard Skull	1				100					9	"skf,qty=9"							sku																													sku																													sku																													0
 9 Standard Skulls -> 3 Flawless Skull	1				100					9	"sku,qty=9"							skl																													skl																													skl																													0
@@ -441,7 +441,7 @@ Ubers																																																																											
 2 pk3 + 1 pk1 = Furnace of pain	1				100	28				3	pk3,qty=2	pk1,qty=1						Red Portal,qty=135																																																																																							0
 2 pk3 + 1 pk2 = Furnace of pain	1				100	28				3	pk3,qty=2	pk2,qty=1						Red Portal,qty=135																																																																																							0
 pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Portal																																																																																							0
-1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	orgn,qty=3							Pandemonium Finale Portal																																																																																							0
+1 Diablo's Horn + 1 Baal's Eye + 1 Mephisto's Brain -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	dhn	bey	mbr					Pandemonium Finale Portal																																																																																							0
 1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Uber Keys	1				100					4	tes	ceh	bet	fed				pk1																													pk2																													pk3																													0
 3 Twisted Essence of Suffering -> 1 Charged Essence of Hatred	1				100					3	tes,qty=3							ceh																																																																																							0
 3 Charged Essence of Hatred -> 1 Burning Essence of Terror	1				100					3	ceh,qty=3							bet																																																																																							0
