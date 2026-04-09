@@ -700,8 +700,9 @@ Swarm 2 (H)LF	17	85	1					125	Potion 6ND	12	AND	6	Act 3 (H) GoodLF	1	Act 5 (H) M
 Sunder Charms			1					0	Cold Rupture	1	Flame Rift	1	Crack of the Heavens	1	Rotting Fissure	1	Bone Break	1	Black Cleft	1												2	2	1				0
 Andariel			7	983	983	983	1024	19	gld,mul=1280	11	Act 2 Equip A	19	Act 2 Junk	15	Act 2 Good	3																						0
 Andariel (N)			7	983	983	983	1024	19	gld,mul=1536	11	Act 2 (N) Equip A	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																						0
+Andariel Essence (H)			1					0	tes	1																												0
 Andariel Items (H)			7	983	983	983	1024	19	gld,mul=2048	11	Act 2 (H) Equip A	19	Act 5 (H) JunkLF	15	Act 2 (H) GoodLF	3																						0
-Andariel (H)			-2	983	983	983	1024	0	Andarielq Essence (H)	1	Andariel Items (H)	1																										0
+Andariel (H)			-2	983	983	983	1024	0	Andariel Essence (H)	1	Andariel Items (H)	1																										0
 Andarielq			7	995	995	1024	1024	19	Act 2 Equip A	19	Act 2 Good	3																										0
 Andarielq Desecrated A	20	13	7	995	995	1024	1024	19	Act 2 Equip A	19	Act 2 Good	3																										0
 Andarielq Desecrated B	20	32	7	995	995	1024	1024	19	Act 4 Equip B	19	Act 4 Good	3																										0
@@ -743,7 +744,7 @@ Duriel (H) - Base			-2	983	983	983	1024	0	Duriel Essence (H)	1	Duriel Items (H)	
 Duriel (H) - Base Desecrated A			7	983	983	983	1024	19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	tes	2																				0
 Duriel (H) - Base Desecrated B			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	tes	2																				0
 Duriel (H) - Base Desecrated C			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	tes	2																				0
-Duriel (H) - Base Desecrated D			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip D	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	tes	2																				0
+Duriel (H) - Base Desecrated D			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	tes	2																				0
 Durielq - Base			7	993	993	1024	1024	19	Act 3 Equip A	19	Act 3 Good	3																										0
 Durielq (N) - Base			7	993	993	1024	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																										0
 Durielq (H) - Base			7	993	993	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) GoodLF	3	tes	2																								0
@@ -850,11 +851,11 @@ Council (H) Desecrated E	25	96	1					0	Council Item (H) Desecrated E	1										
 Griswold			-3					0	Act 1 Uitem C	1	Act 1 Melee B	2																										0
 Griswold Desecrated A	26	8	-3					0	Act 1 Uitem C	1	Act 1 Melee B	2																										0
 Griswold Desecrated B	26	29	-3					0	Act 4 Uitem B	1	Act 4 Melee B	2																										0
-Griswold Desecrated C	26	48	-3					0	Act 3 (N) Uitem A	1	Act 3 (N) Melee C	2																										0
+Griswold Desecrated C	26	48	-3					0	Act 3 (N) Uitem A	1	Act 3 (N) Melee B	2																										0
 Griswold (N)			-3					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																										0
 Griswold (N) Desecrated A	26	42	-3					0	Act 1 (H) Uitem C	1	Act 1 (N) Melee B	2																										0
 Griswold (N) Desecrated B	26	57	-3					0	Act 1 (H) Uitem C	1	Act 3 (N) Melee B	2																										0
-Griswold (N) Desecrated C	26	73	-3					0	Act 3 (H) Uitem C	1	Act 3 (H) Melee C	2																										0
+Griswold (N) Desecrated C	26	73	-3					0	Act 3 (H) Uitem C	1	Act 3 (H) Melee B	2																										0
 Griswold (H)			-3					0	Act 5 (H) Uitem CLF	1	Act 5 (H) Melee C	2																										0
 Griswold (H) Desecrated A	26	87	-3					0	Act 4 (H) Uitem B	1	Act 4 (H) Melee B	2																										0
 Griswold (H) Desecrated B	26	90	-3					0	Act 5 (H) Uitem A	1	Act 5 (H) Melee A	2																										0
@@ -932,7 +933,7 @@ Smith (H) Desecrated B	31	75	-5					0	Act 3 (H) Uitem B	1	Act 3 (H) Melee B	2			
 Smith (H) Desecrated C	31	78	-5					0	Act 3 (H) Uitem C	1	Act 3 (H) Melee B	2					pk1	2																				0
 Smith (H) Desecrated D	31	81	-5					0	Act 4 (H) Uitem A	1	Act 4 (H) Melee A	2					pk1	2																				0
 Smith (H) Desecrated E	31	84	-5					0	Act 4 (H) Uitem B	1	Act 4 (H) Melee B	2					pk1	2																				0
-Smith (H) Desecrated F	31	87	-5					0	Act 4 (H) Uitem C	1	Act 4 (H) Melee B	2					pk1	2																				0
+Smith (H) Desecrated F	31	87	-5					0	Act 4 (H) Uitem B	1	Act 4 (H) Melee B	2					pk1	2																				0
 Smith (H) Desecrated G	31	90	-5					0	Act 5 (H) Uitem A	1	Act 5 (H) Melee A	2					pk1	2																				0
 Smith (H) Desecrated H	31	93	-5					0	Act 5 (H) Uitem B	1	Act 5 (H) Melee B	2					pk1	2																				0
 Smith (H) Desecrated I	31	96	-5					0	Act 5 (H) Uitem C	1	Act 5 (H) Melee C	2					pk1	2																				0
@@ -1205,6 +1206,11 @@ Barons			-1	1024				0	Static Accumulator	1																												0
 Uber Talic	40	110	1					0	Defender's Bile	1	Defender's Fire	1																										0
 Uber Madawc	40	110	1					0	Guardian's Light	1	Guardian's Thunder	1																										0
 Uber Korlic	40	110	1					0	Protector's Stone	1	Protector's Frost	1																										0
+Act 1 Terrorize Act Consumable Desecrated	40		1					6000	xa1	5	xa2	3	xa3	2	xa4	2	xa5	1														"cond('Difficulty', hell)"					40	0
+Act 2 Terrorize Act Consumable Desecrated	41		1					6000	xa1	3	xa2	5	xa3	2	xa4	1	xa5	2														"cond('Difficulty', hell)"					40	0
+Act 3 Terrorize Act Consumable Desecrated	42		1					6000	xa1	1	xa2	2	xa3	5	xa4	3	xa5	2														"cond('Difficulty', hell)"					40	0
+Act 4 Terrorize Act Consumable Desecrated	43		1					6000	xa1	2	xa2	1	xa3	2	xa4	5	xa5	3														"cond('Difficulty', hell)"					40	0
+Act 5 Terrorize Act Consumable Desecrated	44		1					6000	xa1	2	xa2	2	xa3	1	xa4	2	xa5	5														"cond('Difficulty', hell)"					40	0
 Act 1 Equip A Desecrated Herald			1						weap3	7	armo3	7																										0
 Act 1 Equip B Desecrated Herald			1						weap3	3	armo3	3	weap6	7	armo6	7																						0
 Act 1 Equip C Desecrated Herald			1						weap3	2	armo3	1	weap6	6	armo6	3	weap9	14	armo9	7	weap12	2	armo12	1														0
@@ -1311,11 +1317,6 @@ Act 4 (H) Herald C	41	87	-7	989	983	1024	1024	0	Act 4 (H) Herald Item K	2	Sunder
 Act 5 (H) Herald A	41	90	-7	989	983	1024	1024	0	Act 5 (H) Herald Item L	2	Sunder Charms	1	Act 5 (H) Herald Item L - 1 Extra	1	Act 5 (H) Herald Item L - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot A	2																		0
 Act 5 (H) Herald B	41	93	-7	989	983	1024	1024	0	Act 5 (H) Herald Item M	2	Sunder Charms	1	Act 5 (H) Herald Item M - 1 Extra	1	Act 5 (H) Herald Item M - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot B	2																		0
 Act 5 (H) Herald C	41	96	-7	989	983	1024	1024	0	Act 5 (H) Herald Item N	2	Sunder Charms	1	Act 5 (H) Herald Item N - 1 Extra	1	Act 5 (H) Herald Item N - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot C	2																		0
-Act 1 Terrorize Act Consumable Desecrated	40		1					6000	xa1	5	xa2	3	xa3	2	xa4	2	xa5	1														"cond('Difficulty', hell)"					40	0
-Act 2 Terrorize Act Consumable Desecrated	41		1					6000	xa1	3	xa2	5	xa3	2	xa4	1	xa5	2														"cond('Difficulty', hell)"					40	0
-Act 3 Terrorize Act Consumable Desecrated	42		1					6000	xa1	1	xa2	2	xa3	5	xa4	3	xa5	2														"cond('Difficulty', hell)"					40	0
-Act 4 Terrorize Act Consumable Desecrated	43		1					6000	xa1	2	xa2	1	xa3	2	xa4	5	xa5	3														"cond('Difficulty', hell)"					40	0
-Act 5 Terrorize Act Consumable Desecrated	44		1					6000	xa1	2	xa2	2	xa3	1	xa4	2	xa5	5														"cond('Difficulty', hell)"					40	0
 Ancient Statue 1	41	92	1					0	ua1	18	ua2	1	ua3	1																								0
 Ancient Statue 2	41	92	1					0	ua2	18	ua1	1	ua3	1																								0
 Ancient Statue 3	41	92	1					0	ua3	18	ua2	1	ua4	1																								0
