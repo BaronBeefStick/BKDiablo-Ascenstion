@@ -118,7 +118,7 @@ Runeword117	Rain	1						tors									OrtDolIth	r09	r14	r06				cast1		15	20	gethi
 Runeword118	Reason																																																			0
 Runeword119	Red	1					BTDIABLO	tors	shld								IoEldDol	r16	r02	r14				hp%		15	25	hp		80	100	lifesteal		9	9	heal-kill		5	10	res-fire		75	75	abs-fire%		20	20	ac%		50	80	0
 Runeword120	Rhyme	1						shld									ShaelEth	r13	r05					block2		20	20	block		20	20	res-all		25	25	nofreeze		1	1	gold%		50	50	mag%		25	25					0
-Runeword121	Rift	1						weap									HelKoLemGul	r15	r18	r20	r25			dmg-mag		250	400	Kick		50	100	dmg-to-mana		38	38	hit-skill	Tornado	20	30	att-skill	Frozen Orb	16	30	swing2		15	15	all-stats		5	10	0
+Runeword121	Rift	1						weap									HelKoLemGul	r15	r18	r20	r25			dmg-mag		250	400	kick		50	100	dmg-to-mana		38	38	hit-skill	Tornado	20	30	att-skill	Frozen Orb	16	30	swing2		15	15	all-stats		5	10	0
 Runeword122	Sanctuary	1						shld									KoKoMal	r18	r18	r23				block		20	20	block2		20	20	ac%		130	160	extra-mag		10	15	res-all		50	70	balance2		20	20	aura	Sanctuary	10	10	0
 Runeword123	Serendipity																																																			0
 Runeword124	Shadow																																																			0
@@ -137,7 +137,7 @@ Runeword136	Sting																																																			0
 Runeword137	Stone	1						tors									ShaelUmPulLum	r13	r22	r21	r17			ac%		350	400	oskill	Clay Golem	30	30	ac-miss		300	300	str%		10	15	str		15	20	vit		15	20	balance2		40	40	0
 Runeword138	Storm																																																			0
 Runeword139	Strength	1						mele									AmnTir	r11	r03					str		20	20	dmg%		90	110	vit		10	10	crush		25	25	rep-dur	25											0
-Runeword140	Tempest	1					BTDIABLO	weap									BerTir	r30	r03					oskill	Thunder Storm	50	50	allskills		2	2	cast2		25	25	swing2		25	25	balance2		24	24	Mag%		35	35					0
+Runeword140	Tempest	1					BTDIABLO	weap									BerTir	r30	r03					oskill	Thunder Storm	50	50	allskills		2	2	cast2		25	25	swing2		25	25	balance2		24	24	mag%		35	35					0
 Runeword141	Temptation	1					BTDIABLO	weap									HelShaelAmnGul	r15	r13	r11	r25			dmg%		200	280	swing2		20	20	vit		8	15	mag%		25	40	rep-dur	25			deadly		20	20	hit-skill	Attract	10	25	0
 Runeword142	Terror																																																			0
 Runeword143	Thirst																																																			0
