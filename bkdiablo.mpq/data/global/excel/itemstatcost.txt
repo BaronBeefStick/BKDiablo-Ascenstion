@@ -32,7 +32,7 @@ lastexp	29			32																																															0
 nextexp	30			32																																															0
 armorclass	31		1	16											17	10		10	10	11	10																71	19		ModStr1i	ModStr1i										0
 armorclass_vs_missile	32		1	16											11	5		8	0	9	0																69	19		ModStr6a	ModStr6a										0
-armorclass_vs_hth	33		1	16											13	7		8	0	8	0																70	19		ModStr6b	ModStr6b										0
+armorclass_vs_hth	33		1	16											13	7		9	0	9	0																70	19		ModStr6b	ModStr6b										0
 normal_damage_reduction	34		1	10											188	200		6	0	6	0																22	19		ModStr2u	ModStr2u									2	0
 magic_damage_reduction	35		1	10											397	340		6	0	6	0																21	19		ModStr2t	ModStr2t									2	0
 damageresist	36		1	9											152	68		8	0	9	200																22	29		ModStr2uPercent	ModStr2uPercentNegative									2	0
@@ -47,13 +47,13 @@ maxcoldresist	44		1	9											584	256		5	0	5	0																44	19		ModStr5v	
 poisonresist	45		1	9											43	20		8	0	9	200																34	19		ModStr1n	ModStr1n		2	19		strModAllResistances	strModAllResistances				0
 maxpoisonresist	46		1	9											526	256		5	0	5	0																45	19		ModStr5y	ModStr5y										0
 damageaura	47		1	16																																															0
-firemindam	48		1	16											11	10		8	0	8	0											1					102	19		ModStr1p	ModStr1p										0
+firemindam	48		1	16											11	10		9	0	9	0											1					102	19		ModStr1p	ModStr1p										0
 firemaxdam	49		1	16											19	10		8	0	9	0											1					101	19		ModStr1o	ModStr1o										0
-lightmindam	50		1	16											12	10		6	0	6	0											1					99	19		ModStr1r	ModStr1r										0
+lightmindam	50		1	16											12	10		9	0	9	0											1					99	19		ModStr1r	ModStr1r										0
 lightmaxdam	51		1	16											17	10		9	0	10	0											1					98	19		ModStr1q	ModStr1q										0
-magicmindam	52		1	16											196	20		6	0	8	0											1					104	19		strModMagicDamage	strModMagicDamage										0
+magicmindam	52		1	16											196	20		9	0	9	0											1					104	19		strModMagicDamage	strModMagicDamage										0
 magicmaxdam	53		1	16											183	20		7	0	9	0											1					103	19		strModMagicDamage	strModMagicDamage										0
-coldmindam	54		1	16											451	512		6	0	8	0											1					96	19		ModStr1t	ModStr1t										0
+coldmindam	54		1	16											451	512		9	0	9	0											1					96	19		ModStr1t	ModStr1t										0
 coldmaxdam	55		1	16											128	340		8	0	9	0											1					95	19		ModStr1s	ModStr1s										0
 coldlength	56		1	16											77	4		8	0	8	0											1																			0
 poisonmindam	57		1	19											12	28		9	0	10	0											1					92	19		ModStr4i	ModStr4i										0
@@ -73,11 +73,11 @@ quantity	70		1	16																												1																			0
 value	71		1	9														8	100	8	100																														0
 durability	72		1	9														8	0	9	0									1	maxdurability																				0
 maxdurability	73		1	9											9	4		8	0	8	0																														0
-hpregen	74														451	410		6	30	6	30																56	19		ModStr2l	ModStr2w									2	0
+hpregen	74														451	410		7	30	7	30																56	19		ModStr2l	ModStr2w									2	0
 item_maxdurability_percent	75		1	7											117	10		7	20	7	20			13			maxdurability										3	19		ModStr2i	ModStr2i										0
 item_maxhp_percent	76		1	16											32093	204		6	10	6	10			11			maxhp										58	19		ModStr2g	ModStr2g										0
 item_maxmana_percent	77		1	16											56452	204		6	10	6	10			11			maxmana										54	19		ModStr2h	ModStr2h										0
-item_attackertakesdamage	78		1	16							1				112	128		7	0	7	0												attackedinmelee	6			13	19		ModStr1v	ModStr1v									2	0
+item_attackertakesdamage	78		1	16							1				112	128		8	0	8	0												attackedinmelee	6			13	19		ModStr1v	ModStr1v									2	0
 item_goldbonus	79		1	10											187	34		9	100	10	300																10	19		ModStr1w	ModStr1w									2	0
 item_magicbonus	80		1	9											577	102		8	100	10	300																8	19		ModStr1x	ModStr1x									2	0
 item_knockback	81		1	8							1				105	0		7	0	7	0											1	domeleedamage	7	domissiledamage	7	76	19		ModStr1y	ModStr1y									2	0
@@ -96,7 +96,7 @@ item_fasterattackrate	93	1	1	9											1042	156		7	20	10	100											1					1
 item_levelreqpct	94																	7	20	10	64			13			item_levelreq																								0
 lastblockframe	95																	6	20																																0
 item_fastermovevelocity	96	1	1	9											4083	156		7	20	10	100																148	19		ModStr4s	ModStr4s									2	0
-item_nonclassskill	97		1	15	9						1			1	181	327		7	20	6	0	9															81	28		ItemModifierNonClassSkill	ItemModifierNonClassSkill										0
+item_nonclassskill	97		1	15	9						1			1	181	327		7	20	7	0	9															81	28		ItemModifierNonClassSkill	ItemModifierNonClassSkill										0
 state	98	1		1	8						1				415	64		6	20	1		8																													0
 item_fastergethitrate	99	1	1	9											1065	72		7	20	10	100																139	19		ModStr4p	ModStr4p									2	0
 monster_playercount	100																	7	20																																0
@@ -106,7 +106,7 @@ skill_bypass_undead	103			1														7	20																																0
 skill_bypass_demons	104			1														6	20																																0
 item_fastercastrate	105	1	1	9											3876	156		7	20	10	100																142	19		ModStr4v	ModStr4v									2	0
 skill_bypass_beasts	106			1														7	20																																0
-item_singleskill	107		1	15	9						1			1	181	256		14	0	3	0	9															81	27		ItemModifierClassSkill	ItemModifierClassSkill										0
+item_singleskill	107		1	15	9						1			1	181	256		14	0	4	0	9															81	27		ItemModifierClassSkill	ItemModifierClassSkill										0
 item_restinpeace	108			1							1				1987	0		14	0	1	0											1	kill	29			81	19		ModitemSMRIP	ModitemSMRIP									2	0
 curse_resistance	109		1	9											159	33		14	0	9	0																36	19	1	StrSkill85	StrSkill85										0
 item_poisonlengthresist	110		1	9											27	10		8	20	8	20																18	19		ModStr3r	ModStr3r									2	0
@@ -136,7 +136,7 @@ bonearmormax	133		1	32																																															0
 item_freeze	134		1	5							1				666	12		5	0	5	0											1	domeleedamage	14	domissiledamage	14	78	12	2	ModStr3l	ModStr3l									2	0
 item_openwounds	135		1	7							1				23	10		7	0	7	0											1	domeleedamage	15	domissiledamage	15	83	19		ModStr3m	ModStr3m									2	0
 item_crushingblow	136		1	7							1				98	40		7	0	7	0											1	domeleedamage	16	domissiledamage	16	87	19		ModStr5c	ModStr5c									2	0
-item_kickdamage	137		1	7											77	51		7	0	7	0																121	19		ModStr5e	ModStr5e										0
+item_kickdamage	137		1	7											77	51		8	0	8	0																121	19		ModStr5e	ModStr5e										0
 item_manaafterkill	138		1	7							1				17	102		7	0	10	300												kill	17			16	19		ModStr5f	ModStr5f									2	0
 item_healafterdemonkill	139		1	7							1				18	102		7	0	7	0												kill	18			15	19		ModStr6c	ModStr6c									2	0
 item_extrablood	140		1	7											15	10		7	0	7	0											1																			0

@@ -473,7 +473,7 @@ Jym's Swift Journey	469	100		1					1	1	60	45	ulb	wyrmhide boots		5	5000	whit	whi
 Thunderlords Overcharge	470	100		1					1	1	85	85	obf	dimensional shard		3	5000	lyel	lyel						sor		3	3	skill	Thunder Storm	7	7	cast2		30	30	pierce-ltng		10	20	extra-ltng		20	20	res-pois-len		100	100	res-ltng		75	75	enr		30	50																		0
 Static Accumulator	471	100		1					1	1	12	10	lbt	Leather Boots		1	150	dgld	dgld						gethit-skill	Static Field	5	20	move1		10	10	sock		1	1	enr%		1	10																																		0
 Wind God Fist	472	100		1					1	1	85	90	7xf	War Fist		5	5000	cblu	cblu						deadly/lvl		5	5	oskill	Hurricane	40	50	dmg%		290	355	indestruct		1	1	dex%		20	20	str%		20	20	balance1		35	50	dmg		66	99	aura	Holy Freeze	12	12	manasteal		7	7	lifesteal		7	7	rip		1	1		0
-Titan's Echo	473	100		1					1	1	1	1	jew	jewel		1	5000			flptrch	invmss	item_gem	12	item_gem	splash	430	100	1																																														0
+Titan's Echo	473	100		1					1	1	99	1	jew	jewel		1	5000			flptrch	invmss	item_gem	12	item_gem	splash	430	100	1																																														0
 Killing Intent	474	100		1					1	1	30	29	jew	jewel		3	5000								att-skill	Amplify Damage	10	10	oskill	Amplify Damage	1	1	swing2		5	10	addxp		2	2																																		0
 Elemental Exposure	475	100		1					1	1	30	29	jew	jewel		3	5000								kill-skill	Lower Resist	10	10	oskill	Lower Resist	1	1	cast2		3	5	addxp		2	2																																		0
 Robe of the Horadrim	476	100		1					1	1	83	80	uui	dusk shroud		3	5000	blac	blac						ac		500	666	cast2		30	30	allskills		1	1	mana		100	100	hp		100	100	oskill	Teleport	1	1																										0
@@ -485,10 +485,10 @@ Pride	481	100		1					1	1	27	27	ba1	jawbone cap		3	5000	lyel	lyel						allskills	
 Honor	482	100		1					1	1	27	27	pa2	rondache		3	5000	dgld	dgld						allskills		1	1	block2		20	20	vit		10	10	cast2		30	30	ac%		50	50	red-dmg		3	5																										0
 Destiny	483	100		1					1	1	27	27	ob1	eagle orb		3	5000	lpur	lpur						allskills		1	1	mana-kill		3	3	cast2		30	30	mana		40	40	hp		40	40	pierce-ltng		4	4																										0
 Mad Dog	484	100		1					1	1	27	27	dr1	wolf head		3	5000	whit	whit						allskills		1	1	dmg%		30	30	swing2		20	20	move2		20	20	ac%		50	50	lifesteal		10	10																										0
-Resistbreaker	485	100		1					1	1	75	79	7wn	polished wand		5	5000	whit	whit						aura	376	6	9	magskill		2	4	cast1		20	35	extra-mag		20	30	enr%		10	20	abs-mag%		25	25																										0
-Arcbane	486	100		1					1	1	75	81	7yw	ghost wand		5	5000	blac	blac						aura	376	3	12	allskills		1	2	cast1		10	55	res-curse		50	50	pierce		33	33	mana%		10	20																										0
-Manawyrm	487	100		1					1	1	85	77	uea	wyrmhide		5	5000	whit	whit						aura	376	3	5	oskill	131	3	7	cast1		15	25	mana%		5	8	enr%		20	55	randclassskill2		0	7	red-mag		10	10	mana/lvl		4	4	extra-mag		5	15														0
-Undeniable	488	100		1					1	1	75	60	7qs	seraph rod		5	5000	whit	whit						aura	376	3	5	cast1		30	30	allskills		1	1	extra-mag		5	10	swing2		40	40	kill-skill	112	100	20	res-ltng		20	25																						0
-Mindnumb	489	100		1					1	1	75	85	uap	Shako		5	5000	blac	blac						aura	376	1	5	allskills		2	2	hp%		-5	-10	mana		75	125	res-cold		10	10	swing2		15	15	dmg%		40	40	res-mag		-25	-25	pierce-mag		10	15														0
+Resistbreaker	485	100		1					1	1	75	79	7wn	polished wand		5	5000	whit	whit						aura	431	6	9	magskill		2	4	cast1		20	35	extra-mag		20	30	enr%		10	20	abs-mag%		25	25																										0
+Arcbane	486	100		1					1	1	75	81	7yw	ghost wand		5	5000	blac	blac						aura	431	20	20	allskills		1	2	cast1		10	55	res-curse		50	50	pierce		33	33	mana%		10	20																										0
+Manawyrm	487	100		1					1	1	85	77	uea	wyrmhide		5	5000	whit	whit						aura	431	3	5	oskill	131	3	7	cast1		15	25	mana%		5	8	enr%		20	55	randclassskill2		0	7	red-mag		10	10	mana/lvl		4	4	extra-mag		5	15														0
+Undeniable	488	100		1					1	1	75	60	7qs	seraph rod		5	5000	whit	whit						aura	431	3	5	cast1		30	30	allskills		1	1	extra-mag		5	10	swing2		40	40	kill-skill	112	100	20	res-ltng		20	25																						0
+Mindnumb	489	100		1					1	1	75	85	uap	Shako		5	5000	blac	blac						aura	431	1	5	allskills		2	2	hp%		-5	-10	mana		75	125	res-cold		10	10	swing2		15	15	dmg%		40	40	res-mag		-25	-25	pierce-mag		10	15														0
 Cirilkas Guidance	490	100		1					1	1	85	80	ci2	tiara		5	5000	whit	whit						balance2		10	24	allskills		1	1	hp%		5	5	mana%		5	5	randclassskill3		0	7	charge-noconsume		90	90	ac		100	150	cast1		10	25	swing2		10	25	ac%		200	300										0
 Trophy of the Lichking Toudi	491	100		1					1	1	85	80	nea	Heirophant Trophy		5	5000	blac	blac						nec		3	3	cast1		30	30	red-dmg%		10	20	aura	vigor	5	10	hp%		10	15	mana%		10	15	res-all		10	25	block		50	50	block1		50	50	ac%		200	300										0

@@ -79,7 +79,7 @@ macemastery	76																																																																		
 polearmmastery	77																																																																									0
 throwingmastery	78																																																																									0
 spearmastery	79																																																																									0
-increasedstamina	80																																																																									0
+increasedendurance	80																																																																									0
 ironskin	81																																																																									0
 increasedspeed	82																																																	velocitypercent																								0
 naturalresistance	83																																																																									0
@@ -240,5 +240,4 @@ dyeblackS	237																																																						shld	blac		74
 dyewhiteW	238																																																						weap	whit																		0
 dyeblackW	239																																																						weap	blac		74																0
 magicconviction	240					1																																					mconvictionfront	mconvictionfront																		paladin_aura_sanctuary												0
-magicpierce	241					1																																																																				0
-splashdamage	242																																																																									0
+splashdamage	241																																																																									0

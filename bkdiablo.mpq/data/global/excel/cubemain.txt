@@ -1,9 +1,9 @@
 description	enabled	firstLadderSeason	lastLadderSeason	min diff	version	op	param	value	class	numinputs	input 1	input 2	input 3	input 4	input 5	input 6	input 7	output	lvl	plvl	ilvl	mod 1	mod 1 chance	mod 1 param	mod 1 min	mod 1 max	mod 2	mod 2 chance	mod 2 param	mod 2 min	mod 2 max	mod 3	mod 3 chance	mod 3 param	mod 3 min	mod 3 max	mod 4	mod 4 chance	mod 4 param	mod 4 min	mod 4 max	mod 5	mod 5 chance	mod 5 param	mod 5 min	mod 5 max	output b	b lvl	b plvl	b ilvl	b mod 1	b mod 1 chance	b mod 1 param	b mod 1 min	b mod 1 max	b mod 2	b mod 2 chance	b mod 2 param	b mod 2 min	b mod 2 max	b mod 3	b mod 3 chance	b mod 3 param	b mod 3 min	b mod 3 max	b mod 4	b mod 4 chance	b mod 4 param	b mod 4 min	b mod 4 max	b mod 5	b mod 5 chance	b mod 5 param	b mod 5 min	b mod 5 max	output c	c lvl	c plvl	c ilvl	c mod 1	c mod 1 chance	c mod 1 param	c mod 1 min	c mod 1 max	c mod 2	c mod 2 chance	c mod 2 param	c mod 2 min	c mod 2 max	c mod 3	c mod 3 chance	c mod 3 param	c mod 3 min	c mod 3 max	c mod 4	c mod 4 chance	c mod 4 param	c mod 4 min	c mod 4 max	c mod 5	c mod 5 chance	c mod 5 param	c mod 5 min	c mod 5 max	*eol
-1 mana potion	0				100					1	mpot							Titan's Echo	99		99																										gsr	99		99																										gsw	99		99																										0
-,qty=	0				100					1	hpot							dw1	99		99																										db1																													1dr																													0
-,uni	0				100					1	apot							Hellplague	99		99																										The Salamander	99		99																										gsv																													0
-,set	0				100					2	mpot,qty=2								99		99																																																																																				0
-,mag	0				100					2	hpot,qty=2								99		99																																																																																				0
+1 mana potion	0				100					1	mpot																																																																																														0
+,qty=	0				100					1	hpot																																																																																														0
+,uni	0				100					1	apot																																																																																														0
+,set	0				100					2	mpot,qty=2																																																																																														0
+,mag	0				100					2	hpot,qty=2																																																																																														0
 Staff of Kings + Amulet of the Viper -> Horadric Staff	1				0	28				2	msf	vip						hst																																																																																							0
 Khalim's Flail + Khalim's Heart + Khalim's Eye + Khalim's Brain -> Khalim's Will	1				0	28				4	qf1	qhr	qey	qbr				qf2																																																																																							0
 Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Portal																													leg																																																										0
@@ -173,13 +173,13 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 9 Flawed Skulls -> 3 Standard Skull	1				100					9	"skf,qty=9"							sku																													sku																													sku																													0
 9 Standard Skulls -> 3 Flawless Skull	1				100					9	"sku,qty=9"							skl																													skl																													skl																													0
 9 Flawless Skulls -> 3 Perfect Skull	1				100					9	"skl,qty=9"							skz																													skz																													skz																													0
-4 Perfect Gems + 1 Perfect Amethyst  -> 3 Perfect Amethyst	0				100					2	gem4,qty=4	gpv						gpv																													gpv																													gpv																													0
-4 Perfect Gems + 1 Diamond  -> 3 Perfect Diamonds	0				100					2	gem4,qty=4	gpw						gpw																													gpw																													gpw																													0
-4 Perfect Gems + 1 Perfect Emerald -> 3 Perfect Emeralds	0				100					2	gem4,qty=4	gpg						gpg																													gpg																													gpg																													0
-4 Perfect Gems + 1 Perfect Ruby -> 3 Perfect Rubies	0				100					2	gem4,qty=4	gpr						gpr																													gpr																													gpr																													0
-4 Perfect Gems + 1 Perfect Sapphire -> 3 Perfect Sapphires	0				100					2	gem4,qty=4	gpb						gpb																													gpb																													gpb																													0
-4 Perfect Gems + 1 Perfect Topaz -> 3 Perfect Topazes	0				100					2	gem4,qty=4	gpy						gpy																													gpy																													gpy																													0
-Rune Conversions																																																																																																									0
+3 Perfect Gems + Thawing Potion + 1 Standard Amethyst -> 3 Perfect Amethyst	1				100					5	gem4,qty=3	wms	gsv				0	gpv																													gpv																													gpv																													0
+3 Perfect Gems + Thawing Potion + 1 Standard Diamond -> 3 Perfect Diamonds	1				100					5	gem4,qty=3	wms	gsw				0	gpw																													gpw																													gpw																													0
+3 Perfect Gems + Thawing Potion + 1 Standard Emerald -> 3 Perfect Emeralds	1				100					5	gem4,qty=3	wms	gsg				0	gpg																													gpg																													gpg																													0
+3 Perfect Gems + Thawing Potion + 1 Standard Ruby -> 3 Perfect Rubies	1				100					5	gem4,qty=3	wms	gsr				0	gpr																													gpr																													gpr																													0
+3 Perfect Gems + Thawing Potion + 1 Standard Sapphire -> 3 Perfect Sapphires	1				100					5	gem4,qty=3	wms	gsb				0	gpb																													gpb																													gpb																													0
+3 Perfect Gems + Thawing Potion + 1 Standard Topaz -> 3 Perfect Topazes	1				100					5	gem4,qty=3	wms	gsy				0	gpy																													gpy																													gpy																													0
+3 Perfect Gems + Thawing Potion + 1 Standard Skull -> 3 Perfect Skulls	1				100					5	gem4,qty=3	wms	sku				0	skz																													skz																													skz																													0
 1 Zod + Standard Gem -> Cham Rune	1				100					2	r33,qty=1	gem2						r32																																																																																							0
 1 Cham + Standard Gem -> Jah Rune	1				100					2	r32,qty=1	gem2						r31																																																																																							0
 1 Jah + Standard Gem -> Ber Rune	1				100					2	r31,qty=1	gem2						r30																																																																																							0
@@ -277,7 +277,6 @@ Rune Conversions																																																																
 6 Ber Runes -> 3 Jah Rune	1				100					7	r30,qty=6	wms						r31																													r31																													r31																													0
 6 Jah Runes -> 3 Cham Rune	1				100					7	r31,qty=6	wms						r32																													r32																													r32																													0
 6 Cham Runes -> 3 Zod Rune	1				100					7	r32,qty=6	wms						r33																													r33																													r33																													0
-CRAFTING																																																																																																									0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,noe	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200																																																																					0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire + 1 Eth Rune + 1 Chasi's Malus -> Hit Power Helm	1				100					6	helm,mag,noe	jew	r06	gpb	r05	mls		usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1																																																																0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,eth	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1																																																																0
@@ -370,7 +369,6 @@ CRAFTING																																																																								
 1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald -> Safety Weapon	1				100					4	weap,mag,noe	jew	r12	gpg				usetype,crf		50	50	red-dmg			3	5	red-mag			3	5	swing3			10	20	dmg%			30	50																																																																0
 1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald + 1 Eth Rune + 1 Chasi's Malus -> Safety Weapon	1				100					6	weap,mag,noe	jew	r12	gpg	r05	mls		usetype,crf		50	50	red-dmg			3	5	red-mag			3	5	swing3			10	20	dmg%			30	50	ethereal	100		1	1																																																											0
 1 Magic Spear + 1 Jewel + 1 Sol Rune + 1 Perfect Emerald -> Safety Weapon	1				100					4	weap,mag,eth	jew	r12	gpg				usetype,crf		50	50	red-dmg			3	5	red-mag			3	5	swing3			10	20	dmg%			30	50	ethereal	100		1	1																																																											0
-TABLET CRAFTING																																																																																																									0
 1 Magic Full Helm + Power Crafting Tablet  -> Hit Power Helm	1				100					2	helm,mag,noe	pct						usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200																																																																					0
 1 Magic Full Helm + Power Crafting Tablet  + 1 Eth Rune + 1 Chasi's Malus  -> Hit Power Helm	1				100					4	helm,mag,noe	pct	r05	mls				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1																																																																0
 1 Magic Full Helm + Power Crafting Tablet  -> Hit Power Helm	1				100					2	helm,mag,eth	pct						usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1																																																																0
@@ -463,7 +461,6 @@ TABLET CRAFTING																																																																	
 1 Magic Spear + Saftey Crafting Tablet -> Safety Weapon	1				100					2	weap,mag,noe	sct						usetype,crf		50	50	red-dmg			3	5	red-mag			3	5	swing3			10	20	dmg%			30	50																																																																0
 1 Magic Spear + Saftey Crafting Tablet + 1 Eth Rune + 1 Chasi's Malus -> Safety Weapon	1				100					4	weap,mag,noe	sct	r05	mls				usetype,crf		50	50	red-dmg			3	5	red-mag			3	5	swing3			10	20	dmg%			30	50	ethereal	100		1	1																																																											0
 1 Magic Spear + Saftey Crafting Tablet -> Safety Weapon	1				100					2	weap,mag,eth	sct						usetype,crf		50	50	red-dmg			3	5	red-mag			3	5	swing3			10	20	dmg%			30	50	ethereal	100		1	1																																																											0
-Block Circlet Crafting																																																																																																									0
 1 Magic Circlet + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1				100					4	circ,mag,noe	jew	r06	gpg																																																																																											0
 1 Magic Circlet + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1				100					6	circ,mag,noe	jew	r06	gpg	r05	mls																																																																																									0
 1 Magic Circlet + 1 Jewel + 1 Ith Rune + 1 Perfect Emerald -> Safety Helm	1				100					4	circ,mag,eth	jew	r06	gpg																																																																																											0
@@ -488,7 +485,6 @@ Block Circlet Crafting																																																										
 1 Magic Circlet + Hit Power Crafting Tablet  -> Hit Power Helm	1				100					2	circ,mag,noe	pct																																																																																													0
 1 Magic Circlet + Hit Power Crafting Tablet  -> Hit Power Helm	1				100					4	circ,mag,noe	pct	r05	mls																																																																																											0
 1 Magic Circlet + Hit Power Crafting Tablet  -> Hit Power Helm	1				100					2	circ,mag,eth	pct																																																																																													0
-Upping Items																																																																																																									0
 Charsi Hammer + Larzuk Hammer + 1 Normal Unique Weapon -> Exceptional Unique Weapon	1				100					3	weap,bas,uni	mls	lmr					useitem,mod,exc																																																																																							0
 Charsi Hammer + Larzuk Hammer + 1 Normal Unique Armor -> Exceptional Unique Armor	1				100					3	armo,bas,uni	mls	lmr					useitem,mod,exc																																																																																							0
 Charsi Hammer + Larzuk Hammer  + Standard of Heros + 1 Exceptional Unique Weapon -> Elite Unique Weapon	1				100					4	weap,exc,uni	mls	lmr	std				useitem,mod,eli																																																																																							0
@@ -517,7 +513,6 @@ Charsi Hammer + Larzuk Hammer  +  Standard of Heros + 1 Exceptional Set Armor ->
 1 Ral Rune + 1 Thul Rune + 1 Perfect Amethyst + 1 Normal Rare Armor -> Exceptional Rare Armor	0				100					4	"armo,bas,rar"	r08	r10	gpv				"useitem,mod,exc"				levelreq			5	5																																																																															0
 1 Fal Rune + 1 Um Rune + 1 Perfect Sapphire + 1 Exceptional Rare Weapon -> Elite Rare Weapon	0				100					4	"weap,exc,rar"	r19	r22	gpb				"useitem,mod,eli"				levelreq			7	7																																																																															0
 1 Ko Rune + 1 Pul Rune + 1 Perfect Amethyst + 1 Exceptional Rare Armor -> Elite Rare Armor	0				100					4	"armo,exc,rar"	r18	r21	gpv				"useitem,mod,eli"				levelreq			7	7																																																																															0
-Rune Recipes																																																																																																									0
 1 Ral Rune + 1 Jewel + 1 Superior Armor -> Tempered Armor	1				100					3	"armo,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
 1 Ral Rune + 1 Jewel + 1 Superior Weapon -> Tempered Weapon	1				100					3	"weap,hiq,nos"	jew	r08					"useitem,tmp"																																																																																							0
 1 Ral Rune + 1 Jewel + Magic Ring -> Tempered Ring	1				100					3	"ring,mag"	jew	r08					"usetype,tmp"				levelreq			3	3																																																																															0
@@ -595,7 +590,6 @@ Rune Recipes																																																																				
 1 Mal Rune + 1 Perfect Diamond + 1 Northern Worldstone Shard + 1 Grand Charm -> Mystical Grand Charm	1				100					4	"lcha,mag"	r23	gpw	xa5				"useitem,pre=694"				pierce-mag			1	3																																																																															0
 1 Mal Rune + 1 Perfect Diamond + 1 Uber Ancient Summon Material Act5 + 1 Black Cleft -> Mystical Black Cleft	1				100					6	PreCrafted Black Cleft	r23	gpw	xa3	xa4	xa5		Crafted Black Cleft			69																																																																																				0
 9 Magic Jewels + Charsi's Malus = 1 Rare Jewel	1				100					10	jew,qty=9	mls						usetype,rar	99																																																																																						0
-Imbues																																																																																																									0
 Helm	1				100					2	helm,nor,nos	mls						usetype,rar	99																																																																																						0
 Helm Inf	1				100					2	helm,low	mls						usetype,rar	99																																																																																						0
 Helm Sup	1				100					2	helm,hiq,noe,nos	mls						usetype,rar	99																																																																																						0
@@ -633,7 +627,6 @@ Boots Inf	1				100					2	boot,low	mls						usetype,rar	99																							
 Boots Sup	1				100					2	boot,hiq,noe	mls						usetype,rar	99																																																																																						0
 Boots Eth	1				100					2	boot,nor,eth	mls						usetype,rar	99			ethereal	100		1	1																																																																															0
 Boots Eth Sup	1				100					2	boot,hiq,eth	mls						usetype,rar	99			ethereal	100		1	1																																																																															0
-Larzuk's Hammer + Sockets																																																																																																									0
 SUP 1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1				100					4	tors,hiq,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
 1 Tal Rune + 1 Thul Rune + 1 Perfect Topaz + 1 Normal Torso Armor -> Socketed Torso Armor	1				100					4	tors,nor,nos	r07	r10	gpy				useitem				sock			1	6																																																																															0
 SUP 1 Ral Rune + 1 Amn Rune + 1 Perfect Amethyst + 1 Normal Weapon -> Socketed Weapon	1				100					4	weap,hiq,nos	r08	r11	gpv				useitem				sock			1	6																																																																															0
@@ -644,7 +637,6 @@ SUP 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shiel
 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
 Arrows	1				100					2	aqv	tsc						aqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
 Bolts	1				100					2	cqv	tsc						cqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
-NORMAL																																																																																																									0
 Helm	1				0					2	helm,nor,nos	lmr						useitem				sock			6	6																																																																															0
 Helm Inf	1				0					2	helm,low	lmr						useitem				sock			6	6																																																																															0
 Helm Sup	1				0					2	helm,hiq,noe,nos	lmr						useitem				sock			6	6																																																																															0
@@ -665,7 +657,6 @@ Shield Inf	1				0					2	shld,low	lmr						useitem				sock			6	6																	
 Shield Sup	1				0					2	shld,hiq,noe	lmr						useitem				sock			6	6																																																																															0
 Shield Eth	1				0					2	shld,nor,eth	lmr						useitem				sock			6	6																																																																															0
 Shield Eth Sup	1				0					2	shld,hiq,eth	lmr						useitem				sock			6	6																																																																															0
-MAGIC	0																																																																																																								0
 Helm	1				0					2	helm,mag,nos	lmr						useitem				sock			1	2																																																																															0
 Weapon	1				0					2	weap,mag,nos	lmr						useitem				sock			1	2																																																																															0
 Armor	1				0					2	tors,mag,nos	lmr						useitem				sock			1	2																																																																															0
@@ -673,7 +664,6 @@ Shield	1				0					2	shld,mag,nos	lmr						useitem				sock			1	2																	
 Throwing Knives	1				100					2	tkni,mag,nos	lmr						useitem				sock			1	2																																																																															0
 Throwing Axes	1				100					2	taxe,mag,nos	lmr						useitem				sock			1	2																																																																															0
 Throwing Javelins	1				100					2	jave,mag,nos	lmr						useitem				sock			1	2																																																																															0
-RARE	0																																																																																																								0
 Helm	1				0					2	helm,rar,nos	lmr						useitem				sock			1	1																																																																															0
 Weapon	1				0					2	weap,rar,nos	lmr						useitem				sock			1	1																																																																															0
 Armor	1				0					2	tors,rar,nos	lmr						useitem				sock			1	1																																																																															0
@@ -681,7 +671,6 @@ Shield	1				0					2	shld,rar,nos	lmr						useitem				sock			1	1																	
 Throwing Knives	1				100					2	tkni,rar,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Axes	1				100					2	taxe,rar,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Javelins	1				100					2	jave,rar,nos	lmr						useitem				sock			1	1																																																																															0
-SET	0																																																																																																								0
 Helm	1				0					2	helm,set,nos	lmr						useitem				sock			1	1																																																																															0
 Weapon	1				0					2	weap,set,nos	lmr						useitem				sock			1	1																																																																															0
 Armor	1				0					2	tors,set,nos	lmr						useitem				sock			1	1																																																																															0
@@ -689,7 +678,6 @@ Shield	1				0					2	shld,set,nos	lmr						useitem				sock			1	1																	
 Throwing Knives	1				100					2	tkni,set,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Axes	1				100					2	taxe,set,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Javelins	1				100					2	jave,set,nos	lmr						useitem				sock			1	1																																																																															0
-UNIQUE	0																																																																																																								0
 Helm	1				0					2	helm,uni,nos	lmr						useitem				sock			1	1																																																																															0
 Weapon	1				0					2	weap,uni,nos	lmr						useitem				sock			1	1																																																																															0
 Armor	1				0					2	tors,uni,nos	lmr						useitem				sock			1	1																																																																															0
@@ -697,7 +685,6 @@ Shield	1				0					2	shld,uni,nos	lmr						useitem				sock			1	1																	
 Throwing Knives	1				100					2	tkni,uni,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Axes	1				100					2	taxe,uni,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Javelins	1				100					2	jave,uni,nos	lmr						useitem				sock			1	1																																																																															0
-CRAFTS	0																																																																																																								0
 Helm	1				0					2	helm,crf,nos	lmr						useitem				sock			1	1																																																																															0
 Weapon	1				0					2	weap,crf,nos	lmr						useitem				sock			1	1																																																																															0
 Armor	1				0					2	tors,crf,nos	lmr						useitem				sock			1	1																																																																															0
@@ -705,11 +692,9 @@ Shield	1				0					2	shld,crf,nos	lmr						useitem				sock			1	1																	
 Throwing Knives	1				100					2	tkni,crf,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Axes	1				100					2	taxe,crf,nos	lmr						useitem				sock			1	1																																																																															0
 Throwing Javelins	1				100					2	jave,crf,nos	lmr						useitem				sock			1	1																																																																															0
-ETHEREAL RECIPES																																																																																																									0
 Block Bows	1				100					2	bow	fel						useitem																													fel																																																										0
 Weapon + Flask = Ethereal Weapon	1				100					2	weap,noe	fel						useitem	99		99	ethereal	100		1	1																																																																															0
 Armor + Flask = Ethereal Armor	1				100					2	armo,noe	fel						useitem	99		99	ethereal	100		1	1																																																																															0
-CHAM AUGMENT																																																																																																									0
 MF + GF on Helm	1				0					6	helm	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
 MF + GF on Weapon	1				0					6	weap	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
 MF + GF on Amulet	1				0					6	amu	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
@@ -719,7 +704,6 @@ MF + GF on Gloves	1				0					6	glov	r32	r24	r20	std	mls		useitem				augmented1		
 MF + GF on Boots	1				0					6	boot	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
 MF + GF on Armor	1				0					6	tors	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
 MF + GF on Belt	1				0					6	belt	r32	r24	r20	std	mls		useitem				augmented1			1	1	mag%			50	50	gold%			100	100	addxp			2	2																																																																0
-MELEE AUGMENT																																																																																																									0
 Melee Augment on Helm	1				0					5	helm	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
 Melee Augment on Weapon	1				0					5	weap	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
 Melee Augment on Amulet	1				0					5	amu	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
@@ -729,13 +713,11 @@ Melee Augment on Gloves	1				0					5	glov	r25	r19	std	mls			useitem				augmented
 Melee Augment on Boots	1				0					5	boot	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
 Melee Augment on Armor	1				0					5	tors	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
 Melee Augment on Belt	1				0					5	belt	r25	r19	std	mls			useitem				augmented1			1	1	att			200	200	att%			10	10																																																																					0
-ZOD RECIPE																																																																																																									0
 Teleport + MF + GF on Armor	1				0					6	tors	r33	r29	The Stone of Jordan	std	mls		useitem				oskill		54	1	1	augmented1			1	1	mag%/lvl		3			gold%/lvl		6			addxp			2	2																																																											0
 Break Down Hellfire Torch -> 1 Hellfire Ashes	1				0					2	Hellfire Torch	mls						tds																																																																																							0
 Hellfire Ash + Stamina Potion -> 2 Standard of Heroes	1				0					2	tds	wms						std																													std																																																										0
 Break Down Annihilus -> 3 Standard of Heroes	1				0					2	Annihilus	mls						std																													std																													std																													0
 Break Down Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	mls						mfp																													mfp																													mfp																													0
-HRATILI'S HERB AUGMENT																																																																																																									0
 Replenishing TP Book	1				0					2	tbk	hsm						useitem				rep-quant		40																																																																																	0
 Replenishing ID Book	1				0					2	ibk	hsm						useitem				rep-quant		40																																																																																	0
 Repair Augment on Throwing Knife	1				0					3	tkni	std	hsm					useitem				rep-quant		40																																																																																	0
@@ -748,7 +730,6 @@ Repair Augment on Set Weapon	1				0					3	weap,set	std	hsm					useitem				rep-du
 Repair Augment on Unique Armor	1				0					3	armo,uni	std	hsm					useitem				rep-dur		25																																																																																	0
 Repair Augment on Unique Weapon	1				0					3	weap,uni	std	hsm					useitem				rep-dur		25																																																																																	0
 Repair Augment on Crafted Item	1				0					3	any,crf	std	hsm					useitem				rep-dur		25																																																																																	0
-MAGIC CORRUPTIONS																																																																																																									0
 BLOCK CHARMS	1									2	cm1,mag	std						useitem																													std																																																										0
 BLOCK CHARMS	1									2	cm2,mag	std						useitem																													std																																																										0
 BLOCK CHARMS	1									2	cm3,mag	std						useitem																													std																																																										0
