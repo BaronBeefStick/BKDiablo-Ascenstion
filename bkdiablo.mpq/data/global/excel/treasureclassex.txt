@@ -1126,7 +1126,7 @@ Uber Baal			1	800			1024	0	cm3	1																												0
 Pandemonium Key A			1	1024				0	pk1	1																												0
 Pandemonium Key B			1	1024				0	pk2	1																												0
 Pandemonium Key C			1	1024				0	pk3	1																												0
-Snapchip (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk1	2																				0
+Snapchip (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk3	2																				0
 Act 1 (H) Champ A Desecrated	36	63	1					0	Act 1 (H) Champ A	1																												0
 Act 1 (H) Champ B Desecrated	36	66	1					0	Act 1 (H) Champ B	1																												0
 Act 1 (H) Champ C Desecrated	36	68	1					0	Act 1 (H) Champ C	1																												0
@@ -1186,7 +1186,7 @@ Act 5 (H) Super Ax Desecrated	39	90	1					0	Act 5 (H) Super Ax	1																
 Act 5 (H) Super Bx Desecrated	39	93	1					0	Act 5 (H) Super Bx	1																												0
 Act 5 (H) Super Cx Desecrated	39	96	1					0	Act 5 (H) Super Cx	1																												0
 JEWTC	10	85	1					0	AND	1																												0
-STDTC	10	85	1					0	std	25	brk	7	AND	850																								0
+STDTC	10	85	1					0	std	18	brk	6	AND	850																								0
 Act 5 (H) GoodLFRift			1					0	AND	90	Flawless Gem	45	Runes 17	14	Ultrarare consumable	1																						0
 Rift Des Champion			1					0	AND	26	Flawless Gem	2	Runes 17	1																								0
 Rift Des Unique			1					0	AND	13	Flawless Gem	2	Runes 17	1																								0
@@ -1303,21 +1303,21 @@ Act 4 (H) Herald Item K - 2 Extra			-2	850	850	850	1024	0	Act 4 (H) Herald Item 
 Act 5 (H) Herald Item L - 2 Extra			-2	850	850	850	1024	0	Act 5 (H) Herald Item L	2																						(stat('heraldtier'.accr) >=4)						0
 Act 5 (H) Herald Item M - 2 Extra			-2	850	850	850	1024	0	Act 5 (H) Herald Item M	2																						(stat('heraldtier'.accr) >=4)						0
 Act 5 (H) Herald Item N - 2 Extra			-2	850	850	850	1024	0	Act 5 (H) Herald Item N	2																						(stat('heraldtier'.accr) >=4)						0
-Act 1 (H) Herald A	41	67	-8	989	983	1024	1024	0	Act 1 (H) Herald Item A	2	Sunder Charms	1	Act 1 (H) Herald Item A - 1 Extra	1	Act 1 (H) Herald Item A - 2 Extra	1	Act 3 Terrorize Act Consumable Desecrated	1	Act 1 (H) Cpot A	2																		0
-Act 1 (H) Herald B	41	68	-8	989	983	1024	1024	0	Act 1 (H) Herald Item B	2	Sunder Charms	1	Act 1 (H) Herald Item B - 1 Extra	1	Act 1 (H) Herald Item B - 2 Extra	1	Act 3 Terrorize Act Consumable Desecrated	1	Act 1 (H) Cpot B	2																		0
-Act 1 (H) Herald C	41	69	-8	989	983	1024	1024	0	Act 1 (H) Herald Item C	2	Sunder Charms	1	Act 1 (H) Herald Item C - 1 Extra	1	Act 1 (H) Herald Item C - 2 Extra	1	Act 3 Terrorize Act Consumable Desecrated	1	Act 1 (H) Cpot C	2																		0
-Act 2 (H) Herald A	41	70	-8	989	983	1024	1024	0	Act 2 (H) Herald Item D	2	Sunder Charms	1	Act 2 (H) Herald Item D - 1 Extra	1	Act 2 (H) Herald Item D - 2 Extra	1	Act 4 Terrorize Act Consumable Desecrated	1	Act 2 (H) Cpot A	2																		0
-Act 2 (H) Herald B	41	71	-8	989	983	1024	1024	0	Act 2 (H) Herald Item E	2	Sunder Charms	1	Act 2 (H) Herald Item E - 1 Extra	1	Act 2 (H) Herald Item E - 2 Extra	1	Act 4 Terrorize Act Consumable Desecrated	1	Act 2 (H) Cpot B	2																		0
-Act 2 (H) Herald C	41	72	-8	989	983	1024	1024	0	Act 2 (H) Herald Item F	2	Sunder Charms	1	Act 2 (H) Herald Item F - 1 Extra	1	Act 2 (H) Herald Item F - 2 Extra	1	Act 4 Terrorize Act Consumable Desecrated	1	Act 2 (H) Cpot C	2																		0
-Act 3 (H) Herald A	41	73	-8	989	983	1024	1024	0	Act 3 (H) Herald Item G	2	Sunder Charms	1	Act 3 (H) Herald Item G - 1 Extra	1	Act 3 (H) Herald Item G - 2 Extra	1	Act 5 Terrorize Act Consumable Desecrated	1	Act 3 (H) Cpot A	2																		0
-Act 3 (H) Herald B	41	75	-8	989	983	1024	1024	0	Act 3 (H) Herald Item H	2	Sunder Charms	1	Act 3 (H) Herald Item H - 1 Extra	1	Act 3 (H) Herald Item H - 2 Extra	1	Act 5 Terrorize Act Consumable Desecrated	1	Act 3 (H) Cpot B	2																		0
-Act 3 (H) Herald C	41	78	-8	989	983	1024	1024	0	Act 3 (H) Herald Item I	2	Sunder Charms	1	Act 3 (H) Herald Item I - 1 Extra	1	Act 3 (H) Herald Item I - 2 Extra	1	Act 5 Terrorize Act Consumable Desecrated	1	Act 3 (H) Cpot C	2																		0
-Act 4 (H) Herald A	41	81	-8	989	983	1024	1024	0	Act 4 (H) Herald Item J	2	Sunder Charms	1	Act 4 (H) Herald Item J - 1 Extra	1	Act 4 (H) Herald Item J - 2 Extra	1	Act 2 Terrorize Act Consumable Desecrated	1	Act 4 (H) Cpot A	2																		0
-Act 4 (H) Herald B	41	84	-8	989	983	1024	1024	0	Act 4 (H) Herald Item K	2	Sunder Charms	1	Act 4 (H) Herald Item K - 1 Extra	1	Act 4 (H) Herald Item K - 2 Extra	1	Act 2 Terrorize Act Consumable Desecrated	1	Act 4 (H) Cpot B	2																		0
-Act 4 (H) Herald C	41	87	-8	989	983	1024	1024	0	Act 4 (H) Herald Item K	2	Sunder Charms	1	Act 4 (H) Herald Item K - 1 Extra	1	Act 4 (H) Herald Item K - 2 Extra	1	Act 2 Terrorize Act Consumable Desecrated	1	Act 4 (H) Cpot B	2																		0
-Act 5 (H) Herald A	41	90	-8	989	983	1024	1024	0	Act 5 (H) Herald Item L	2	Sunder Charms	1	Act 5 (H) Herald Item L - 1 Extra	1	Act 5 (H) Herald Item L - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot A	2																		0
-Act 5 (H) Herald B	41	93	-8	989	983	1024	1024	0	Act 5 (H) Herald Item M	2	Sunder Charms	1	Act 5 (H) Herald Item M - 1 Extra	1	Act 5 (H) Herald Item M - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot B	2																		0
-Act 5 (H) Herald C	41	96	-8	989	983	1024	1024	0	Act 5 (H) Herald Item N	2	Sunder Charms	1	Act 5 (H) Herald Item N - 1 Extra	1	Act 5 (H) Herald Item N - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot C	2																		0
+Act 1 (H) Herald A	41	67	-7	989	983	1024	1024	0	Act 1 (H) Herald Item A	2	Sunder Charms	1	Act 1 (H) Herald Item A - 1 Extra	1	Act 1 (H) Herald Item A - 2 Extra	1	Act 3 Terrorize Act Consumable Desecrated	1	Act 1 (H) Cpot A	2																		0
+Act 1 (H) Herald B	41	68	-7	989	983	1024	1024	0	Act 1 (H) Herald Item B	2	Sunder Charms	1	Act 1 (H) Herald Item B - 1 Extra	1	Act 1 (H) Herald Item B - 2 Extra	1	Act 3 Terrorize Act Consumable Desecrated	1	Act 1 (H) Cpot B	2																		0
+Act 1 (H) Herald C	41	69	-7	989	983	1024	1024	0	Act 1 (H) Herald Item C	2	Sunder Charms	1	Act 1 (H) Herald Item C - 1 Extra	1	Act 1 (H) Herald Item C - 2 Extra	1	Act 3 Terrorize Act Consumable Desecrated	1	Act 1 (H) Cpot C	2																		0
+Act 2 (H) Herald A	41	70	-7	989	983	1024	1024	0	Act 2 (H) Herald Item D	2	Sunder Charms	1	Act 2 (H) Herald Item D - 1 Extra	1	Act 2 (H) Herald Item D - 2 Extra	1	Act 4 Terrorize Act Consumable Desecrated	1	Act 2 (H) Cpot A	2																		0
+Act 2 (H) Herald B	41	71	-7	989	983	1024	1024	0	Act 2 (H) Herald Item E	2	Sunder Charms	1	Act 2 (H) Herald Item E - 1 Extra	1	Act 2 (H) Herald Item E - 2 Extra	1	Act 4 Terrorize Act Consumable Desecrated	1	Act 2 (H) Cpot B	2																		0
+Act 2 (H) Herald C	41	72	-7	989	983	1024	1024	0	Act 2 (H) Herald Item F	2	Sunder Charms	1	Act 2 (H) Herald Item F - 1 Extra	1	Act 2 (H) Herald Item F - 2 Extra	1	Act 4 Terrorize Act Consumable Desecrated	1	Act 2 (H) Cpot C	2																		0
+Act 3 (H) Herald A	41	73	-7	989	983	1024	1024	0	Act 3 (H) Herald Item G	2	Sunder Charms	1	Act 3 (H) Herald Item G - 1 Extra	1	Act 3 (H) Herald Item G - 2 Extra	1	Act 5 Terrorize Act Consumable Desecrated	1	Act 3 (H) Cpot A	2																		0
+Act 3 (H) Herald B	41	75	-7	989	983	1024	1024	0	Act 3 (H) Herald Item H	2	Sunder Charms	1	Act 3 (H) Herald Item H - 1 Extra	1	Act 3 (H) Herald Item H - 2 Extra	1	Act 5 Terrorize Act Consumable Desecrated	1	Act 3 (H) Cpot B	2																		0
+Act 3 (H) Herald C	41	78	-7	989	983	1024	1024	0	Act 3 (H) Herald Item I	2	Sunder Charms	1	Act 3 (H) Herald Item I - 1 Extra	1	Act 3 (H) Herald Item I - 2 Extra	1	Act 5 Terrorize Act Consumable Desecrated	1	Act 3 (H) Cpot C	2																		0
+Act 4 (H) Herald A	41	81	-7	989	983	1024	1024	0	Act 4 (H) Herald Item J	2	Sunder Charms	1	Act 4 (H) Herald Item J - 1 Extra	1	Act 4 (H) Herald Item J - 2 Extra	1	Act 2 Terrorize Act Consumable Desecrated	1	Act 4 (H) Cpot A	2																		0
+Act 4 (H) Herald B	41	84	-7	989	983	1024	1024	0	Act 4 (H) Herald Item K	2	Sunder Charms	1	Act 4 (H) Herald Item K - 1 Extra	1	Act 4 (H) Herald Item K - 2 Extra	1	Act 2 Terrorize Act Consumable Desecrated	1	Act 4 (H) Cpot B	2																		0
+Act 4 (H) Herald C	41	87	-7	989	983	1024	1024	0	Act 4 (H) Herald Item K	2	Sunder Charms	1	Act 4 (H) Herald Item K - 1 Extra	1	Act 4 (H) Herald Item K - 2 Extra	1	Act 2 Terrorize Act Consumable Desecrated	1	Act 4 (H) Cpot B	2																		0
+Act 5 (H) Herald A	41	90	-7	989	983	1024	1024	0	Act 5 (H) Herald Item L	2	Sunder Charms	1	Act 5 (H) Herald Item L - 1 Extra	1	Act 5 (H) Herald Item L - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot A	2																		0
+Act 5 (H) Herald B	41	93	-7	989	983	1024	1024	0	Act 5 (H) Herald Item M	2	Sunder Charms	1	Act 5 (H) Herald Item M - 1 Extra	1	Act 5 (H) Herald Item M - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot B	2																		0
+Act 5 (H) Herald C	41	96	-7	989	983	1024	1024	0	Act 5 (H) Herald Item N	2	Sunder Charms	1	Act 5 (H) Herald Item N - 1 Extra	1	Act 5 (H) Herald Item N - 2 Extra	1	Act 1 Terrorize Act Consumable Desecrated	1	Act 5 (H) Cpot C	2																		0
 Ancient Statue 1	41	92	1					0	ua1	18	ua2	1	ua3	1																								0
 Ancient Statue 2	41	92	1					0	ua2	18	ua1	1	ua3	1																								0
 Ancient Statue 3	41	92	1					0	ua3	18	ua2	1	ua4	1																								0
