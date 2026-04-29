@@ -68,3 +68,10 @@ Ber Rune	r30L	18	r30	crush		20	20	addxp		2	2					red-dmg%		8	8	addxp		2	2					re
 Jah Rune	r31L	18	r31	ignore-ac		1	1	addxp		2	2					hp%		5	5	addxp		2	2					hp		50	50	addxp		2	2				0
 Cham Rune	r32L	18	r32	slow		20	20	addxp		2	2					res-curse		34	34	addxp		2	2					res-curse		34	34	addxp		2	2				0
 Zod Rune	r33L	18	r33	indestruct		1	1	allskills		1	1	addxp		2	2	indestruct		1	1	allskills		1	1	addxp		2	2	indestruct		1	1	allskills		1	1	addxp		2	2
+Ascended Amethyst		17	gav	cast2	0	6	6						0	0	0	str	0	30	30		0	0	0		0	0	0	red-mag	0	13	13		0	0	0		0	0	0
+Ascended Diamond		0	gaw	dmg-norm	0	20	40						0	0	0	all-stats	0	5	5		0	0	0		0	0	0	res-all	0	20	20		0	0	0		0	0	0
+Ascended Emerald		12	gag	pois-min	0	307	307	pois-max	0	307	307	pois-len	0	125	125	dex	0	30	30		0	0	0		0	0	0	res-pois	0	45	45		0	0	0		0	0	0
+Ascended Ruby		9	gar	fire-min	0	21	21	fire-max	0	67	67		0	0	0	vit	0	30	30		0	0	0		0	0	0	res-fire	0	45	45		0	0	0		0	0	0
+Ascended Sapphire		6	gab	cold-min	0	35	35	cold-max	0	54	54	cold-len	0	75	75	enr	0	40	40		0	0	0		0	0	0	res-cold	0	45	45		0	0	0		0	0	0
+Ascended Topaz		13	gay	ltng-min	0	3	3	ltng-max	0	99	99		0	0	0	move2	0	30	30		0	0	0		0	0	0	res-ltng	0	45	45		0	0	0		0	0	0
+Ascended Skull		3	ska	manasteal	0	5	5	lifesteal	0	6	6					regen	0	19	19	regen-mana	0	24	24		0	0	0	thorns	0	75	75		0	0	0		0	0	0

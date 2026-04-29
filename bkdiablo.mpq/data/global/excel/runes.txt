@@ -158,7 +158,7 @@ Runeword157	Void																																																			0
 Runeword158	War																																																			0
 Runeword159	Water																																																			0
 Runeword160	Wealth	1						tors									LemKoTir	r20	r18	r03				gold%		250	250	mag%/lvl	8			move2		20	20	swing2		10	10													0
-Runeword161	Whisper	1					BTDIABLO	pole	spea								BerBerIstMal	r30	r30	r24	r23			dmg%		255	325	move3		35	35	vit/lvl	4			aura	376	12	12	kill-skill	84	50	20	pierce-mag		45	55	charged	Cyclone Armor	30	21	0
+Runeword161	Whisper	1					BTDIABLO	pole	spea								BerBerIstMal	r30	r30	r24	r23			dmg%		255	325	move3		35	35	vit/lvl	4			aura	Magic Conviction	12	12	kill-skill	84	50	20	pierce-mag		45	55	charged	Cyclone Armor	30	21	0
 Runeword162	White	1						wand									DolIo	r14	r16					skilltab	7	3	3	red-mag		4	4	cast2		20	20	mana		13	13	skill	68	3	3	skill	84	2	2	skill	69	4	4	0
 Runeword163	Wind	1						weap									SurMal	r29	r23					dmg%		260	280	swing2		40	40	move2		40	40	reduce-ac		50	50	hit-skill	Tornado	33	30	hit-skill	Twister	25	35	balance2		30	30	0
 Runeword164	Wings of Hope																																																			0

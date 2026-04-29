@@ -722,5 +722,12 @@
   { "bct": { "asset": "gem/blood_crafting_tablet" } },
   { "cct": { "asset": "gem/caster_crafting_tablet" } },
   { "pct": { "asset": "gem/power_crafting_tablet" } },
-  { "sct": { "asset": "gem/saftey_crafting_tablet" } }
+  { "sct": { "asset": "gem/saftey_crafting_tablet" } },
+  { "gav": { "asset": "gem/Ascended_Amethyst" } },
+  { "gaw": { "asset": "gem/Ascended_Diamond" } },
+  { "gag": { "asset": "gem/Ascended_Emerald" } },
+  { "gar": { "asset": "gem/Ascended_Ruby" } },
+  { "gab": { "asset": "gem/Ascended_Sapphire" } },
+  { "gay": { "asset": "gem/Ascended_Topaz" } },
+  { "ska": { "asset": "gem/Ascended_Skull" } }
 ]

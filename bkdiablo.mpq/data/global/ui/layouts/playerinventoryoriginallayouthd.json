@@ -35,7 +35,7 @@
         {
             "type": "TextBoxWidget", "name": "gold_amount",
             "fields": {
-                "rect": { "x": 175, "y": 1656, "width": 249, "height": 48 },
+                "rect": { "x": 840, "y": 1656, "width": 249, "height": 48 },
                 "style": "$StyleGoldAmount"
             },
             "children": [
@@ -51,7 +51,7 @@
         {
             "type": "ButtonWidget", "name": "gold_button",
             "fields": {
-                "rect": { "x": 121, "y": 1656 },
+                "rect": { "x": 780, "y": 1656 },
                 "filename": "PANEL\\GoldButton",
                 "hoveredFrame": 0,
                 "tooltipString": "@strGoldDrop",

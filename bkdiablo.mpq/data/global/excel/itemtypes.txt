@@ -97,6 +97,7 @@ Flawed Gem	gem1	gem		93	id 1 lev30	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0				
 Standard Gem	gem2	gem		94	id 1 lev31	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Flawless Gem	gem3	gem		95	id 1 lev32	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Perfect Gem	gem4	gem		96	id 1 lev33	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
+Ascended Gem	gem5	gem				0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Amethyst	gema	gem		97	id 1 lev34	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Diamond	gemd	gem		98	id 1 lev35	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Emerald	geme	gem		99	id 1 lev36	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
@@ -113,7 +114,7 @@ Jewelery	jwly	misc		109	id 1 lev46	0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			0		
 Charms	chms	char	weap	110	id 1 lev47	0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0							weap	0				
 2Handed Melee Weapon	2han			111	id 1 lev48	1	1	rarm	larm			0	0	0	0		1	0	0	3	25	4	40	6	1	3			0								0				
 Act 3 and 5 Weapons	ac5			112	id 1 lev49	1	1	rarm	larm			0	0	0	0		1	0	0	3	25	4	40	6	1	3			0								0				
-Merc Equip	helm	armo	merc	113	id 1 lev50	1	1	head	head			0	0	0	0		1	0	0	2	25	2	40	3	0	3			0							armo	0				
+Merc Equip	helm	armo	merc	113	id 1 lev50	1	1	head	head			0	0	0	0		1	0	0	2	25	2	40	3	0	3			0							armo	0	helms			
 a095	a095			114	id 1 lev51	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0				
 a096	a096			115	id 1 lev52	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0				
 a097	a097			116	id 1 lev53	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0				

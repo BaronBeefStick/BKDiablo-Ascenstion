@@ -73,7 +73,7 @@ quantity	70		1	16																												1																			0
 value	71		1	9														8	100	8	100																														0
 durability	72		1	9														8	0	9	0									1	maxdurability																				0
 maxdurability	73		1	9											9	4		8	0	8	0																														0
-hpregen	74														451	410		7	30	7	30																56	19		ModStr2l	ModStr2w									2	0
+hpregen	74														451	410		7	64	7	64																56	19		ModStr2l	ModStr2w									2	0
 item_maxdurability_percent	75		1	7											117	10		7	20	7	20			13			maxdurability										3	19		ModStr2i	ModStr2i										0
 item_maxhp_percent	76		1	16											32093	204		6	10	6	10			11			maxhp										58	19		ModStr2g	ModStr2g										0
 item_maxmana_percent	77		1	16											56452	204		6	10	6	10			11			maxmana										54	19		ModStr2h	ModStr2h										0
