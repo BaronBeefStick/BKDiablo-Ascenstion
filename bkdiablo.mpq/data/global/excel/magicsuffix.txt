@@ -754,36 +754,36 @@ of the Lamprey	100	1	1	85		73				2	27	lifesteal		6	6									cred	amul										
 of the Bat	1	1	1	25		21				2	28	manasteal		2	3										ring												0	0
 of the Wraith	1	1	1	58		46				2	28	manasteal		4	5										ring												0	0
 of the Vampire	100	1	1	86		74				2	28	manasteal		6	6									cred	ring												0	0
-of Acidity	100	0	1	70		75				1	307	pierce-pois	1	1	1										scha												0	0
-of Acidity	100	0	1	83		75				1	307	pierce-pois	1	1	2										ring	mcha											0	0
-of Acidity	100	0	1	87		75				1	307	pierce-pois	1	1	3										amul	glov	boot	belt	helm	mcha							0	0
-of Acidity	100	0	1	92		75				1	307	pierce-pois	1	1	4										shld	weap											0	0
-of Acidity	100	0	1	92		75				1	307	pierce-pois	1	2	8										tors												0	0
-of Kindling	100	0	1	70		75				1	307	pierce-fire	1	1	1										scha												0	0
-of Kindling	100	0	1	83		75				1	307	pierce-fire	1	1	2										ring	mcha											0	0
-of Kindling	100	0	1	87		75				1	307	pierce-fire	1	1	3										amul	glov	boot	belt	helm	mcha							0	0
-of Kindling	100	0	1	92		75				1	307	pierce-fire	1	1	4										shld	weap											0	0
-of Kindling	100	0	1	92		75				1	307	pierce-fire	1	2	8										tors												0	0
-of Numbing	100	0	1	70		75				1	307	pierce-cold	1	1	1										scha												0	0
-of Numbing	100	0	1	92		75				1	307	pierce-cold	1	1	2										ring	mcha											0	0
-of Numbing	100	0	1	83		75				1	307	pierce-cold	1	1	3										amul	glov	boot	belt	helm	mcha							0	0
-of Numbing	100	0	1	87		75				1	307	pierce-cold	1	1	4										shld	weap											0	0
-of Numbing	100	0	1	92		75				1	307	pierce-cold	1	2	8										tors												0	0
-of Conductivity	100	0	1	70		75				1	307	pierce-ltng	1	1	1										scha												0	0
-of Conductivity	100	0	1	83		75				1	307	pierce-ltng	1	1	2										ring	mcha											0	0
-of Conductivity	100	0	1	87		75				1	307	pierce-ltng	1	1	3										amul	glov	boot	belt	helm	mcha							0	0
-of Conductivity	100	0	1	92		75				1	307	pierce-ltng	1	1	4										shld	weap											0	0
-of Conductivity	100	0	1	92		75				1	307	pierce-ltng	1	2	8										tors												0	0
-of Thaumaturgy	100	0	1	70		75				1	307	pierce-mag	1	1	1										scha												0	0
-of Thaumaturgy	100	0	1	83		75				1	307	pierce-mag	1	1	2										ring	mcha											0	0
-of Thaumaturgy	100	0	1	87		75				1	307	pierce-mag	1	1	3										amul	glov	boot	belt	helm	mcha							0	0
-of Thaumaturgy	100	0	1	92		75				1	307	pierce-mag	1	1	4										shld	weap											0	0
-of Thaumaturgy	100	0	1	92		75				1	307	pierce-mag	1	2	8										tors												0	0
-of Force	100	0	1	70		75				1	307	pierce-dmg	1	1	1										scha												0	0
-of Force	100	0	1	83		75				1	307	pierce-dmg	1	1	2										ring	mcha											0	0
-of Force	100	0	1	87		75				1	307	pierce-dmg	1	1	3										amul	glov	boot	belt	helm	mcha							0	0
-of Force	100	0	1	92		75				1	307	pierce-dmg	1	1	4										shld	weap											0	0
-of Force	100	0	1	92		75				1	307	pierce-dmg	1	2	8										tors												0	0
+of Acidity	100	1	1	70		75				1	307	pierce-pois	1	1	1	extra-pois		1	1						scha												0	0
+of Acidity	100	1	1	83		75				1	307	pierce-pois	1	2	3	extra-pois		2	3							mcha											0	0
+of Acidity	100	1	1	87		75				1	307	pierce-pois	1	3	4	extra-pois		4	5							glov	boot	belt	helm	mcha							0	0
+of Acidity	100	1	1	92		75				1	307	pierce-pois	1	5	8	extra-pois		6	8						shld	weap											0	0
+of Acidity	100	1	1	92		75				1	307	pierce-pois	1	5	8	extra-pois		6	10						tors												0	0
+of Kindling	100	1	1	70		75				1	307	pierce-fire	1	1	1	extra-fire		1	1						scha												0	0
+of Kindling	100	1	1	83		75				1	307	pierce-fire	1	2	3	extra-fire		2	3							mcha											0	0
+of Kindling	100	1	1	87		75				1	307	pierce-fire	1	3	4	extra-fire		4	5							glov	boot	belt	helm	mcha							0	0
+of Kindling	100	1	1	92		75				1	307	pierce-fire	1	5	8	extra-fire		6	8						shld	weap											0	0
+of Kindling	100	1	1	92		75				1	307	pierce-fire	1	5	8	extra-fire		6	10						tors												0	0
+of Numbing	100	1	1	70		75				1	307	pierce-cold	1	1	1	extra-cold		1	1						scha												0	0
+of Numbing	100	1	1	92		75				1	307	pierce-cold	1	2	3	extra-cold		2	3							mcha											0	0
+of Numbing	100	1	1	83		75				1	307	pierce-cold	1	3	4	extra-cold		4	5							glov	boot	belt	helm	mcha							0	0
+of Numbing	100	1	1	87		75				1	307	pierce-cold	1	5	8	extra-cold		6	8						shld	weap											0	0
+of Numbing	100	1	1	92		75				1	307	pierce-cold	1	5	8	extra-cold		6	10						tors												0	0
+of Conductivity	100	1	1	70		75				1	307	pierce-ltng	1	1	1	extra-ltng		1	1						scha												0	0
+of Conductivity	100	1	1	83		75				1	307	pierce-ltng	1	2	3	extra-ltng		2	3							mcha											0	0
+of Conductivity	100	1	1	87		75				1	307	pierce-ltng	1	3	4	extra-ltng		4	5							glov	boot	belt	helm	mcha							0	0
+of Conductivity	100	1	1	92		75				1	307	pierce-ltng	1	5	8	extra-ltng		6	8						shld	weap											0	0
+of Conductivity	100	1	1	92		75				1	307	pierce-ltng	1	5	8	extra-ltng		6	10						tors												0	0
+of Thaumaturgy	100	1	1	70		75				1	307	pierce-mag	1	1	1	extra-mag		1	1						scha												0	0
+of Thaumaturgy	100	1	1	83		75				1	307	pierce-mag	1	2	3	extra-mag		2	3							mcha											0	0
+of Thaumaturgy	100	1	1	87		75				1	307	pierce-mag	1	3	4	extra-mag		4	5							glov	boot	belt	helm	mcha							0	0
+of Thaumaturgy	100	1	1	92		75				1	307	pierce-mag	1	5	8	extra-mag		6	8						shld	weap											0	0
+of Thaumaturgy	100	1	1	92		75				1	307	pierce-mag	1	5	8	extra-mag		6	10						tors												0	0
+of Force	100	1	1	70		75				1	307	pierce-dmg	1	1	1	dmg-norm		1	5						scha												0	0
+of Force	100	1	1	83		75				1	307	pierce-dmg	1	2	3	dmg-norm		5	10							mcha											0	0
+of Force	100	1	1	87		75				1	307	pierce-dmg	1	3	4	dmg-norm		10	20							glov	boot	belt	helm	mcha							0	0
+of Force	100	1	1	92		75				1	307	pierce-dmg	1	5	8	dmg-norm		20	50						shld	weap											0	0
+of Force	100	1	1	92		75				1	307	pierce-dmg	1	5	8	dmg-norm		50	75						tors												0	0
 of Miasma Bolt	100	1	1	7		7		war	1	1	44	oskill	395	1	1										pole	knif	head										0	0
 of Miasma Bolt	100	1	1	14		14		war	1	1	44	oskill	395	1	1										swor												0	0
 of Lethargy	100	1	1	12		12		war	6	1	44	oskill	393	1	1										pole	knif	head										0	0
