@@ -124,13 +124,13 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 35 Perfect Topazes + Thawing Potion = Vex Rune	0				100					36	gpy,qty=35	wms						r24																																																																																							0
 35 Perfect Skulls + Thawing Potion = Fracture Halo + Infernal Maw	0				100					36	skz,qty=35	wms						rrr																													rtr																																																										0
 9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	skz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
-5 Ascended Diamonds + Prime Sigil = Diablo's Soulstone	1				100					6	gaw,qty=5	gwh						dss																													std	99		99																																																							0
-5 Ascended Amethysts + Prime Sigil = 2 Unique Amulets	1				100					6	gav,qty=5	gwh						amu,uni	99		99																										amu,uni	99		99																										std	99		99																										0
-5 Ascended Rubies + Prime Sigil = 2 Unique Rings	1				100					6	gar,qty=5	gwh						rin,uni	99		99																										rin,uni	99		99																										std	99		99																										0
-5 Ascended Sapphires + Prime Sigil = Facet	1				100					6	gab,qty=5	gwh						jew,uni	97		97																										std	99		99																																																							0
-5 Ascended Emeralds + Prime Sigil = Gheeds	1				100					6	gag,qty=5	gwh						Gheed's Fortune	99		99																										std	99		99																																																							0
-5 Ascended Topazes + Prime Sigil = Vex Rune	1				100					6	gay,qty=5	gwh						r24																													std	99		99																																																							0
-5 Ascended Skulls + Prime Sigil = Fracture Halo + Infernal Maw	1				100					6	ska,qty=5	gwh						rrr																													rtr																													std	99		99																										0
+5 Ascended Diamonds + Prime Sigil = Diablo's Soulstone + SoH	1				100					6	gaw,qty=5	gwh						dss																													std	99		99																																																							0
+5 Ascended Amethysts + Prime Sigil = 2 Unique Amulets + SoH	1				100					6	gav,qty=5	gwh						amu,uni	99		99																										amu,uni	99		99																										std	99		99																										0
+5 Ascended Rubies + Prime Sigil = 2 Unique Rings + SoH	1				100					6	gar,qty=5	gwh						rin,uni	99		99																										rin,uni	99		99																										std	99		99																										0
+5 Ascended Sapphires + Prime Sigil = Facet + SoH	1				100					6	gab,qty=5	gwh						jew,uni	97		97																										std	99		99																																																							0
+5 Ascended Emeralds + Prime Sigil = Gheeds + SoH	1				100					6	gag,qty=5	gwh						Gheed's Fortune	99		99																										std	99		99																																																							0
+5 Ascended Topazes + Prime Sigil = Vex Rune + SoH	1				100					6	gay,qty=5	gwh						r24																													std	99		99																																																							0
+5 Ascended Skulls + Prime Sigil = Fracture Halo + Infernal Maw + SoH	1				100					6	ska,qty=5	gwh						rrr																													rtr																													std	99		99																										0
 3 Chipped Amethysts -> Flawed Amethyst	1				100					3	"gcv,qty=3"							gfv																																																																																							0
 3 Flawed Amethysts -> Standard Amethyst	1				100					3	"gfv,qty=3"							gsv																																																																																							0
 3 Standard Amethysts -> Flawless Amethyst	1				100					3	"gsv,qty=3"							gzv																																																																																							0
@@ -174,7 +174,7 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 9 Chipped Topazes -> 3 Flawed Topaz	1				100					9	"gcy,qty=9"							gfy																													gfy																													gfy																													0
 9 Flawed Topazes -> 3 Standard Topaz	1				100					9	"gfy,qty=9"							gsy																													gsy																													gsy																													0
 9 Standard Topazes -> 3 Flawless Topaz	1				100					9	"gsy,qty=9"							gly																													gly																													gly																													0
-9 Flawless Topazes -> 3 Perfect Topaz	1				100					9	"gly,qty=9"							gpy																													gpy																													gpy																													0
+9 Flawless Topazes -> 3 Perfect Topazes 	1				100					9	"gly,qty=9"							gpy																													gpy																													gpy																													0
 9 Chipped Emeralds -> 3 Flawed Emerald	1				100					9	"gcg,qty=9"							gfg																													gfg																													gfg																													0
 9 Flawed Emeralds -> 3 Standard Emerald	1				100					9	"gfg,qty=9"							gsg																													gsg																													gsg																													0
 9 Standard Emeralds -> 3 Flawless Emerald	1				100					9	"gsg,qty=9"							glg																													glg																													glg																													0
@@ -187,6 +187,13 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 9 Flawed Skulls -> 3 Standard Skull	1				100					9	"skf,qty=9"							sku																													sku																													sku																													0
 9 Standard Skulls -> 3 Flawless Skull	1				100					9	"sku,qty=9"							skl																													skl																													skl																													0
 9 Flawless Skulls -> 3 Perfect Skull	1				100					9	"skl,qty=9"							skz																													skz																													skz																													0
+27 Standard Amethysts + Thawing = 3 Perfect Amethysts	1				100					28	gsv,gty=3	wms						gpv																													gpv																													gpv																													0
+27 Standard Rubies + Thawing = 3 Perfect Rubies	1				100					28	gsr,gty=3	wms						gpr																													gpr																													gpr																													0
+27 Standard Sapphires + Thawing = 3 Perfect Sapphires 	1				100					28	gsb,gty=3	wms						gpb																													gpb																													gpb																													0
+27 Standard Topazes + Thawing = 3 Perfect Topazes 	1				100					28	gsy,gty=3	wms						gpy																													gpy																													gpy																													0
+27 Standard Emeralds + Thawing = 3 Perfect Emeralds	1				100					28	gsg,gty=3	wms						gpg																													gpg																													gpg																													0
+27 Standard Diamonds + Thawing = 3 Perfect Diamonds	1				100					28	gsw,gty=3	wms						gpw																													gpw																													gpw																													0
+27 Standard Skulls + Thawing = 3 Perfect Skulls	1				100					28	sku,gty=3	wms						skz																													skz																													skz																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Amethyst -> 3 Perfect Amethyst	1				100					5	gem4,qty=3	wms	gsv					gpv																													gpv																													gpv																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Diamond -> 3 Perfect Diamonds	1				100					5	gem4,qty=3	wms	gsw					gpw																													gpw																													gpw																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Emerald -> 3 Perfect Emeralds	1				100					5	gem4,qty=3	wms	gsg					gpg																													gpg																													gpg																													0
@@ -194,13 +201,13 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 3 Perfect Gems + Thawing Potion + 1 Standard Sapphire -> 3 Perfect Sapphires	1				100					5	gem4,qty=3	wms	gsb					gpb																													gpb																													gpb																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Topaz -> 3 Perfect Topazes	1				100					5	gem4,qty=3	wms	gsy					gpy																													gpy																													gpy																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Skull -> 3 Perfect Skulls	1				100					5	gem4,qty=3	wms	sku					skz																													skz																													skz																													0
-20 Perfect Amethysts + Griswold's Heirloom = 1 Ascended Amethyst	1				100					21	gpv,qty=20	gwh						gav																																																																																							0
-20 Perfect Diamonds + Griswold's Heirloom = 1 Ascended Diamond	1				100					21	gpw,qty=20	gwh						gaw																																																																																							0
-20 Perfect Emeralds + Griswold's Heirloom = 1 Ascended Emerald	1				100					21	gpg,qty=20	gwh						gag																																																																																							0
-20 Perfect Rubies + Griswold's Heirloom = 1 Ascended Ruby	1				100					21	gpr,qty=20	gwh						gar																																																																																							0
-20 Perfect Sapphires + Griswold's Heirloom = 1 Ascended Sapphire	1				100					21	gpb,qty=20	gwh						gab																																																																																							0
-20 Perfect Topazes + Griswold's Heirloom = 1 Ascended Topaz	1				100					21	gpy,qty=20	gwh						gay																																																																																							0
-20 Perfect Skulls + Griswold's Heirloom = 1 Ascended Skull	1				100					21	skz,qty=20	gwh						ska																																																																																							0
+20 Perfect Amethysts + Griswold's Heirloom = 1 Ascended Amethyst + SoH	1				100					21	gpv,qty=20	gwh						gav																													std																																																										0
+20 Perfect Diamonds + Griswold's Heirloom = 1 Ascended Diamond + SoH	1				100					21	gpw,qty=20	gwh						gaw																													std																																																										0
+20 Perfect Emeralds + Griswold's Heirloom = 1 Ascended Emerald + SoH	1				100					21	gpg,qty=20	gwh						gag																													std																																																										0
+20 Perfect Rubies + Griswold's Heirloom = 1 Ascended Ruby + SoH	1				100					21	gpr,qty=20	gwh						gar																													std																																																										0
+20 Perfect Sapphires + Griswold's Heirloom = 1 Ascended Sapphire + SoH	1				100					21	gpb,qty=20	gwh						gab																													std																																																										0
+20 Perfect Topazes + Griswold's Heirloom = 1 Ascended Topaz + SoH	1				100					21	gpy,qty=20	gwh						gay																													std																																																										0
+20 Perfect Skulls + Griswold's Heirloom = 1 Ascended Skull + SoH	1				100					21	skz,qty=20	gwh						ska																													std																																																										0
 1 Zod + Standard Gem -> Cham Rune	1				100					2	r33,qty=1	gem2						r32																																																																																							0
 1 Cham + Standard Gem -> Jah Rune	1				100					2	r32,qty=1	gem2						r31																																																																																							0
 1 Jah + Standard Gem -> Ber Rune	1				100					2	r31,qty=1	gem2						r30																																																																																							0
@@ -298,6 +305,39 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 6 Ber Runes -> 3 Jah Rune	1				100					7	r30,qty=6	wms						r31																													r31																													r31																													0
 6 Jah Runes -> 3 Cham Rune	1				100					7	r31,qty=6	wms						r32																													r32																													r32																													0
 6 Cham Runes -> 3 Zod Rune	1				100					7	r32,qty=6	wms						r33																													r33																													r33																													0
+27 El Runes + Thawing Potion = 1 Nef Rune 	1				100					28	r01,qty=27	wms						r04																																																																																							0
+27 Eld Runes + Thawing Potion = Eth Rune 	1				100					28	r02,qty=27	wms						r05																																																																																							0
+27 Tir Runes + Thawing Potion = Ith Rune 	1				100					28	r03,qty=27	wms						r06																																																																																							0
+27 Nef Runes + Thawing Potion = Tal Rune 	1				100					28	r04,qty=27	wms						r07																																																																																							0
+27 Eth Runes + Thawing Potion = Ral Rune 	1				100					28	r05,qty=27	wms						r08																																																																																							0
+27 Ith Runes + Thawing Potion = Ort Rune 	1				100					28	r06,qty=27	wms						r09																																																																																							0
+27 Tal Runes + Thawing Potion = Thul Rune 	1				100					28	r07,qty=27	wms						r10																																																																																							0
+27 Ral Runes + Thawing Potion = Amn Rune 	1				100					28	r08,qty=27	wms						r11																																																																																							0
+27 Ort Runes + Thawing Potion = Sol Rune 	1				100					28	r09,qty=27	wms						r12																																																																																							0
+27 Thul Runes + Thawing Potion = Shael Rune + SoH	1				100					28	r10,qty=27	wms						r13																													std																																																										0
+27 Amn Runes + Thawing Potion = Dol Rune + SoH	1				100					28	r11,qty=27	wms						r14																													std																																																										0
+27 Sol Runes + Thawing Potion = Hel Rune + SoH	1				100					28	r12,qty=27	wms						r15																													std																																																										0
+27 Shael Runes + Thawing Potion = Io Rune + SoH	1				100					28	r13,qty=27	wms						r16																													std																																																										0
+27 Dol Runes + Thawing Potion = Lum Rune + SoH	1				100					28	r14,qty=27	wms						r17																													std																																																										0
+27 Hel Runes + Thawing Potion = Ko Rune + SoH 	1				100					28	r15,qty=27	wms						r18																													std																																																										0
+27 Io Runes + Thawing Potion = Fal Rune + SoH	1				100					28	r16,qty=27	wms						r19																													std																																																										0
+27 Lum Runes + Thawing Potion = Lem Rune + SoH	1				100					28	r17,qty=27	wms						r20																													std																																																										0
+27 Ko Runes + Thawing Potion = Pul Rune + SoH	1				100					28	r18,qty=27	wms						r21																													std																																																										0
+27 Fal Runes + Thawing Potion = Um Rune + SoH	1				100					28	r19,qty=27	wms						r22																													std																																																										0
+27 Lem Runes + Thawing Potion = Mal Rune + SoH	1				100					28	r20,qty=27	wms						r23																													std																																																										0
+27 Pul Runes + Thawing Potion = Ist Rune + SoH	1				100					28	r21,qty=27	wms						r24																													std																																																										0
+27 Um Runes + Thawing Potion = Gul Rune + SoH	1				100					28	r22,qty=27	wms						r25																													std																																																										0
+27 Mal Runes + Thawing Potion = Vex Rune + SoH	1				100					28	r23,qty=27	wms						r26																													std																																																										0
+27 Ist Runes + Thawing Potion = Ohm Rune + SoH	1				100					28	r24,qty=27	wms						r27																													std																																																										0
+27 Gul Runes + Thawing Potion = Lo Rune + SoH	1				100					28	r25,qty=27	wms						r28																													std																																																										0
+27 Vex Runes + Thawing Potion = Sur Rune + SoH	1				100					28	r26,qty=27	wms						r29																													std																																																										0
+27 Ohm Runes + Thawing Potion = Ber Rune + SoH	1				100					28	r27,qty=27	wms						r30																													std																																																										0
+27 Lo Runes + Thawing Potion = Jah Rune + SoH	1				100					28	r28,qty=27	wms						r31																													std																																																										0
+27 Sur Runes + Thawing Potion = Cham Rune + SoH	1				100					28	r29,qty=27	wms						r32																													std																																																										0
+27 Ber Runes + Thawing Potion = Zod Rune + SoH	1				100					28	r30,qty=27	wms						r33																													std																																																										0
+27 Jah Runes + Thawing Potion =  2 Zod Runes + SoH	0				100					28	r31,qty=27	wms						r33																													std																													r33																													0
+27 Cham Runes + Thawing Potion =  3 Zod Rune + SoH	0				100					28	r32,qty=27	wms																																			std																																																										0
+27 Zod Runes + Thawing Potion =  4 Zod Rune + SoH	0				100					28	r33,qty=27	wms																																			std																																																										0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,noe	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200						addxp	100		1	5																																																											0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire + 1 Eth Rune + 1 Chasi's Malus -> Hit Power Helm	1				100					6	helm,mag,noe	jew	r06	gpb	r05	mls		usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1	addxp	100		1	5																																																											0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,eth	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1	addxp	100		1	5																																																											0
