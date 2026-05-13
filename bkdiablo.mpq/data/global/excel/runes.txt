@@ -11,7 +11,7 @@ Runeword9	Bramble	1						tors									RalOhmSurEth	r08	r27	r29	r05			balance2		5
 Runeword10	Brand	1						miss									JahLoMalGul	r31	r28	r23	r25			dmg%		260	340	dmg-demon		280	330	hit-skill	Bone Spear	100	18	gethit-skill	Amplify Damage	35	14	knock		1	1	swing2		30	30	explosivearrow		15	15	0
 Runeword11	Breath of the Dying	1						weap									VexHelElEldZodEth	r26	r15	r01	r02	r33	r05	swing2		60	60	dmg-undead		125	125	lifesteal		12	15	dmg-demon		200	200	kill-skill	Poison Nova	66	45	dmg%		350	400	all-stats		30	30	0
 Runeword12	Broken Promise	1					BTDIABLO	tors									IoLumFalKo	r16	r17	r19	r18			balance2		20	20	move2		20	20	all-stats		10	10	cast2		20	20	nofreeze		1	1	swing2		20	20	mag%		20	20	0
-Runeword13	Call to Arms	1						weap									AmnRalMalIstOhm	r11	r08	r23	r24	r27		swing2		40	40	dmg%		200	240	allskills		1	1	oskill	Battle Command	1	1	oskill	Battle Orders	1	1	oskill	Battle Cry	1	1	regen		12	12	0
+Runeword13	Call to Arms	1						weap									AmnRalMalIstOhm	r11	r08	r23	r24	r27		swing2		40	40	dmg%		200	240	allskills		1	1	oskill	Battle Command	1	1	oskill	Battle Orders	1	1	oskill	Battle Cry	1	1	regen		13	13	0
 Runeword14	Chains of Honor	1						tors									DolUmBerIst	r14	r22	r30	r24			res-all		50	50	ac%		70	70	dmg-demon		200	200	dmg-undead		100	100	lifesteal		8	8	allskills		2	2	str		20	20	0
 Runeword15	Chance																																																			0
 Runeword16	Chaos	1						h2h									FalOhmUm	r19	r27	r22				demon-heal		15	15	dmg%		240	290	dmg-mag		216	471	oskill	Whirlwind	5	5	swing2		35	40	gethit-skill	Frozen Orb	25	26	rep-dur	100			0
@@ -20,7 +20,7 @@ Runeword18	Darkness																																																			0
 Runeword19	Daylight																																																			0
 Runeword20	Death	1						mele									HelElVexOrtGul	r15	r01	r26	r09	r25		dmg%		300	385	deadly/lvl	4			swing2		25	25	att-skill	Glacial Spike	25	18	death-skill	Chain Lightning	100	44	crush		50	50	indestruct		1	1	0
 Runeword21	Deception																																																			0
-Runeword22	Delirium	1						helm									LemIstIo	r20	r24	r16				hit-skill	Amplifying Damage	20	15	red-dmg%		10	10	gethit-skill	Static Field	15	10	ac		261	261	gethit-skill	Chilling Armor	5	30	allskills		2	2	addxp		8	8	0
+Runeword22	Delirium	1						helm									LemIstIo	r20	r24	r16				hit-skill	Amplify Damage	20	15	red-dmg%		10	10	gethit-skill	Static Field	15	10	ac		250	300	gethit-skill	Chilling Armor	5	30	allskills		2	2	addxp		8	8	0
 Runeword23	Desire																																																			0
 Runeword24	Despair																																																			0
 Runeword25	Destruction	1						weap									VexLoBerJahKo	r26	r28	r30	r31	r18		dmg%		350	350	dmg-mag		500	500	str/lvl	4			death-skill	Meteor	100	45	att-skill	Nova	15	35	hit-skill	Volcano	23	35	noheal		1	1	0
@@ -49,7 +49,7 @@ Runeword47	Grief	1						swor	axe								EthTirGulVexRal	r05	r03	r25	r26	r08		dea
 Runeword48	Hand of Justice	1						weap									SurChamAmnLo	r29	r32	r11	r28			swing2		33	33	dmg%		280	330	aura	Holy Fire	16	16	levelup-skill	Blaze	100	36	death-skill	Meteor	100	48	ignore-ac		1	1	pierce-fire		20	25	0
 Runeword49	Harmony	1						miss									TirIthSolKo	r03	r06	r12	r18			dmg%		275	325	dmg-elem		55	160	charged	Revive	25	20	aura	Vigor	10	10	oskill	Valkyrie	2	6	regen-mana		20	20	light		2	2	0
 Runeword50	Hatred																																																			0
-Runeword51	Heart of the Oak	1						staf	mace								KoVexPulThul	r18	r26	r21	r10			cast2		40	40	mana%		15	15	allskills		3	3	regen		20	20	res-all		30	40	charged	Raven	60	14					0
+Runeword51	Heart of the Oak	1						staf	mace								KoVexPulThul	r18	r26	r21	r10			cast2		40	40	mana%		15	15	allskills		3	3	regen		21	21	res-all		30	40	charged	Raven	60	14					0
 Runeword52	Heaven's Will																																																			0
 Runeword53	Holy Tears																																																			0
 Runeword54	Holy Thunder	1						mele									EthRalOrtTal	r05	r08	r09	r07			dmg%		100	100	dmg-ltng		20	60	dmg-max		15	15	res-ltng		60	60	res-ltng-max		5	5	aura	118	5	5	res-pois-len		75	75	0
@@ -84,7 +84,7 @@ Runeword83	Memory	1						staf									LumIoSolEth	r17	r16	r12	r05			mana%		20	20
 Runeword84	Mist	1						miss									ChamShaelGulThulIth	r32	r13	r25	r10	r06		allskills		3	3	dmg%		325	375	aura	Concentration	8	12	pierce		100	100	vit		24	24	res-all		40	40					0
 Runeword85	Morning																																																			0
 Runeword86	Mystery																																																			0
-Runeword87	Myth	1						tors									HelAmnNef	r15	r11	r04				hit-skill	Taunt	20	10	move1		25	25	bar		2	2	regen		10	10	hp		100	150	ac%		100	100					0
+Runeword87	Myth	1						tors									HelAmnNef	r15	r11	r04				hit-skill	Taunt	20	10	move1		25	25	bar		2	2	regen		11	11	hp		100	150	ac%		100	100					0
 Runeword88	Nadir	1						helm									NefTir	r04	r03					ac%		50	50	ac		25	25	light		-3	-3	charged	264	9	13	str		5	5	red-mag		4	4	red-dmg		4	4	0
 Runeword89	Nature's Kingdom																																																			0
 Runeword90	Night																																																			0
@@ -176,7 +176,7 @@ Runeword175	Ground	1						helm									ShaelIoOrt	r13	r16	r09				hp%		5	5	ac%		7
 Runeword176	Temper	1						helm									ShaelIoRal	r13	r16	r08				hp%		5	5	ac%		75	100	res-fire		10	30	abs-fire%		10	15													0
 Runeword177	Hearth	1						helm									ShaelIoThul	r13	r16	r10				hp%		5	5	ac%		75	100	res-cold		10	30	abs-cold%		10	15	nofreeze		1	1									0
 Runeword178	Cure	1						helm									ShaelIoTal	r13	r16	r07				hp%		5	5	ac%		75	100	res-pois		10	30	res-pois-len		50	50	aura	Cleansing	1	1									0
-Runeword179	Bulwark	1						helm									ShaelIoSol	r13	r16	r12				hp%		5	5	ac%		75	100	red-dmg%		10	10	regen		30	30	lifesteal		4	6									0
+Runeword179	Bulwark	1						helm									ShaelIoSol	r13	r16	r12				hp%		5	5	ac%		75	100	red-dmg%		10	10	regen		31	31	lifesteal		4	6									0
 Runeword180	Coven	1						helm									IstRalIo	r24	r08	r16				gethit-skill	Sigil Lethargy	5	20	allskills		1	1	cast1		20	20	ac%		100	100	mag%		10	25	heal-kill		1	5					0
 Runeword181	Vigilance	1						grim	shld	head	ashd						DolGul	r14	r25					gethit-skill	Ring of Fire	5	35	move2		10	10	block2		30	30	hp		50	75	mana		50	75	res-all		25	35	ac%		75	100	0
 Runeword182	Ritual	1						knif									AmnShaelOhm	r11	r13	r27				gethit-skill	Sigil Death	20	16	swing1		20	20	dmg%		200	270	dmg-demon		150	250	att%		200	260	heal-kill		3	5	ease		-50	-50	0

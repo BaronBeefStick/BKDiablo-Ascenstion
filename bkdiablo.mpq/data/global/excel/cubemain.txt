@@ -187,13 +187,13 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 9 Flawed Skulls -> 3 Standard Skull	1				100					9	"skf,qty=9"							sku																													sku																													sku																													0
 9 Standard Skulls -> 3 Flawless Skull	1				100					9	"sku,qty=9"							skl																													skl																													skl																													0
 9 Flawless Skulls -> 3 Perfect Skull	1				100					9	"skl,qty=9"							skz																													skz																													skz																													0
-27 Standard Amethysts + Thawing = 3 Perfect Amethysts	1				100					28	gsv,gty=3	wms						gpv																													gpv																													gpv																													0
-27 Standard Rubies + Thawing = 3 Perfect Rubies	1				100					28	gsr,gty=3	wms						gpr																													gpr																													gpr																													0
-27 Standard Sapphires + Thawing = 3 Perfect Sapphires 	1				100					28	gsb,gty=3	wms						gpb																													gpb																													gpb																													0
-27 Standard Topazes + Thawing = 3 Perfect Topazes 	1				100					28	gsy,gty=3	wms						gpy																													gpy																													gpy																													0
-27 Standard Emeralds + Thawing = 3 Perfect Emeralds	1				100					28	gsg,gty=3	wms						gpg																													gpg																													gpg																													0
-27 Standard Diamonds + Thawing = 3 Perfect Diamonds	1				100					28	gsw,gty=3	wms						gpw																													gpw																													gpw																													0
-27 Standard Skulls + Thawing = 3 Perfect Skulls	1				100					28	sku,gty=3	wms						skz																													skz																													skz																													0
+27 Standard Amethysts + Thawing = 3 Perfect Amethysts	1				100					28	gsv,gty=27	wms						gpv																													gpv																													gpv																													0
+27 Standard Rubies + Thawing = 3 Perfect Rubies	1				100					28	gsr,gty=27	wms						gpr																													gpr																													gpr																													0
+27 Standard Sapphires + Thawing = 3 Perfect Sapphires 	1				100					28	gsb,gty=27	wms						gpb																													gpb																													gpb																													0
+27 Standard Topazes + Thawing = 3 Perfect Topazes 	1				100					28	gsy,gty=27	wms						gpy																													gpy																													gpy																													0
+27 Standard Emeralds + Thawing = 3 Perfect Emeralds	1				100					28	gsg,gty=27	wms						gpg																													gpg																													gpg																													0
+27 Standard Diamonds + Thawing = 3 Perfect Diamonds	1				100					28	gsw,gty=27	wms						gpw																													gpw																													gpw																													0
+27 Standard Skulls + Thawing = 3 Perfect Skulls	1				100					28	sku,gty=27	wms						skz																													skz																													skz																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Amethyst -> 3 Perfect Amethyst	1				100					5	gem4,qty=3	wms	gsv					gpv																													gpv																													gpv																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Diamond -> 3 Perfect Diamonds	1				100					5	gem4,qty=3	wms	gsw					gpw																													gpw																													gpw																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Emerald -> 3 Perfect Emeralds	1				100					5	gem4,qty=3	wms	gsg					gpg																													gpg																													gpg																													0
@@ -325,19 +325,19 @@ pk1 + pk2 + pk3 = Random Uber	1				100	28				3	pk1	pk2	pk3					Pandemonium Porta
 27 Ko Runes + Thawing Potion = Pul Rune + SoH	1				100					28	r18,qty=27	wms						r21																													std																																																										0
 27 Fal Runes + Thawing Potion = Um Rune + SoH	1				100					28	r19,qty=27	wms						r22																													std																																																										0
 27 Lem Runes + Thawing Potion = Mal Rune + SoH	1				100					28	r20,qty=27	wms						r23																													std																																																										0
-27 Pul Runes + Thawing Potion = Ist Rune + SoH	1				100					28	r21,qty=27	wms						r24																													std																																																										0
-27 Um Runes + Thawing Potion = Gul Rune + SoH	1				100					28	r22,qty=27	wms						r25																													std																																																										0
-27 Mal Runes + Thawing Potion = Vex Rune + SoH	1				100					28	r23,qty=27	wms						r26																													std																																																										0
-27 Ist Runes + Thawing Potion = Ohm Rune + SoH	1				100					28	r24,qty=27	wms						r27																													std																																																										0
-27 Gul Runes + Thawing Potion = Lo Rune + SoH	1				100					28	r25,qty=27	wms						r28																													std																																																										0
-27 Vex Runes + Thawing Potion = Sur Rune + SoH	1				100					28	r26,qty=27	wms						r29																													std																																																										0
-27 Ohm Runes + Thawing Potion = Ber Rune + SoH	1				100					28	r27,qty=27	wms						r30																													std																																																										0
-27 Lo Runes + Thawing Potion = Jah Rune + SoH	1				100					28	r28,qty=27	wms						r31																													std																																																										0
-27 Sur Runes + Thawing Potion = Cham Rune + SoH	1				100					28	r29,qty=27	wms						r32																													std																																																										0
-27 Ber Runes + Thawing Potion = Zod Rune + SoH	1				100					28	r30,qty=27	wms						r33																													std																																																										0
-27 Jah Runes + Thawing Potion =  2 Zod Runes + SoH	0				100					28	r31,qty=27	wms						r33																													std																													r33																													0
-27 Cham Runes + Thawing Potion =  3 Zod Rune + SoH	0				100					28	r32,qty=27	wms																																			std																																																										0
-27 Zod Runes + Thawing Potion =  4 Zod Rune + SoH	0				100					28	r33,qty=27	wms																																			std																																																										0
+8 Pul Runes + Thawing Potion = Ist Rune + SoH	1				100					9	r21,qty=8	wms						r24																													std																																																										0
+8 Um Runes + Thawing Potion = Gul Rune + SoH	1				100					9	r22,qty=8	wms						r25																													std																																																										0
+8 Mal Runes + Thawing Potion = Vex Rune + SoH	1				100					9	r23,qty=8	wms						r26																													std																																																										0
+8 Ist Runes + Thawing Potion = Ohm Rune + SoH	1				100					9	r24,qty=8	wms						r27																													std																																																										0
+8 Gul Runes + Thawing Potion = Lo Rune + SoH	1				100					9	r25,qty=8	wms						r28																													std																																																										0
+8 Vex Runes + Thawing Potion = Sur Rune + SoH	1				100					9	r26,qty=8	wms						r29																													std																																																										0
+8 Ohm Runes + Thawing Potion = Ber Rune + SoH	1				100					9	r27,qty=8	wms						r30																													std																																																										0
+8 Lo Runes + Thawing Potion = Jah Rune + SoH	1				100					9	r28,qty=8	wms						r31																													std																																																										0
+8 Sur Runes + Thawing Potion = Cham Rune + SoH	1				100					9	r29,qty=8	wms						r32																													std																																																										0
+8 Ber Runes + Thawing Potion = Zod Rune + SoH	1				100					9	r30,qty=8	wms						r33																													std																																																										0
+8 Jah Runes + Thawing Potion =  2 Zod Runes + SoH	1				100					9	r31,qty=8	wms						r33																													std																													r33																													0
+8 Cham Runes + Thawing Potion =  3 Zod Rune + SoH	0				100					28	r32,qty=27	wms																																			std																																																										0
+8 Zod Runes + Thawing Potion =  4 Zod Rune + SoH	0				100					28	r33,qty=27	wms																																			std																																																										0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,noe	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200						addxp	100		1	5																																																											0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire + 1 Eth Rune + 1 Chasi's Malus -> Hit Power Helm	1				100					6	helm,mag,noe	jew	r06	gpb	r05	mls		usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1	addxp	100		1	5																																																											0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,eth	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1	addxp	100		1	5																																																											0
