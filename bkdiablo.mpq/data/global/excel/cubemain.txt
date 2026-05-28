@@ -101,7 +101,7 @@ Charsi's Malus + Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	ml
 1 pk3 + Thawing Potion -> 1 pk1	1				100					1	pk3	wms						pk1																																																																																							0
 3 Pandemonium Keys -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1				100	28				3	ukey,qty=3							Pandemonium Portal																																																																																							0
 3 Demon Ear's  -> Portal to Tristram (Pandemonium Finale)	1				100	28				3	orgn,qty=3							Pandemonium Finale Portal																																																																																							0
-1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Uber Keys	1				100					4	tes	ceh	bet	fed				pk1																													pk2																													pk3																													0
+1 Twisted Essence of Suffering + 1 Charged Essence of Hatred + 1 Burning Essence of Terror + 1 Festering Essence of Destruction -> Uber Keys	1				100					4	tes	ceh	bet	fed				pk1																													pk1																													pk1																													0
 3 Twisted Essence of Suffering -> 1 Charged Essence of Hatred	1				100					3	tes,qty=3							ceh																																																																																							0
 3 Charged Essence of Hatred -> 1 Burning Essence of Terror	1				100					3	ceh,qty=3							bet																																																																																							0
 3 Burning Essence of Terror -> 1 Festering Essence of Destruction	1				100					3	bet,qty=3							fed																																																																																							0
