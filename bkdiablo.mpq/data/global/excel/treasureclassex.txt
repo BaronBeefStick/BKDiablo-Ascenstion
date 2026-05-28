@@ -756,11 +756,11 @@ Radament (N)			5	900	900	900	1024	19	gld,mul=1536	11	Act 3 (N) Equip B	19	Act 3 
 Radament (N) Desecrated A	21	52	5	900	900	900	1024	19	gld,mul=1536	11	Act 3 (N) Equip C	19	Act 3 (N) Junk	15	Act 3 (N) Good	3																						0
 Radament (N) Desecrated B	21	62	5	900	900	900	1024	19	gld,mul=1536	11	Act 5 (N) Equip A	19	Act 5 (N) Junk	15	Act 5 (N) Good	3																						0
 Radament (N) Desecrated C	21	73	5	900	900	900	1024	19	gld,mul=1536	11	Act 3 (H) Equip A	19	Act 3 (H) JunkLF	15	Act 3 (H) GoodLF	3																						0
-Radament (H)			5	900	900	900	1024	19	gld,mul=2048	9	Act 5 (H) Equip C	15	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk2	2																				0
-Radament Item (H) Desecrated A			5	900	900	900	1024	19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk2	2																				0
-Radament Item (H) Desecrated B			5	900	900	900	1024	19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk2	2																				0
-Radament Item (H) Desecrated C			5	900	900	900	1024	19	gld,mul=2048	11	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk2	2																				0
-Radament Item (H) Desecrated D			5	900	900	900	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk2	2																				0
+Radament (H)			5	900	900	900	1024	19	gld,mul=2048	9	Act 5 (H) Equip C	15	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk1	2																				0
+Radament Item (H) Desecrated A			5	900	900	900	1024	19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	2																				0
+Radament Item (H) Desecrated B			5	900	900	900	1024	19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	2																				0
+Radament Item (H) Desecrated C			5	900	900	900	1024	19	gld,mul=2048	11	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	2																				0
+Radament Item (H) Desecrated D			5	900	900	900	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	2																				0
 Radament (H) Desecrated A	21	86	1					0	Radament Item (H) Desecrated A	1																												0
 Radament (H) Desecrated B	21	90	1					0	Radament Item (H) Desecrated B	1																												0
 Radament (H) Desecrated C	21	93	1					0	Radament Item (H) Desecrated C	1																												0
@@ -815,13 +815,13 @@ Summoner (N)			5	900	900	972	1024	19	gld,mul=1536	9	Act 2 (N) Equip C	15	Act 3 (
 Summoner (N) Desecrated A	24	55	5	900	900	972	1024	19	gld,mul=1536	9	Act 4 (N) Equip A	15	Act 5 (N) Junk	5	Act 4 (N) Good	3	Act 5 (N) Magic A	4																				0
 Summoner (N) Desecrated B	24	63	5	900	900	972	1024	19	gld,mul=1536	9	Act 5 (N) Equip A	15	Act 1 (H) JunkLF	5	Act 5 (N) Good	3	Act 1 (H) Magic A	4																				0
 Summoner (N) Desecrated C	24	73	5	900	900	972	1024	19	gld,mul=1536	9	Act 3 (H) Equip A	15	Act 3 (H) JunkLF	5	Act 3 (H) GoodLF	3	Act 3 (H) Magic A	4																				0
-Summoner (H)			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip C	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic CLF	4	pk2	2																		0
-Summoner Item (H) Desecrated A			5	900	900	972	1024	19	gld,mul=2048	9	Act 4 (H) Equip A	15	Act 5 (H) JunkLF	5	Act 4 (H) GoodLF	3	Act 5 (H) Magic A	4	pk2	1																		0
-Summoner Item (H) Desecrated B			5	900	900	972	1024	19	gld,mul=2048	9	Act 4 (H) Equip B	15	Act 5 (H) JunkLF	5	Act 4 (H) GoodLF	3	Act 5 (H) Magic B	4	pk2	1																		0
-Summoner Item (H) Desecrated C			5	900	900	972	1024	19	gld,mul=2048	9	Act 4 (H) Equip C	15	Act 5 (H) JunkLF	5	Act 4 (H) GoodLF	3	Act 5 (H) Magic A	4	pk2	1																		0
-Summoner Item (H) Desecrated D			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip A	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic C	4	pk2	1																		0
-Summoner Item (H) Desecrated E			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip B	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic C	4	pk2	1																		0
-Summoner Item (H) Desecrated F			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip C	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic C	4	pk2	1																		0
+Summoner (H)			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip C	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic CLF	4	pk1	2																		0
+Summoner Item (H) Desecrated A			5	900	900	972	1024	19	gld,mul=2048	9	Act 4 (H) Equip A	15	Act 5 (H) JunkLF	5	Act 4 (H) GoodLF	3	Act 5 (H) Magic A	4	pk1	2																		0
+Summoner Item (H) Desecrated B			5	900	900	972	1024	19	gld,mul=2048	9	Act 4 (H) Equip B	15	Act 5 (H) JunkLF	5	Act 4 (H) GoodLF	3	Act 5 (H) Magic B	4	pk1	2																		0
+Summoner Item (H) Desecrated C			5	900	900	972	1024	19	gld,mul=2048	9	Act 4 (H) Equip C	15	Act 5 (H) JunkLF	5	Act 4 (H) GoodLF	3	Act 5 (H) Magic A	4	pk1	2																		0
+Summoner Item (H) Desecrated D			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip A	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic C	4	pk1	2																		0
+Summoner Item (H) Desecrated E			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip B	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic C	4	pk1	2																		0
+Summoner Item (H) Desecrated F			5	900	900	972	1024	19	gld,mul=2048	9	Act 5 (H) Equip C	15	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	Act 5 (H) Magic C	4	pk1	2																		0
 Summoner (H) Desecrated A	24	80	1					0	Summoner Item (H) Desecrated A	1																												0
 Summoner (H) Desecrated B	24	84	1					0	Summoner Item (H) Desecrated B	1																												0
 Summoner (H) Desecrated C	24	87	1					0	Summoner Item (H) Desecrated C	1																												0
@@ -876,10 +876,10 @@ Haphesto (N)			5	800	800	900	1024	19	gld,mul=1536	14	Act 5 (N) Equip A	19	Act 5 
 Haphesto (N) Desecrated A	27	60	5	800	800	900	1024	19	gld,mul=1536	14	Act 5 (N) Equip A	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
 Haphesto (N) Desecrated B	27	66	5	800	800	900	1024	19	gld,mul=1536	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
 Haphesto (N) Desecrated C	27	73	5	800	800	900	1024	19	gld,mul=1536	14	Act 3 (H) Equip A	19	Act 3 (H) JunkLF	5	Act 3 (H) GoodLF	3																						0
-Haphesto (H)			5	800	800	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk3	2																				0
-Haphesto Item (H) Desecrated A			5	800	800	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3																						0
-Haphesto Item (H) Desecrated B			5	800	800	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3																						0
-Haphesto Item (H) Desecrated C			5	800	800	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3																						0
+Haphesto (H)			5	800	800	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk1	2																				0
+Haphesto Item (H) Desecrated A			5	800	800	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
+Haphesto Item (H) Desecrated B			5	800	800	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
+Haphesto Item (H) Desecrated C			5	800	800	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
 Haphesto (H) Desecrated A	27	88	1					0	Haphesto Item (H) Desecrated A	1																												0
 Haphesto (H) Desecrated A	27	93	1					0	Haphesto Item (H) Desecrated A	1																												0
 Haphesto (H) Desecrated A	27	96	1					0	Haphesto Item (H) Desecrated A	1																												0
@@ -887,8 +887,8 @@ Nihlathak			5	900	900	900	1024	19	gld,mul=1280	14	Act 5 Equip B	19	Act 5 Junk	5	
 Nihlathak Desecrated	28	68	5	900	900	900	1024	19	gld,mul=1280	14	Act 3 (N) Equip A	19	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
 Nihlathak (N)			5	900	900	900	1024	19	gld,mul=1536	14	Act 5 (N) Equip B	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
 Nihlathak (N) Desecrated	28	73	5	900	900	900	1024	19	gld,mul=1280	14	Act 3 (H) Equip A	19	Act 3 (H) JunkLF	5	Act 3 (H) GoodLF	3																						0
-Nihlathak (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk3	2																				0
-Nihlathak Item (H) Desecrated			5	900	900	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk3	2																				0
+Nihlathak (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk1	2																				0
+Nihlathak Item (H) Desecrated			5	900	900	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
 Nihlathak (H) Desecrated	28	95	1						Nihlathak Item (H) Desecrated	1																												0
 Baal			7	983	983	983	1024	15	gld,mul=1280	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																						0
 Baal Desecrated	29	60	7	983	983	983	1024	15	gld,mul=1280	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
@@ -945,11 +945,11 @@ Izual (N)			5	800	800	972	1024	19	gld,mul=1536	14	Act 4 (N) Equip B	19	Act 4 (N)
 Izual (N) Desecrated A	32	60	5	800	800	972	1024	19	gld,mul=1536	14	Act 4 (N) Equip B	19	Act 4 (N) Junk	5	Act 4 (N) Good	3																						0
 Izual (N) Desecrated B	32	66	5	800	800	972	1024	19	gld,mul=1536	14	Act 5 (N) Equip C	19	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
 Izual (N) Desecrated C	32	73	5	800	800	972	1024	19	gld,mul=1536	14	Act 3 (H) Equip A	19	Act 3 (H) JunkLF	5	Act 3 (H) GoodLF	3																						0
-Izual (H)			5	800	800	972	1024	19	gld,mul=2048	10	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	9	Act 4 (H) GoodLF	3	pk3	2																				0
-Izual Item (H) Desecrated A			5	800	800	972	1024	19	gld,mul=2048	14	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	5	Act 4 (H) GoodLF	3	pk3	2																				0
-Izual Item (H) Desecrated B			5	800	800	972	1024	19	gld,mul=2048	14	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk3	2																				0
-Izual Item (H) Desecrated C			5	800	800	972	1024	19	gld,mul=2048	14	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk3	2																				0
-Izual Item (H) Desecrated D			5	800	800	972	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk3	2																				0
+Izual (H)			5	800	800	972	1024	19	gld,mul=2048	10	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	9	Act 4 (H) GoodLF	3	pk1	2																				0
+Izual Item (H) Desecrated A			5	800	800	972	1024	19	gld,mul=2048	14	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	5	Act 4 (H) GoodLF	3	pk1	2																				0
+Izual Item (H) Desecrated B			5	800	800	972	1024	19	gld,mul=2048	14	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
+Izual Item (H) Desecrated C			5	800	800	972	1024	19	gld,mul=2048	14	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
+Izual Item (H) Desecrated D			5	800	800	972	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	5	Act 5 (H) GoodLF	3	pk1	2																				0
 Izual (H) Desecrated A	32	86	1					0	Izual Item (H) Desecrated A	1																												0
 Izual (H) Desecrated B	32	90	1					0	Izual Item (H) Desecrated B	1																												0
 Izual (H) Desecrated C	32	93	1					0	Izual Item (H) Desecrated C	1																												0
@@ -1096,12 +1096,12 @@ Countess Item (N) Desecrated A			5					19	gld,mul=1536	11	Act 2 (N) Equip B	19	A
 Countess Item (N) Desecrated B			5					19	gld,mul=1536	11	Act 4 (N) Equip B	19	Act 5 (N) Junk	15	Act 5 (N) Good	3																						0
 Countess Item (N) Desecrated C			5					19	gld,mul=1536	11	Act 3 (H) Equip A	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3																						0
 Countess Item (H)			5					19	gld,mul=2048	5	Act 5 (H) Equip C	21	Act 5 (H) JunkLF	18	Act 5 (H) GoodLF	3	pk1	3																				0
-Countess Item (H) Desecrated A			5					19	gld,mul=2048	11	Act 4 (H) Equip A	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	1																				0
-Countess Item (H) Desecrated B			5					19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	1																				0
-Countess Item (H) Desecrated C			5					19	gld,mul=2048	11	Act 4 (H) Equip C	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	1																				0
-Countess Item (H) Desecrated D			5					19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	1																				0
-Countess Item (H) Desecrated E			5					19	gld,mul=2048	11	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	1																				0
-Countess Item (H) Desecrated F			5					19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	1																				0
+Countess Item (H) Desecrated A			5					19	gld,mul=2048	11	Act 4 (H) Equip A	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	2																				0
+Countess Item (H) Desecrated B			5					19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	2																				0
+Countess Item (H) Desecrated C			5					19	gld,mul=2048	11	Act 4 (H) Equip C	19	Act 4 (H) JunkLF	15	Act 4 (H) GoodLF	3	pk1	2																				0
+Countess Item (H) Desecrated D			5					19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	2																				0
+Countess Item (H) Desecrated E			5					19	gld,mul=2048	11	Act 5 (H) Equip B	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	2																				0
+Countess Item (H) Desecrated F			5					19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	15	Act 5 (H) GoodLF	3	pk1	2																				0
 Countess			-2	883	883	883	1024	0	Countess Rune	1	Countess Item	1																										0
 Countess Desecrated A	35	11	-2	883	883	883	1024	0	Countess Item Desecrated A	1	Countess Rune	1																										0
 Countess Desecrated B	35	34	-2	883	883	883	1024	0	Countess Item Desecrated B	1	Countess Rune	1																										0
@@ -1118,15 +1118,15 @@ Countess (H) Desecrated D	35	90	-2	883	883	983	1024	0	Countess Item (H) Desecrat
 Countess (H) Desecrated E	35	93	-2	883	883	983	1024	0	Countess Item (H) Desecrated E	1	Countess Rune (H)	1																										0
 Countess (H) Desecrated F	35	96	-2	883	883	983	1024	0	Countess Item (H) Desecrated F	1	Countess Rune (H)	1																										0
 Uber Andariel			-2	1024				0	dhn	1	pk1	1																										0
-Uber Duriel			1	1024				0	bey	1																												0
-Uber Izual			1	1024				0	mbr	1																												0
+Uber Duriel			1	1024				0	dhn	1																												0
+Uber Izual			1	1024				0	dhn	1																												0
 Uber Mephisto			1				1024	0	cm1	1																												0
 Uber Diablo			1				1024	0	cm2	1																												0
 Uber Baal			1	800			1024	0	cm3	1																												0
 Pandemonium Key A			1	1024				0	pk1	1																												0
-Pandemonium Key B			1	1024				0	pk2	1																												0
-Pandemonium Key C			1	1024				0	pk3	1																												0
-Snapchip (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk3	2																				0
+Pandemonium Key B			1	1024				0	pk1	1																												0
+Pandemonium Key C			1	1024				0	pk1	1																												0
+Snapchip (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) JunkLF	9	Act 5 (H) GoodLF	3	pk1	2																				0
 Act 1 (H) Champ A Desecrated	36	63	1					0	Act 1 (H) Champ A	1																												0
 Act 1 (H) Champ B Desecrated	36	66	1					0	Act 1 (H) Champ B	1																												0
 Act 1 (H) Champ C Desecrated	36	68	1					0	Act 1 (H) Champ C	1																												0

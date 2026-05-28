@@ -228,6 +228,14 @@
       "children": [
         {
           "type": "AdvancedStashSlotWidget",
+          "name": "wms",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 976, "y": 1194 },
+            "itemCode": "wms"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
           "name": "gcw",
           "fields": {
             "rect": { "width": 98, "height": 98, "x": 99, "y": 1077 },
@@ -598,7 +606,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "std",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1339 },
+            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1445 },
             "itemCode": "std"
           }
         },
@@ -608,22 +616,6 @@
           "fields": {
             "rect": { "width": 98, "height": 196, "x": 100, "y": 583 },
             "itemCode": "pk1"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "pk2",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 203, "y": 583 },
-            "itemCode": "pk2"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "pk3",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 308, "y": 583 },
-            "itemCode": "pk3"
           }
         },
         {
@@ -672,22 +664,6 @@
           "fields": {
             "rect": { "width": 98, "height": 98, "x": 99, "y": 811 },
             "itemCode": "dhn"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "bey",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 204, "y": 811 },
-            "itemCode": "bey"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "mbr",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 308, "y": 811 },
-            "itemCode": "mbr"
           }
         },
         {
@@ -1068,17 +1044,33 @@
         },
         {
           "type": "AdvancedStashSlotWidget",
+          "name": "dsd",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1446 },
+            "itemCode": "dsd"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
           "name": "brk",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1446 },
+            "rect": { "width": 98, "height": 98, "x": 307, "y": 811 },
             "itemCode": "brk"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "mbk",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 307, "y": 949 },
+            "itemCode": "mbk"
           }
         },
         {
           "type": "AdvancedStashSlotWidget",
           "name": "rrr",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1446 },
+            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1341 },
             "itemCode": "rrr"
           }
         },
@@ -1154,18 +1146,18 @@
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "brk",
+          "name": "dsd",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1446 },
-            "itemCode": "brk"
+            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1446 },
+            "itemCode": "dsd"
           }
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "rrr",
+          "name": "std",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1446 },
-            "itemCode": "rrr"
+            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1446 },
+            "itemCode": "std"
           }
         },
         {
@@ -1250,10 +1242,10 @@
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "std",
+          "name": "rrr",
           "fields": {
             "rect": { "width": 98, "height": 98, "x": 1459, "y": 1339 },
-            "itemCode": "std"
+            "itemCode": "rrr"
           }
         },
         {

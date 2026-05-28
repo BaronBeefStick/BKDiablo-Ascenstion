@@ -105,7 +105,7 @@ Ruby	gemr	gem		100	id 1 lev37	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							mi
 Sapphire	gems	gem		101	id 1 lev38	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Topaz	gemt	gem		102	id 1 lev39	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
 Skull	gemz	gem		103	id 1 lev40	0	0					0	0	0	0			1	0	0	25	0	40	0	0	3			0							misc	0	gems			
-Swords and Knives	blde	mele		104	id 1 lev41	0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0	gems			
+Swords and Knives	blde	mele		104	id 1 lev41	0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0				
 Spears and Polearms	sppl	mele		105	id 1 lev42	0	0					0	0	0	0		1	0	0	0	25	0	40	0	0	3			0								0				
 Grimoire	grim	shld	warl	106	id 1 lev43	1	1	rarm	larm			0	0	0	0		1	0	0	3	25	3	40	4	0	1	war	war	0							armo	0	warlo			
 Colossal Jewel	cjwl	jewl		107	id 1 lev44	0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			6	invjw1	invjw2	invjw3	invjw4	invjw5	invjw6	misc	0	jewel			1
@@ -113,6 +113,8 @@ Crafted Sunder Charm	csch	char		108	id 1 lev45	0	0					0	0	0	0	1		0	0	0	25	0	40	
 Jewelery	jwly	misc		109	id 1 lev46	0	0					0	0	0	0	1	1	0	0	0	25	0	40	0	0	3			0							misc	0				
 Charms	chms	char	weap	110	id 1 lev47	0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0							weap	0				
 2Handed Melee Weapon	2han			111	id 1 lev48	1	1	rarm	larm			0	0	0	0		1	0	0	3	25	4	40	6	1	3			0								0				
+Organ	orgn	misc		110	id 1 lev47	0	0					0	0	0	0			0	0	0	25	0	40	0	0	3			0							misc	0				
+Keys	ukey	misc		111	id 1 lev48	0	0					0	0	0	1			0	0	0	25	0	40	0	0	3			0							misc	0				
 Act 3 and 5 Weapons	ac5			112	id 1 lev49	1	1	rarm	larm			0	0	0	0		1	0	0	3	25	4	40	6	1	3			0								0				
 Merc Equip	helm	armo	merc	113	id 1 lev50	1	1	head	head			0	0	0	0		1	0	0	2	25	2	40	3	0	3			0							armo	0	helms			
 a095	a095			114	id 1 lev51	0	0					0	0	0	1			1	0	0	25	0	40	0	0	3			0							misc	0				

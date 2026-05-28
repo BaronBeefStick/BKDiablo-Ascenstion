@@ -646,10 +646,10 @@
   { "ice": { "asset": "quest/scroll_of_self_resurrect" } },
   { "0sc": { "asset": "scroll/identify_scroll" } },
   { "tr2": { "asset": "quest/bark_scroll" } },
-  { "pk1": { "asset": "key/tkey" } },
+  { "pk1": { "asset": "key/pandemonium_key" } },
   { "pk2": { "asset": "key/hkey" } },
   { "pk3": { "asset": "key/dkey" } },
-  { "dhn": { "asset": "body_part/fang" } },
+  { "dhn": { "asset": "body_part/demon_ear" } },
   { "bey": { "asset": "body_part/eye" } },
   { "mbr": { "asset": "body_part/brain" } },
   { "toa": { "asset": "quest/token_of_absolution" } },
@@ -729,5 +729,6 @@
   { "gar": { "asset": "gem/Ascended_Ruby" } },
   { "gab": { "asset": "gem/Ascended_Sapphire" } },
   { "gay": { "asset": "gem/Ascended_Topaz" } },
-  { "ska": { "asset": "gem/Ascended_Skull" } }
+  { "ska": { "asset": "gem/Ascended_Skull" } },
+  { "mbk": { "asset": "quest/megabrick" } }
 ]
