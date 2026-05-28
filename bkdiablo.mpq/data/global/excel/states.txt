@@ -229,15 +229,16 @@ korliccoldpierce	226					1																			1																		korliccoldpierce
 bind_demon_underling	227																																																		19						70	130																0
 herald	228																																										herald																															0
 apocalypse	229																																																																									0
-potion_magic_find	230																																										impregnated							item_magicbonus																							0	0
-special_aura	231																																										light_jet																														0	0
-dyewhite	232																																																						tors	whit																		0
-dyeblack	233																																																						tors	blac		74																0
-dyewhiteH	234																																																						helm	whit																		0
-dyeblackH	235																																																						helm	blac		74																0
-dyewhiteS	236																																																						shld	whit																		0
-dyeblackS	237																																																						shld	blac		74																0
-dyewhiteW	238																																																						weap	whit																		0
-dyeblackW	239																																																						weap	blac		74																0
-magicconviction	240					1																																					mconvictionfront	mconvictionfront																		paladin_aura_sanctuary												0
-splashdamage	241																																																																									0
+missilelimit	230																																																																									0
+potion_magic_find	231																																										impregnated							item_magicbonus																							0	0
+special_aura	232																																										light_jet																														0	0
+dyewhite	233																																																						tors	whit																		0
+dyeblack	234																																																						tors	blac		74																0
+dyewhiteH	235																																																						helm	whit																		0
+dyeblackH	236																																																						helm	blac		74																0
+dyewhiteS	237																																																						shld	whit																		0
+dyeblackS	238																																																						shld	blac		74																0
+dyewhiteW	239																																																						weap	whit																		0
+dyeblackW	240																																																						weap	blac		74																0
+magicconviction	241					1																																					mconvictionfront	mconvictionfront																		paladin_aura_sanctuary												0
+splashdamage	242																																																																									0
