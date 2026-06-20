@@ -20,9 +20,9 @@
             "start_time_utc": "2025-12-05 00:00:00",
             "end_time_utc": "",
             "seed": 16665365343970128666,
-            "zone_duration_minutes": 30,
-            "break_duration_minutes": 0,
-            "manual_deprioritize_threshold": 0,
+            "zone_duration_minutes": 29,
+            "break_duration_minutes": 1,
+            "manual_deprioritize_threshold": 3,
             "manual_removal_threshold": 0,
             "game_difficulties": {
                 "type": "DesecratedGameDifficultyPerGameVersion",
@@ -169,6 +169,12 @@
                                 "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_always_unique_mod_pool_8",
                                 "unique_mod": 28,
                                 "chance": 5
+                            },
+                            {
+                                "type": "AlwaysUniqueMod",
+                                "name": "desecratedzones_desecrated_zones_0_game_difficulties_rotw_hell_always_unique_mod_pool_8",
+                                "unique_mod": 30,
+                                "chance": 15
                             }
                         ],
                         "defaults": {
@@ -1379,6 +1385,77 @@
                                     "level_id": 132
                                 }
                             ]
+                        },
+                        {
+                            "type": "DesecratedZone",
+                            "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1",
+                            "id": "Act5-Rifts",
+                            "levels": [
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_0",
+                                    "level_id": 138,
+                                    "zone_data_id": "Act5-Rift1",
+                                    "zone_completion_weight": 1.0,
+                                    "waypoint_level_id": 109
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_1",
+                                    "level_id": 139,
+                                    "zone_data_id": "Act5-Rift2",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_2",
+                                    "level_id": 140,
+                                    "zone_data_id": "Act5-Rift3",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_3",
+                                    "level_id": 141,
+                                    "zone_data_id": "Act5-Rift3a",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_4",
+                                    "level_id": 142,
+                                    "zone_data_id": "Act5-Rift4",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_5",
+                                    "level_id": 143,
+                                    "zone_data_id": "Act5-Rift5",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_6",
+                                    "level_id": 144,
+                                    "zone_data_id": "Act5-Rift6",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_7",
+                                    "level_id": 145,
+                                    "zone_data_id": "Act5-Rift6a",
+                                    "zone_completion_weight": 1.0
+                                },
+                                {
+                                    "type": "DesecratedLevel",
+                                    "name": "desecratedzones_desecrated_zones_0_manual_zones_4_zones_1_levels_8",
+                                    "level_id": 146,
+                                    "zone_data_id": "Act5-Rift7",
+                                    "zone_completion_weight": 1.0
+                                }
+                            ]
                         }
                     ]
                 }
@@ -2534,6 +2611,77 @@
                             "type": "DesecratedLevel",
                             "name": "desecratedzones_desecrated_zones_0_zones_36_levels_4",
                             "level_id": 132
+                        }
+                    ]
+                },
+                {
+                    "type": "DesecratedZone",
+                    "name": "desecratedzones_desecrated_zones_0_zones_34",
+                    "id": "Act5-Rifts",
+                    "levels": [
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_0",
+                            "level_id": 138,
+                            "zone_data_id": "Act5-Rift1",
+                            "zone_completion_weight": 1.0,
+                            "waypoint_level_id": 109
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_1",
+                            "level_id": 139,
+                            "zone_data_id": "Act5-Rift2",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_2",
+                            "level_id": 140,
+                            "zone_data_id": "Act5-Rift3",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_3",
+                            "level_id": 141,
+                            "zone_data_id": "Act5-Rift3a",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_4",
+                            "level_id": 142,
+                            "zone_data_id": "Act5-Rift4",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_5",
+                            "level_id": 143,
+                            "zone_data_id": "Act5-Rift5",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_6",
+                            "level_id": 144,
+                            "zone_data_id": "Act5-Rift6",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_7",
+                            "level_id": 145,
+                            "zone_data_id": "Act5-Rift6a",
+                            "zone_completion_weight": 1.0
+                        },
+                        {
+                            "type": "DesecratedLevel",
+                            "name": "desecratedzones_desecrated_zones_0_zones_34_levels_8",
+                            "level_id": 146,
+                            "zone_data_id": "Act5-Rift7",
+                            "zone_completion_weight": 1.0
                         }
                     ]
                 }

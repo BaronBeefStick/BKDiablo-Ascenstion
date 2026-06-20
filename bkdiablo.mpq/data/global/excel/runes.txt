@@ -69,7 +69,7 @@ Runeword67	Knight's Vigil	1					BTDIABLO	shld									SolDol	r12	r14					str		15
 Runeword68	Knowledge	1					BTDIABLO	helm									IthTir	r06	r03					enr		20	30	balance2		25	25	move2		15	25	oskill	Warmth	3	3													0
 Runeword69	Last Wish	1						swor	hamm	axe							JahMalJahSurJahBer	r31	r23	r31	r29	r31	r30	dmg%		330	375	rep-dur	25			oskill	Sacrifice	11	11	gethit-skill	Fade	50	17	crush		40	50	mag%/lvl	4			aura	Might	17	17	0
 Runeword70	Law																																																			0
-Runeword71	Lawbringer	1						swor	hamm	scep							AmnLemKo	r11	r20	r18				dmg-cold		200	210	dmg-fire		200	210	aura	Sanctuary	30	31	hit-skill	Decrepify	25	30	ac-miss		200	250	ac-hth		200	250	reduce-ac		50	50	0
+Runeword71	Lawbringer	1						swor	hamm	scep							AmnLemKo	r11	r20	r18				dmg-cold		200	210	dmg-fire		200	210	aura	Sanctuary	14	25	hit-skill	Decrepify	25	15	ac-miss		200	250	ac-hth		200	250	reduce-ac		50	50	0
 Runeword72	Leaf	1						staf									TirRal	r03	r08					fireskill		3	3	ac/lvl		16	16	res-cold		33	33	skill	41	3	3	skill	36	3	3	skill	37	3	3					0
 Runeword73	Lightning																																																			0
 Runeword74	Lionheart	1						tors									HelLumFal	r15	r17	r19				all-stats		15	30	dmg%		90	150	hp		50	50	res-all		30	30													0

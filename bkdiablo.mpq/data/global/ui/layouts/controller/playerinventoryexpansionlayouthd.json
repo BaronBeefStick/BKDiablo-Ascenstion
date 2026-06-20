@@ -1,0 +1,164 @@
+{
+    "basedOn": "Controller/PlayerInventoryOriginalLayoutHD.json",
+    "type": "PlayerInventoryPanel", "name": "PlayerInventoryExpansionLayout",
+    "fields": {
+        "activeWeaponSwapFontColor": "$FontColorVeryLightGray", // TODO: Change to color preset when all controller art is in
+        "inactiveWeaponSwapFontColor": "$FontColorDarkGrayBlue", // TODO: Change to color preset when all controller art is in
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+        },
+        {
+            "type": "ImageWidget", "name": "background",
+            "fields": {
+                "filename": "Controller/Panel/InventoryPanel/V2/InventoryBG",
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "background_right_arm_selected",
+            "fields": {
+                "rect": { "x": 774, "y": 45 },
+                "filename": "Controller/Panel/InventoryPanel/V2/WeaponSwap",
+                "frame": 1,
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "background_left_arm_selected",
+            "fields": {
+                "rect": { "x": 993, "y": 45},
+                "filename": "Controller/Panel/InventoryPanel/V2/WeaponSwap",
+                "frame": 1,
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "background_right_arm",
+            "fields": {
+                "rect": { "x": 774, "y": 45 },
+                "filename": "Controller/Panel/InventoryPanel/V2/WeaponSwap",
+                "frame": 0,
+            },
+        },
+        {
+            "type": "ImageWidget", "name": "background_left_arm",
+            "fields": {
+                "rect": { "x": 993, "y": 45 },
+                "filename": "Controller/Panel/InventoryPanel/V2/WeaponSwap",
+                "frame": 0,
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "text_i_left",
+            "fields": {
+                "rect": { "x": 785, "y": 50, "width": 84, "height": 48 },
+                "text": "I",
+                "style": "$StyleWeaponSwapTabs",
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "text_ii_left",
+            "fields": {
+                "rect": { "x":891, "y": 50, "width": 84, "height": 48 },
+                "text": "II",
+                "style": "$StyleWeaponSwapTabs",
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "text_i_right",
+            "fields": {
+                "rect": { "x": 1006, "y": 50, "width": 84, "height": 48 },
+                "text": "I",
+                "style": "$StyleWeaponSwapTabs",
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "text_ii_right",
+            "fields": {
+                "rect": { "x": 1112, "y": 50, "width": 84, "height": 48 },
+                "text": "II",
+                "style": "$StyleWeaponSwapTabs",
+            },
+        },
+        {
+            "type": "TextBoxWidget", "name": "gold_amount",
+        },
+      {
+        "type": "ButtonWidget",
+        "name": "gold_button",
+        "fields": {
+          "focusIndicatorFilename":  "",
+          "focusIndicatorPadding": {"left": 50, "top": 50, "right": 40, "bottom": 40},
+        }
+      },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+			"children": [
+				{
+					"type": "AnimatedImageWidget", "name": "chronicleFlourish",
+				}
+			]
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_head",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_neck",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_torso",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_right_arm",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_left_arm",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_right_hand",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_left_hand",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_belt",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_feet",
+        },
+        {
+            "type": "InventorySlotWidget", "name": "slot_gloves",
+        },
+        {
+            "type": "BeltWidget", "name": "Belt",
+            "children": [
+                {
+                    "type": "TextBoxWidget", "name": "HotkeyLabelTemplate",
+                },
+            ]
+        },
+        {
+            "type": "ButtonLegendWidget", "name": "WeaponSwapRightLegend",
+            "fields": {
+                "rect": { "x": 785, "y": 20, "width": 197, "height": 48 },
+                "text": { "style": "$StyleButtonLegend" },
+                "presets": [
+                    {
+                        "action": "option4",
+                    },
+                ],
+            },
+        },
+        {
+            "type": "ButtonLegendWidget", "name": "WeaponSwapLeftLegend",
+            "fields": {
+                "rect": { "x": 1006, "y": 20, "width": 197, "height": 48 },
+                "text": { "style": "$StyleButtonLegend" },
+                "presets": [
+                    {
+                        "action": "option4",
+                    },
+                ],
+            },
+        },
+    ]
+}

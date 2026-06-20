@@ -25,8 +25,8 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 4 Healing Potions (Any) + 1 Perfect Ruby + 1 Magic Sword -> Sword of the Leech	0				0					6	"swor,mag"	gpr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
 1 Perfect Diamond + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	0				0					4	kri	gpw	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
 1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
-WIP 2 Arrows -> Bolts with MF + Sockets	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
-WIP 2 Bolts -> Arrows with MF + Sockets	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		1	3																																																																										0
+WIP 2 Arrows -> Bolts with MF + Sockets	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		3	3																																																																										0
+WIP 2 Bolts -> Arrows with MF + Sockets	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		3	3																																																																										0
 3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
 6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
 1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0

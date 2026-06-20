@@ -1,17 +1,15 @@
 {
-  "basedOn": "BankOriginalLayoutHD.json",
+  "basedOn": "Controller/BankOriginalLayoutHD.json",
   "type": "BankPanel",
   "name": "BankExpansionLayout",
   "fields": {
     "backgroundFile": [
-      "PANEL\\Stash\\StashPanel_BG_Personal",
-      "PANEL\\Stash\\StashPanel_BG_Shared",
-      "PANEL\\Stash\\AdditionalStash\\PANEL_AdditionalStash_All",
-      "PANEL\\Stash\\stashpanel_bkd",
-      "PANEL\\Stash\\StashPanel_BG_Shared"
-    ],
-    "tabNotificationDurationSeconds": 0.33,
-    "tabNotificationFadeOccurrences": 3
+      "Controller/Panel/Stash/V2/StashPanelBGPersonal",
+      "Controller/Panel/Stash/V2/StashPanelBGShared",
+      "Controller/Panel/Stash/V2/AdditionalStash/AdvancedStash_Gems_Console",
+      "Controller/Panel/Stash/V2/AdditionalStash/AdvancedStash_Consumables_Console",
+      "Controller/Panel/Stash/V2/AdditionalStash/AdvancedStash_Runes_Console"
+    ]
   },
   "children": [
     {
@@ -22,80 +20,57 @@
       "type": "ImageWidget",
       "name": "background",
       "fields": {
-        "filename": "PANEL\\Stash\\StashPanel_BG_Personal"
-      }
-    },
-    {
-      "type": "ImageWidget",
-      "name": "LeftHinge"
-    },
-    {
-      "type": "TextBoxWidget",
-      "name": "title"
-    },
-    {
-      "type": "ButtonWidget",
-      "name": "close",
-      "fields": {
-        "rect": { "x": 1667, "y": 4 }
+        "rect": { "x": -2, "y": 100 },
+        "filename": "Controller/Panel/Stash/V2/StashPanelBG"
       }
     },
     {
       "type": "TabBarWidget",
       "name": "BankTabs",
       "fields": {
-        "rect": { "x": 83, "y": 165 },
-        "tabCount": 4,
-        "filename": "PANEL\\stash\\MKB_Tabs_195_TGA",
+        "rect": { "x": 109, "y": -1 },
+        "tabCount": 5,
+        "filename": "Controller/Panel/Stash/V2/AdditionalStash/CTRL_Tabs_215_TGA",
         "inactiveFrames": [0, 0, 0, 0, 0],
-        "activeFrames": [1, 1, 1, 1, 0],
+        "activeFrames": [1, 1, 1, 1, 1],
         "disabledFrames": [-1, 0, 0, 0, 0],
         "textStrings": [
           "@personal",
           "@shared",
-          "@crafting",
-          "@bkdiablo",
-          "@shared"
+          "@gems",
+          "@materials",
+          "@runes"
         ],
-        "textStyle": { "pointSize": "$SmallPanelFontSize" },
+        "textStyle": { "pointSize": "$MediumFontSize" },
         "activeTextColor": "$TabsActiveTextColor",
         "inactiveTextColor": "$TabsInactiveTextColor",
-        "tabSize": { "x": 195, "y": 75 },
-        "tabPadding": { "x": 2, "y": 0 },
+        "tabSize": { "x": 215, "y": 120 },
+        "tabPadding": "$PanelTabPadding",
         "onSwitchTabMessage": "BankPanelMessage:SelectTab",
+        "tabLeftIndicatorPosition": "$HalfPanelLeftTabButtonPromptPosition",
+        "tabRightIndicatorPosition": "$HalfPanelRightTabButtonPromptPosition",
+        "focusOnMouseOver": true,
         "notificationIconTemplate": {
-          "filename": "PANEL\\Stash\\AdditionalStash\\StashNotification"
+          "filename": "Controller/Panel/Stash/V2/AdditionalStash/StashNotification"
         }
       }
     },
     {
       "type": "Widget",
       "name": "PreviousSeasonToggleDisplay",
-      "fields": {
-        "rect": { "x": 950, "y": 65 }
-      },
       "children": [
-        {
-          "type": "TextBoxWidget",
-          "name": "ShowPreviousLadderText",
-          "fields": {
-            "text": "@oldStash",
-            "rect": { "x": 0, "y": 28 },
-            "style": {
-              "fontColor": "$PanelTitleColor",
-              "pointSize": "$MediumFontSize",
-              "alignment": { "v": "center", "h": "right" },
-              "spacing": "$MinimumSpacing",
-              "dropShadow": "$DefaultDropShadow"
-            }
-          }
-        },
         {
           "type": "ToggleButtonWidget",
           "name": "ShowPreviousLadderSeasonToggle",
           "fields": {
-            "rect": { "x": 8, "y": 0 },
+            "rect": { "x": 1215, "y": 145 },
             "filename": "Lobby\\CreateGame\\CreateGame_AdvancedCheckbox",
+            "focusIndicatorPadding": {
+              "left": 24,
+              "right": 24,
+              "top": 24,
+              "bottom": 24
+            },
             "untoggledFrame": 0,
             "untoggledPressedFrame": 1,
             "untoggledHoveredFrame": 3,
@@ -115,28 +90,48 @@
       "children": [
         {
           "type": "TextBoxWidget",
+          "name": "gold_max",
+          "fields": {
+            "rect": { "x": 25, "y": 1400, "width": 393, "height": 50 },
+            "style": "$StyleGoldMax"
+          }
+        },
+        {
+          "type": "TextBoxWidget",
           "name": "gold_amount",
           "fields": {
-            "rect": { "x": 1352, "y": 1659, "width": 249, "height": 48 },
-            "style": "$StyleGoldAmount"
+            "rect": { "x": 545, "y": 1396, "width": 314, "height": 60 },
+            "style": "$StyleGoldAmount",
+            "altStyle": "$AltStyleGoldAmount",
+            "useAltStyleIfDoesntFit": true
           }
         },
         {
           "type": "ButtonWidget",
           "name": "gold_withdraw",
           "fields": {
-            "rect": { "x": 1302, "y": 1660 },
-            "filename": "PANEL\\GoldButton",
-            "hoveredFrame": 3,
-            "tooltipString": "@strGoldWithdraw",
-            "onClickMessage": "BankPanelMessage:Withdraw"
+            "rect": { "x": 491, "y": 1398, "width": 317, "height": 46 },
+            "filename": "Controller/Panel/Stash/V2/Button_Small",
+            "focusIndicatorPadding": {
+              "left": 32,
+              "top": 50,
+              "right": 58,
+              "bottom": 40
+            },
+            "onClickMessage": "BankPanelMessage:Withdraw",
+            "navigation": {
+              "right": { "panelBoundary": true },
+              "up": { "name": "grid" }
+            },
+            "buttonLegendAction": "select",
+            "buttonLegendString": "@strGoldWithdraw"
           }
         },
         {
           "type": "InventoryGridWidget",
           "name": "grid",
           "fields": {
-            "rect": { "x": 91, "y": 235 },
+            "rect": { "x": 20, "y": 116 },
             "cellCount": { "x": 16, "y": 13 },
             "cellSize": "$ItemCellSize",
             "gemSocketFilename": "PANEL\\gemsocket"
@@ -168,24 +163,22 @@
           "name": "SharedStashTabContainer",
           "children": [
             {
-              "type": "ImageWidget",
+              "type": "Widget",
               "name": "StashNavigation",
               "fields": {
-                "rect": { "x": 369, "y": 1211, "width": 420, "height": 93 },
-                "filename": "PANEL\\Stash\\Stash_PageNavigation"
+                "rect": { "x": 824, "y": 1375, "width": 507, "height": 93 }
               },
               "children": [
                 {
-                  "type": "ButtonWidget",
+                  "type": "ButtonLegendWidget",
                   "name": "StashLeftArrow",
                   "fields": {
-                    "rect": { "x": 895, "y": 352, "width": 64, "height": 64 },
-                    "filename": "PANEL\\Stash\\Stash_LeftArrow",
-                    "normalFrame": 0,
-                    "pressedFrame": 2,
-                    "hoveredFrame": 1,
-                    "disabledFrame": 3,
-                    "onClickMessage": "BankPanelMessage:SharedStashLeft"
+                    "rect": { "x": 75, "y": 13, "width": 64, "height": 64 },
+                    "presets": [
+                      {
+                        "action": "cycleLeft"
+                      }
+                    ]
                   }
                 },
                 {
@@ -193,7 +186,7 @@
                   "name": "CurrentSharedStashText",
                   "fields": {
                     "text": "@SharedStashPage",
-                    "rect": { "x": 962, "y": 352, "width": 230, "height": 64 },
+                    "rect": { "x": 86, "y": 13, "width": 326, "height": 64 },
                     "style": {
                       "fontColor": "$PanelTitleColor",
                       "pointSize": "$MediumFontSize",
@@ -204,16 +197,15 @@
                   }
                 },
                 {
-                  "type": "ButtonWidget",
+                  "type": "ButtonLegendWidget",
                   "name": "StashRightArrow",
                   "fields": {
-                    "rect": { "x": 1195, "y": 352, "width": 64, "height": 64 },
-                    "filename": "PANEL\\Stash\\Stash_RightArrow",
-                    "normalFrame": 0,
-                    "pressedFrame": 2,
-                    "hoveredFrame": 1,
-                    "disabledFrame": 3,
-                    "onClickMessage": "BankPanelMessage:SharedStashRight"
+                    "rect": { "x": 361, "y": 13, "width": 64, "height": 64 },
+                    "presets": [
+                      {
+                        "action": "cycleRight"
+                      }
+                    ]
                   }
                 }
               ]
@@ -228,17 +220,9 @@
       "children": [
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "wms",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 976, "y": 1194 },
-            "itemCode": "wms"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
           "name": "gcw",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 230, "y": 160 },
             "itemCode": "gcw"
           }
         },
@@ -246,7 +230,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gfw",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 230, "y": 258 },
             "itemCode": "gfw"
           }
         },
@@ -254,7 +238,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gsw",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 1277 },
+            "rect": { "width": 98, "height": 98, "x": 230, "y": 358 },
             "itemCode": "gsw"
           }
         },
@@ -262,7 +246,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "glw",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 230, "y": 458 },
             "itemCode": "glw"
           }
         },
@@ -270,7 +254,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gpw",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 230, "y": 558 },
             "itemCode": "gpw"
           }
         },
@@ -278,7 +262,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gcg",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 221, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 352, "y": 160 },
             "itemCode": "gcg"
           }
         },
@@ -286,7 +270,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gfg",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 221, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 352, "y": 258 },
             "itemCode": "gfg"
           }
         },
@@ -294,7 +278,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gsg",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 221, "y": 1277 },
+            "rect": { "width": 98, "height": 98, "x": 352, "y": 358 },
             "itemCode": "gsg"
           }
         },
@@ -302,7 +286,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "glg",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 221, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 352, "y": 458 },
             "itemCode": "glg"
           }
         },
@@ -310,7 +294,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gpg",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 221, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 352, "y": 558 },
             "itemCode": "gpg"
           }
         },
@@ -318,7 +302,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gcr",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 343, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 474, "y": 160 },
             "itemCode": "gcr"
           }
         },
@@ -326,7 +310,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gfr",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 343, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 474, "y": 258 },
             "itemCode": "gfr"
           }
         },
@@ -334,7 +318,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gsr",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 343, "y": 1277 },
+            "rect": { "width": 98, "height": 98, "x": 474, "y": 358 },
             "itemCode": "gsr"
           }
         },
@@ -342,7 +326,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "glr",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 343, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 474, "y": 458 },
             "itemCode": "glr"
           }
         },
@@ -350,7 +334,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gpr",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 343, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 474, "y": 558 },
             "itemCode": "gpr"
           }
         },
@@ -358,7 +342,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gcy",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 465, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 596, "y": 160 },
             "itemCode": "gcy"
           }
         },
@@ -366,7 +350,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gfy",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 465, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 596, "y": 258 },
             "itemCode": "gfy"
           }
         },
@@ -374,7 +358,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gsy",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 465, "y": 1277 },
+            "rect": { "width": 98, "height": 98, "x": 596, "y": 358 },
             "itemCode": "gsy"
           }
         },
@@ -382,7 +366,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gly",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 465, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 596, "y": 458 },
             "itemCode": "gly"
           }
         },
@@ -390,7 +374,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gpy",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 465, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 596, "y": 558 },
             "itemCode": "gpy"
           }
         },
@@ -398,7 +382,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gcv",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 587, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 718, "y": 160 },
             "itemCode": "gcv"
           }
         },
@@ -406,7 +390,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gfv",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 587, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 718, "y": 258 },
             "itemCode": "gfv"
           }
         },
@@ -414,7 +398,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gsv",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 587, "y": 1277 },
+            "rect": { "width": 98, "height": 98, "x": 718, "y": 358 },
             "itemCode": "gsv"
           }
         },
@@ -422,7 +406,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gzv",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 587, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 718, "y": 458 },
             "itemCode": "gzv"
           }
         },
@@ -430,7 +414,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gpv",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 587, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 718, "y": 558 },
             "itemCode": "gpv"
           }
         },
@@ -438,7 +422,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gcb",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 710, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 840, "y": 160 },
             "itemCode": "gcb"
           }
         },
@@ -446,7 +430,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gfb",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 710, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 840, "y": 258 },
             "itemCode": "gfb"
           }
         },
@@ -454,7 +438,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gsb",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 710, "y": 1277 },
+            "rect": { "width": 98, "height": 98, "x": 840, "y": 358 },
             "itemCode": "gsb"
           }
         },
@@ -462,7 +446,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "glb",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 710, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 840, "y": 458 },
             "itemCode": "glb"
           }
         },
@@ -470,7 +454,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gpb",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 710, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 840, "y": 558 },
             "itemCode": "gpb"
           }
         },
@@ -478,7 +462,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "skc",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 831, "y": 1077 },
+            "rect": { "width": 98, "height": 98, "x": 962, "y": 160 },
             "itemCode": "skc"
           }
         },
@@ -486,7 +470,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "skf",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 831, "y": 1177 },
+            "rect": { "width": 98, "height": 98, "x": 962, "y": 258 },
             "itemCode": "skf"
           }
         },
@@ -494,7 +478,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "sku",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 831, "y": 1277},
+            "rect": { "width": 98, "height": 98, "x": 962, "y": 358 },
             "itemCode": "sku"
           }
         },
@@ -502,7 +486,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "skl",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 831, "y": 1377 },
+            "rect": { "width": 98, "height": 98, "x": 962, "y": 458 },
             "itemCode": "skl"
           }
         },
@@ -510,7 +494,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "skz",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 831, "y": 1477 },
+            "rect": { "width": 98, "height": 98, "x": 962, "y": 558 },
             "itemCode": "skz"
           }
         },
@@ -518,7 +502,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gav",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 587, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 190, "y": 684 },
             "itemCode": "gav"
           }
         },
@@ -526,7 +510,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gaw",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 190, "y": 806 },
             "itemCode": "gaw"
           }
         },
@@ -534,7 +518,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gag",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 221, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 190, "y": 928 },
             "itemCode": "gag"
           }
         },
@@ -542,7 +526,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gar",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 343, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 190, "y": 1050 },
             "itemCode": "gar"
           }
         },
@@ -550,7 +534,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gab",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 710, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 1005, "y": 684 },
             "itemCode": "gab"
           }
         },
@@ -558,7 +542,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "gay",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 465, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 1005, "y": 806 },
             "itemCode": "gay"
           }
         },
@@ -566,560 +550,16 @@
           "type": "AdvancedStashSlotWidget",
           "name": "ska",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 831, "y": 1577 },
+            "rect": { "width": 98, "height": 98, "x": 1005, "y": 928 },
             "itemCode": "ska"
           }
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "cct",
+          "name": "wms",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1043, "y": 1339 },
-            "itemCode": "cct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "bct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1147, "y": 1339 },
-            "itemCode": "bct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "sct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1339 },
-            "itemCode": "sct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "pct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1339 },
-            "itemCode": "pct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "std",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1445 },
-            "itemCode": "std"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "pk1",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 100, "y": 583 },
-            "itemCode": "pk1"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "ua1",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 411, "y": 583 },
-            "itemCode": "ua1"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "ua2",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 515, "y": 583 },
-            "itemCode": "ua2"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "ua3",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 621, "y": 583 },
-            "itemCode": "ua3"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "ua4",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 725, "y": 583 },
-            "itemCode": "ua4"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "ua5",
-          "fields": {
-            "rect": { "width": 98, "height": 196, "x": 829, "y": 583 },
-            "itemCode": "ua5"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "dhn",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 811 },
-            "itemCode": "dhn"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "xa1",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 412, "y": 811 },
-            "itemCode": "xa1"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "xa2",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 516, "y": 811 },
-            "itemCode": "xa2"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "xa3",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 620, "y": 811 },
-            "itemCode": "xa3"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "xa4",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 725, "y": 811 },
-            "itemCode": "xa4"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "xa5",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 828, "y": 811 },
-            "itemCode": "xa5"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "rvs",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 950 },
-            "itemCode": "rvs"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "rvl",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 202, "y": 950 },
-            "itemCode": "rvl"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "toa",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 412, "y": 950 },
-            "itemCode": "toa"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "tes",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 517, "y": 950 },
-            "itemCode": "tes"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "ceh",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 621, "y": 950 },
-            "itemCode": "ceh"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "bet",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 724, "y": 950 },
-            "itemCode": "bet"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "fed",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 828, "y": 950 },
-            "itemCode": "fed"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r01",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 242 },
-            "itemCode": "r01"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r02",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 203, "y": 242 },
-            "itemCode": "r02"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r03",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 307, "y": 242 },
-            "itemCode": "r03"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r04",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 411, "y": 242 },
-            "itemCode": "r04"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r05",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 515, "y": 242 },
-            "itemCode": "r05"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r06",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 620, "y": 242 },
-            "itemCode": "r06"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r07",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 723, "y": 242 },
-            "itemCode": "r07"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r08",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 827, "y": 242 },
-            "itemCode": "r08"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r09",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 931, "y": 242 },
-            "itemCode": "r09"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r10",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1035, "y": 242 },
-            "itemCode": "r10"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r11",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1139, "y": 242 },
-            "itemCode": "r11"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r12",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1243, "y": 242 },
-            "itemCode": "r12"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r13",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1347, "y": 242 },
-            "itemCode": "r13"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r14",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1451, "y": 242 },
-            "itemCode": "r14"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r15",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1555, "y": 242 },
-            "itemCode": "r15"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r16",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 347 },
-            "itemCode": "r16"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r17",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 203, "y": 347 },
-            "itemCode": "r17"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r18",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 307, "y": 347 },
-            "itemCode": "r18"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r19",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 411, "y": 347 },
-            "itemCode": "r19"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r20",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 515, "y": 347 },
-            "itemCode": "r20"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r21",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 619, "y": 347 },
-            "itemCode": "r21"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r22",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 723, "y": 347 },
-            "itemCode": "r22"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r23",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 827, "y": 347 },
-            "itemCode": "r23"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r24",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 931, "y": 347 },
-            "itemCode": "r24"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r25",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1035, "y": 347 },
-            "itemCode": "r25"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r26",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1139, "y": 347 },
-            "itemCode": "r26"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r27",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1243, "y": 347 },
-            "itemCode": "r27"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r28",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1347, "y": 347 },
-            "itemCode": "r28"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r29",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1451, "y": 347 },
-            "itemCode": "r29"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r30",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1555, "y": 347 },
-            "itemCode": "r30"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r31",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 99, "y": 450 },
-            "itemCode": "r31"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r32",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 203, "y": 452 },
-            "itemCode": "r32" 
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "r33",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 307, "y": 450 },
-            "itemCode": "r33"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "mfp",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1043, "y": 1446 },
-            "itemCode": "mfp"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "tds",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1147, "y": 1446 },
-            "itemCode": "tds"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "dsd",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1446 },
-            "itemCode": "dsd"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "brk",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 307, "y": 811 },
-            "itemCode": "brk"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "mbk",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 307, "y": 949 },
-            "itemCode": "mbk"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "rrr",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1341 },
-            "itemCode": "rrr"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "rtr",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1446 },
-            "itemCode": "rtr"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "fel",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1043, "y": 1549 },
-            "itemCode": "fel"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "voa",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1147, "y": 1549 },
-            "itemCode": "voa"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "gwh",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1549 },
-            "itemCode": "gwh"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "hsm",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1549 },
-            "itemCode": "hsm"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "dss",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1549 },
-            "itemCode": "dss"
+            "rect": { "width": 98, "height": 98, "x": 1004, "y": 1050 },
+            "itemCode": "wms"
           }
         }
       ]
@@ -1130,129 +570,9 @@
       "children": [
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "mfp",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1043, "y": 1446 },
-            "itemCode": "mfp"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "tds",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1147, "y": 1446 },
-            "itemCode": "tds"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "dsd",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1446 },
-            "itemCode": "dsd"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "std",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1446 },
-            "itemCode": "std"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "rtr",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1446 },
-            "itemCode": "rtr"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "fel",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1043, "y": 1549 },
-            "itemCode": "fel"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "voa",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1147, "y": 1549 },
-            "itemCode": "voa"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "gwh",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1549 },
-            "itemCode": "gwh"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "hsm",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1549 },
-            "itemCode": "hsm"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "dss",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1549 },
-            "itemCode": "dss"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "cct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1043, "y": 1339 },
-            "itemCode": "cct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "bct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1147, "y": 1339 },
-            "itemCode": "bct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "sct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1252, "y": 1339 },
-            "itemCode": "sct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "pct",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1355, "y": 1339 },
-            "itemCode": "pct"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
-          "name": "rrr",
-          "fields": {
-            "rect": { "width": 98, "height": 98, "x": 1459, "y": 1339 },
-            "itemCode": "rrr"
-          }
-        },
-        {
-          "type": "AdvancedStashSlotWidget",
           "name": "mls",
           "fields": {
-            "rect": { "width": 98, "height": 196, "x": 622, "y": 545 },
+            "rect": { "width": 98, "height": 196, "x": 272, "y": 198 },
             "itemCode": "mls"
           }
         },
@@ -1260,7 +580,7 @@
           "type": "AdvancedStashSlotWidget",
           "name": "lmr",
           "fields": {
-            "rect": { "width": 98, "height": 196, "x": 726, "y": 545 },
+            "rect": { "width": 98, "height": 196, "x": 376, "y": 198 },
             "itemCode": "lmr"
           }
         },
@@ -1268,57 +588,648 @@
           "type": "AdvancedStashSlotWidget",
           "name": "bgn",
           "fields": {
-            "rect": { "width": 98, "height": 196, "x": 830, "y": 545 },
+            "rect": { "width": 98, "height": 196, "x": 480, "y": 198 },
             "itemCode": "bgn"
           }
         },
+
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "gft",
+          "name": "voa",
           "fields": {
-            "rect": { "width": 98, "height": 196, "x": 721, "y": 845 },
-            "itemCode": "gft"
+            "rect": { "width": 98, "height": 98, "x": 272, "y": 408 },
+            "itemCode": "voa"
           }
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "dw1",
+          "name": "gwh",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 726, "y": 1144 },
-            "itemCode": "dw1"
+            "rect": { "width": 98, "height": 98, "x": 376, "y": 408 },
+            "itemCode": "gwh"
           }
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "db1",
+          "name": "hsm",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 726, "y": 1244 },
-            "itemCode": "db1"
+            "rect": { "width": 98, "height": 98, "x": 480, "y": 408 },
+            "itemCode": "hsm"
+          }
+        },
+
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "brk",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 376, "y": 520 },
+            "itemCode": "brk"
           }
         },
         {
           "type": "AdvancedStashSlotWidget",
-          "name": "1dr",
+          "name": "mbk",
           "fields": {
-            "rect": { "width": 98, "height": 98, "x": 726, "y": 1344 },
-            "itemCode": "1dr"
+            "rect": { "width": 98, "height": 98, "x": 480, "y": 520 },
+            "itemCode": "mbk"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "std",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 630 },
+            "itemCode": "std"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "dsd",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 732 },
+            "itemCode": "dsd"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "rrr",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 836 },
+            "itemCode": "rrr"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "rtr",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 939 },
+            "itemCode": "rtr"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "dss",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 1042 },
+            "itemCode": "dss"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "fel",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 1145 },
+            "itemCode": "fel"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "wms",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1020, "y": 630 },
+            "itemCode": "wms"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "sct",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1020, "y": 732 },
+            "itemCode": "sct"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "pct",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1020, "y": 836 },
+            "itemCode": "pct"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "bct",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1020, "y": 939 },
+            "itemCode": "bct"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "cct",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1020, "y": 1042 },
+            "itemCode": "cct"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "tds",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1020, "y": 1145 },
+            "itemCode": "tds"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "pk1",
+          "fields": {
+            "rect": { "width": 98, "height": 196, "x": 168, "y": 198 },
+            "itemCode": "pk1"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "ua1",
+          "fields": {
+            "rect": { "width": 98, "height": 196, "x": 612, "y": 198 },
+            "itemCode": "ua1"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "ua2",
+          "fields": {
+            "rect": { "width": 98, "height": 196, "x": 716, "y": 198 },
+            "itemCode": "ua2"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "ua3",
+          "fields": {
+            "rect": { "width": 98, "height": 196, "x": 820, "y": 198 },
+            "itemCode": "ua3"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "ua4",
+          "fields": {
+            "rect": { "width": 98, "height": 196, "x": 924, "y": 198 },
+            "itemCode": "ua4"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "ua5",
+          "fields": {
+            "rect": { "width": 98, "height": 196, "x": 1028, "y": 198 },
+            "itemCode": "ua5"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "dhn",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 408 },
+            "itemCode": "dhn"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "xa1",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 612, "y": 408 },
+            "itemCode": "xa1"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "xa2",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 716, "y": 408 },
+            "itemCode": "xa2"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "xa3",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 820, "y": 408 },
+            "itemCode": "xa3"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "xa4",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 924, "y": 408 },
+            "itemCode": "xa4"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "xa5",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1028, "y": 408 },
+            "itemCode": "xa5"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "rvs",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 168, "y": 520 },
+            "itemCode": "rvs"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "rvl",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 272, "y": 520 },
+            "itemCode": "rvl"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "toa",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 606, "y": 520 },
+            "itemCode": "toa"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "tes",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 712, "y": 520 },
+            "itemCode": "tes"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "ceh",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 816, "y": 520 },
+            "itemCode": "ceh"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "bet",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 920, "y": 520 },
+            "itemCode": "bet"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "fed",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1024, "y": 520 },
+            "itemCode": "fed"
           }
         }
       ]
     },
     {
       "type": "Widget",
-      "name": "advancedstash_runes"
+      "name": "advancedstash_runes",
+      "children": [
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r01",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 180, "y": 196 },
+            "itemCode": "r01"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r02",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 284, "y": 200 },
+            "itemCode": "r02"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r03",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 388, "y": 198 },
+            "itemCode": "r03"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r04",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 492, "y": 198 },
+            "itemCode": "r04"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r05",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 590, "y": 198 },
+            "itemCode": "r05"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r06",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 700, "y": 198 },
+            "itemCode": "r06"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r07",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 804, "y": 198 },
+            "itemCode": "r07"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r08",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 908, "y": 198 },
+            "itemCode": "r08"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r09",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1012, "y": 198 },
+            "itemCode": "r09"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r10",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 180, "y": 302 },
+            "itemCode": "r10"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r11",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 284, "y": 302 },
+            "itemCode": "r11"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r12",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 388, "y": 302 },
+            "itemCode": "r12"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r13",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 492, "y": 302 },
+            "itemCode": "r13"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r14",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 590, "y": 302 },
+            "itemCode": "r14"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r15",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 700, "y": 302 },
+            "itemCode": "r15"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r16",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 804, "y": 302 },
+            "itemCode": "r16"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r17",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 908, "y": 302 },
+            "itemCode": "r17"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r18",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1012, "y": 302 },
+            "itemCode": "r18"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r19",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 180, "y": 406 },
+            "itemCode": "r19"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r20",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 284, "y": 406 },
+            "itemCode": "r20"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r21",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 388, "y": 406 },
+            "itemCode": "r21"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r22",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 492, "y": 406 },
+            "itemCode": "r22"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r23",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 590, "y": 406 },
+            "itemCode": "r23"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r24",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 700, "y": 406 },
+            "itemCode": "r24"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r25",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 804, "y": 406 },
+            "itemCode": "r25"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r26",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 908, "y": 406 },
+            "itemCode": "r26"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r27",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1012, "y": 406 },
+            "itemCode": "r27"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r28",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 180, "y": 510 },
+            "itemCode": "r28"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r29",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 284, "y": 510 },
+            "itemCode": "r29"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r30",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 908, "y": 510 },
+            "itemCode": "r30"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r31",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1012, "y": 510 },
+            "itemCode": "r31"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r32",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 180, "y": 616 },
+            "itemCode": "r32"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "r33",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 1012, "y": 612 },
+            "itemCode": "r33"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "wms",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 220, "y": 933 },
+            "itemCode": "wms"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "gsb",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "gsb"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "gsv",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "gsv"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "gsr",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "gsr"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "gsy",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "gsy"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "gsg",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "gsg"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "gsw",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "gsw"
+          }
+        },
+        {
+          "type": "AdvancedStashSlotWidget",
+          "name": "sku",
+          "fields": {
+            "rect": { "width": 98, "height": 98, "x": 979, "y": 933 },
+            "itemCode": "sku"
+          }
+        }
+      ]
     },
     {
       "type": "Widget",
       "name": "advancedstash_horadriccube",
+      "fields": {
+        "rect": { "x": 66, "y": -82 }
+      },
       "children": [
         {
           "type": "InventoryGridWidget",
           "name": "horadriccube_grid",
           "fields": {
-            "rect": { "x": 1002, "y": 538 },
+            "rect": { "x": 288, "y": 767 },
             "cellCount": { "x": 6, "y": 6 },
             "cellSize": "$ItemCellSize",
             "gemSocketFilename": "PANEL\\gemsocket"
@@ -1349,7 +1260,7 @@
           "type": "ButtonWidget",
           "name": "convert",
           "fields": {
-            "rect": { "x": 1239, "y": 1158 },
+            "rect": { "x": 520, "y": 1399 },
             "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
             "tooltipString": "@strUiMenu2",
             "hoveredFrame": 2,
@@ -1360,7 +1271,7 @@
           "type": "ImageWidget",
           "name": "horadriccube_cover",
           "fields": {
-            "rect": { "x": 1002, "y": 538 },
+            "rect": { "x": 288, "y": 767 },
             "filename": "PANEL\\Stash\\AdditionalStash\\HoradricCubeCover"
           }
         },
@@ -1368,7 +1279,7 @@
           "type": "ButtonWidget",
           "name": "withdraw_button",
           "fields": {
-            "rect": { "x": 1154, "y": 1158 },
+            "rect": { "x": 398, "y": 1481 },
             "filename": "FrontEnd\\HD\\Final\\FrontEnd_ButtonSmall",
             "textString": "@AdvancedStashWithdraw",
             "pointSize": "$MediumFontSize",

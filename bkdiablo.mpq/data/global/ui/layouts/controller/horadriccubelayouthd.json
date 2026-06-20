@@ -1,0 +1,69 @@
+{
+    "basedOn": "HoradricCubeLayoutHD.json",
+    "type": "HoradricCubePanel", "name": "HoradricCubeLayout",
+    "fields": {
+        "rect": "$ConsoleLeftPanelRect",
+        "defaultWidget": "grid",
+    },
+    "children": [
+        {
+            "type": "ClickCatcherWidget", "name": "click_catcher",
+            "fields": {
+                "rect": [ 0, 0, 0, 0 ],
+                "fitToParent": true
+            }
+        },
+        {
+            "type": "ImageWidget", "name": "background",
+            "fields": {
+                "filename": "Controller/Panel/HoradricCube/V2/HoradricCubeBG",
+            },
+        },
+        {
+            "type": "ButtonWidget", "name": "convert",
+            "fields": {
+                "rect": { "x": 590, "y": 1072 },
+                "filename": "PANEL\\Horadric_Cube\\TransmuteButton",
+                "hoveredFrame": 2,
+                "focusIndicatorFilename": "Controller/HoverImages/Transmute_Hover",
+                "focusIndicatorOffset": { "x": 0, "y": 0 },
+                "navigation": {
+                    "right": { "panelBoundary": true },
+                    "up": { "name": "grid" },
+                },
+            },
+        },
+        {
+            "type": "InventoryGridWidget", "name": "grid",
+            "fields": {
+                "rect": { "x": 357, "y": 413 },
+                "cellCount": { "x": 6, "y": 6 },
+                "gemSocketFilename": "PANEL/gemsocket",
+                "navigation": {
+                    "right": { "panelBoundary": true },
+                    "down": { "name": "convert" },
+                },
+            },
+			"children": [
+				{
+					"type": "AnimatedImageWidget", "name": "chronicleFlourish",
+					"fields": {
+						"rect": { "x": 0, "y": 0, "width": 370, "height": 540, "scale": 2 },
+						"filename": "PANEL\\Chronicle\\RewardAnims\\PANEL_ChronicleReward_1x1",
+						"blendMode": "black",
+						"fps": 30,
+						"playing": false,
+						"loop": false,
+						"frame": 30,
+					},
+				},
+			],
+        },
+        {
+            "type": "AnimatedImageWidget", "name": "flourish",
+            "fields": {
+                "rect": { "x":251, "y": 115 },
+            },
+        },
+    ]
+}
