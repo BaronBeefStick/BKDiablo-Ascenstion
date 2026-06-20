@@ -2,32 +2,32 @@
 
 BKDiablo is a mod by Baron and Kex for Diablo II Resurrected. As such, it is only to be used in Single Player.
 
-WIKI is a WIP 
+This version of the game is in Beta. 
+
+WIKI is a WIP. [WIKI Link](https://bkdiablo.miraheze.org/wiki/Main_Page)
 
 ## Game 
 - More Challenging
-- Built in Loot Filter
-- Item Stacking!
-- Negative 30 all resist (Only effects the Player)
-- Negative 199 Magic Find (Level 90 Characters Start to Counter this effect)
-- Start with nothing except Horadric Cube
+- Built-in Loot Filter alongside Blizzard's Loot filter.
+- Item Stacking in ROTW.
+- Negative 0/70/140 all resist based on difficulty. (Only affects the Player)
+- Negative 199 Magic Find. Leveling up slowly gives Magic Find.
+- Start with nothing except the Horadric Cube
 - Horadric Cube is now 6x6
 - Charm Inventory
 - More Uber Key Bosses
-- Insanity (was Hell) Difficulty is All Area Level 85 with 25% increased density except Blood Moor.
-- Additional Merc Gear
+- Insanity (was Hell) difficulty is at least Area Level 85 with 33% increased density.
+- Additional Merc Gear (2 rings, 1 amulet, 1 belt)
 - Gold has a huge demand
 - Crafting is very good
-- Corruptions
-- Endgame Farming Areas
-- QOL improvements
+- Corruption System (Allows multiple sockets on items)
+- Augment System (Add +1 teleport or even add attack rating)
+- Endgame Farming Areas (Rifts near Act 5 exit gate)
 - Endless Itemization... Literally
 - Improved Melee
-- Keep Wirt's Leg upon making the Secret Cow Level!
 - Removed Act Cinematics
-- Can now hold Multiple Unique Charms (Strictly for QOL not balance)
-- Doubled Inventory! Only Top or Bottom Half Allowed (Strictly for QOL not balance)
-- Splash Damage Jewel. Iterating upon.
+
+
 
 # How to Install
 Please follow BTN's [install guide](https://rumble.com/v1ngrpk-how-to-install-my-new-diablo-2-resurrected-mod-BKDiablo.html).
@@ -38,31 +38,33 @@ Please use the [#BKD-bug-reports]() channel on Discord!
 # Future Ideas
 Please see the [#BKD-suggestions]() channel on Discord.  
 
-# Most Recent Patch Notes
-**How do I get the new patch?**
+# **How do I get the new patch?**
 1. **Delete BKDiablo.mpq folder**
 2. **Paste New BKDiablo.mpq folder**
 
-Items
-- All Amp Procs Items spawn with at least level 22 now
+# Items
+- Many new Sets and Uniques to look forward to.
+- Added a Melee Splash Damage Jewel.
 
-Rifts
-- No Item Drops.
-- Reduced Rune Drop Rates still better than Cows
+# Rifts
+- No Gear Drops.
+- Best place for Crafting materials.
+- Best place for Experience.
 
-Terror Zones
-- Terror Zones do not cycle areas anymore (Always the Same Areas)
+# Terror Zones
+- Terror Zones also include rifts.
 - TZ Rifts have even more Rune and Gem drops from Elites
 
-Ubers
-- Fixed Uber Bosses Spawning on you too soon while loading?
+# Ubers
+- Have a chance to drop another unique charm.
 
-QOL
+# QOL
 - Ral and Ort Repairing now repairs to 500 Quantity
 - Larger Stashes
-- More item stacking
-- 
-
+- Can now hold Multiple Unique Charms (Strictly for QOL not balance)
+- Doubled Player Inventory. Only Top or Bottom Half Allowed (Strictly for QOL not balance)
+- Keep Wirt's Leg upon making the Secret Cow Level
+  
 # Credits 
 - G1oomey Various testing, Bug Fixes and lots of help throughout the project
 - Inspiration from ALL modders and Diablo Mods over the years  
