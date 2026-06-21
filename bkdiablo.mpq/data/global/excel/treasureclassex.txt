@@ -1,5 +1,5 @@
 Treasure Class	group	level	Picks	Unique	Set	Rare	Magic	NoDrop	Item1	Prob1	Item2	Prob2	Item3	Prob3	Item4	Prob4	Item5	Prob5	Item6	Prob6	Item7	Prob7	Item8	Prob8	Item9	Prob9	Item10	Prob10	*ItemProbSum	*ItemProbTotal	*TreasureClassDropChance	ConditionCalc	firstLadderSeason	lastLadderSeason	noAlwaysSpawn	QuestFlag	QuestFlagEx	*eol
-Gold			1						gld, mul=6	1	AND	5																										0
+Gold			1						gld, mul=1280	1	AND	5																										0
 Jewelry A			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2																		0
 Jewelry B			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2																		0
 Jewelry C			1						rin	8	amu	4	jew	2	cm3	2	cm2	2	cm1	2																		0
@@ -41,12 +41,12 @@ Runes 14			1						r27	3	r28	2	Runes 13	2170																								0
 Runes 15			1						r29	3	r30	2	Runes 14	2941																								0
 Runes 16			1						r31	3	r32	2	Runes 15	3957																								0
 Runes 17			1						r33	1	Runes 16	5170																										0
-Act 1 Terrorize Act Consumable	40		1						xa1	5	xa2	3	xa3	2	xa4	2	xa5	1														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
-Act 2 Terrorize Act Consumable	41		1						xa1	3	xa2	5	xa3	2	xa4	1	xa5	2														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
-Act 3 Terrorize Act Consumable	42		1						xa1	1	xa2	2	xa3	5	xa4	3	xa5	2														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
-Act 4 Terrorize Act Consumable	43		1						xa1	2	xa2	1	xa3	2	xa4	5	xa5	3														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
-Act 5 Terrorize Act Consumable	44		1						xa1	2	xa2	2	xa3	1	xa4	2	xa5	5														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
-All Acts Terrorize Consumable	45		1						xa1	1	xa2	1	xa3	1	xa4	1	xa5	1														cond('Difficulty', hell)*cond('Desecrated')			1		40	0
+Act 1 Terrorize Act Consumable	40		1					5	xa1	5	xa2	3	xa3	2	xa4	2	xa5	1														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
+Act 2 Terrorize Act Consumable	41		1					5	xa1	3	xa2	5	xa3	2	xa4	1	xa5	2														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
+Act 3 Terrorize Act Consumable	42		1					5	xa1	1	xa2	2	xa3	5	xa4	3	xa5	2														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
+Act 4 Terrorize Act Consumable	43		1					5	xa1	2	xa2	1	xa3	2	xa4	5	xa5	3														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
+Act 5 Terrorize Act Consumable	44		1					5	xa1	2	xa2	2	xa3	1	xa4	2	xa5	5														cond('Difficulty', hell)*(cond('Desecrated')==0)			1		40	0
+All Acts Terrorize Consumable	45		1					5	xa1	1	xa2	1	xa3	1	xa4	1	xa5	1														cond('Difficulty', hell)*cond('Desecrated')			1		40	0
 Ancient Statue 1	41	92	1					0	ua1	18	ua2	1	ua3	1																								0
 Ancient Statue 2	41	92	1					0	ua2	18	ua1	1	ua3	1																								0
 Ancient Statue 3	41	92	1					0	ua3	18	ua2	1	ua4	1																								0
@@ -767,6 +767,9 @@ Swarm 1 (N)	17	40	1					125	Potion 6	12	Misc 2	6	Act 2 (N) Good	1	Act 2 (N) Magi
 Swarm 2 (N)	17	46	1					125	Potion 6	12	Misc 2	6	Act 3 (N) Good	1	Act 3 (N) Magic A	6																						0
 Swarm 1 (H)	17	68	1					125	Potion 6	12	Misc 2	6	Act 2 (H) Good	1	Act 2 (H) Magic A	6																						0
 Swarm 2 (H)	17	74	1					125	Potion 6	12	Misc 2	6	Act 3 (H) Good	1	Act 3 (H) Magic A	6																						0
+Andariel Items (H)			7	983	983	983	1024	19	gld,mul=2048	11	Act 2 (H) Equip A	19	Act 5 (H) Junk	15	Act 2 (H) Good	3																						0
+Andarielq Essence (H)			1					0	tes	1																												0
+Andarielq Items (H)			7	995	995	1024	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	3																										0
 Andariel			7	983	983	983	1024	19	gld,mul=1280	11	Act 2 Equip A	19	Act 2 Junk	15	Act 2 Good	3																						0
 Andariel (N)			7	983	983	983	1024	19	gld,mul=1536	11	Act 2 (N) Equip A	19	Act 2 (N) Junk	15	Act 2 (N) Good	3																						0
 Andariel (H)			-2	983	983	983	1024	0	Andariel Essence (H)	1	Andariel Items (H)	1																										0
@@ -779,22 +782,24 @@ Andarielq (N) Desecrated A	20	43	7	995	995	1024	1024	19	Act 2 (N) Equip A	19	Act
 Andarielq (N) Desecrated B	20	57	7	995	995	1024	1024	19	Act 4 (N) Equip B	19	Act 4 (N) Good	3																										0
 Andarielq (N) Desecrated C	20	73	7	995	995	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3																										0
 Andarielq (H)			-2	995	995	1024	1024	0	Andarielq Essence (H)	1	Andarielq Items (H)	1																										0
-Andarielq Item (H) Desecrated A			7	995	995	1024	1024	19	Act 3 (H) Equip B	19	Act 3 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated B			7	995	995	1024	1024	19	Act 3 (H) Equip C	19	Act 3 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated C			7	995	995	1024	1024	19	Act 4 (H) Equip A	19	Act 4 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated D			7	995	995	1024	1024	19	Act 4 (H) Equip B	19	Act 4 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated E			7	995	995	1024	1024	19	Act 4 (H) Equip C	19	Act 4 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated F			7	995	995	1024	1024	19	Act 5 (H) Equip C	19	Act 5 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated G			7	995	995	1024	1024	19	Act 5 (H) Equip B	19	Act 5 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq Item (H) Desecrated H			7	995	995	1024	1024	19	Act 5 (H) Equip C	19	Act 5 (H) Good	3	tes	1	Ancient Statue 1	2																						0
-Andarielq (H) Desecrated A	20	74	-1					0	Andarielq Item (H) Desecrated A	1																												0
-Andarielq (H) Desecrated B	20	78	-1					0	Andarielq Item (H) Desecrated B	1																												0
-Andarielq (H) Desecrated C	20	81	-1					0	Andarielq Item (H) Desecrated C	1																												0
-Andarielq (H) Desecrated D	20	84	-1					0	Andarielq Item (H) Desecrated D	1																												0
-Andarielq (H) Desecrated E	20	87	-1					0	Andarielq Item (H) Desecrated E	1																												0
-Andarielq (H) Desecrated F	20	90	-1					0	Andarielq Item (H) Desecrated F	1																												0
-Andarielq (H) Desecrated G	20	93	-1					0	Andarielq Item (H) Desecrated G	1																												0
-Andarielq (H) Desecrated H	20	96	-1					0	Andarielq Item (H) Desecrated H	1																												0
+Andarielq Item (H) Desecrated A			7	995	995	1024	1024	19	Act 3 (H) Equip B	19	Act 3 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated B			7	995	995	1024	1024	19	Act 3 (H) Equip C	19	Act 3 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated C			7	995	995	1024	1024	19	Act 4 (H) Equip A	19	Act 4 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated D			7	995	995	1024	1024	19	Act 4 (H) Equip B	19	Act 4 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated E			7	995	995	1024	1024	19	Act 4 (H) Equip C	19	Act 4 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated F			7	995	995	1024	1024	19	Act 5 (H) Equip C	19	Act 5 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated G			7	995	995	1024	1024	19	Act 5 (H) Equip B	19	Act 5 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq Item (H) Desecrated H			7	995	995	1024	1024	19	Act 5 (H) Equip C	19	Act 5 (H) Good	3	Ancient Statue 1	2		0																						0
+Andarielq (H) Desecrated A	20	74	-2					0	Andarielq Item (H) Desecrated A	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated B	20	78	-2					0	Andarielq Item (H) Desecrated B	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated C	20	81	-2					0	Andarielq Item (H) Desecrated C	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated D	20	84	-2					0	Andarielq Item (H) Desecrated D	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated E	20	87	-2					0	Andarielq Item (H) Desecrated E	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated F	20	90	-2					0	Andarielq Item (H) Desecrated F	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated G	20	93	-2					0	Andarielq Item (H) Desecrated G	1	Andarielq Essence (H)	1																										0
+Andarielq (H) Desecrated H	20	96	-2					0	Andarielq Item (H) Desecrated H	1	Andarielq Essence (H)	1																										0
+Duriel Essence (H)			1					0	tes	1																												0
+Duriel Items (H)			7	983	983	983	1024	19	gld,mul=2048	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3																						0
 Duriel - Base			7	983	983	983	1024	19	gld,mul=1280	11	Act 3 Equip A	19	Act 3 Junk	15	Act 3 Good	3																						0
 Duriel - Base Desecrated A			7	983	983	983	1024	19	gld,mul=1280	11	Act 3 Equip B	19	Act 3 Junk	15	Act 3 Good	3																						0
 Duriel - Base Desecrated B			7	983	983	983	1024	19	gld,mul=1280	11	Act 5 Equip B	19	Act 5 Junk	15	Act 5 Good	3																						0
@@ -804,10 +809,14 @@ Duriel (N) - Base Desecrated A			7	983	983	983	1024	19	gld,mul=1536	11	Act 4 (N)
 Duriel (N) - Base Desecrated B			7	983	983	983	1024	19	gld,mul=1536	11	Act 5 (N) Equip B	19	Act 5 (N) Junk	15	Act 5 (N) Good	3																						0
 Duriel (N) - Base Desecrated C			7	983	983	983	1024	19	gld,mul=1536	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3																						0
 Duriel (H) - Base			-2	983	983	983	1024	0	Duriel Essence (H)	1	Duriel Items (H)	1																										0
-Duriel (H) - Base Desecrated A			7	983	983	983	1024	19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	tes	2	Ancient Statue 2	2																		0
-Duriel (H) - Base Desecrated B			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	tes	2	Ancient Statue 2	2																		0
-Duriel (H) - Base Desecrated C			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	tes	2	Ancient Statue 2	2																		0
-Duriel (H) - Base Desecrated D			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	tes	2	Ancient Statue 2	2																		0
+Duriel Item (H) Desecrated A			7	983	983	983	1024	19	gld,mul=2048	11	Act 4 (H) Equip B	19	Act 4 (H) Junk	15	Act 4 (H) Good	3	Ancient Statue 2	2		0																		0
+Duriel (H) - Base Desecrated A			-2					0	Duriel Item (H) Desecrated A	1	Duriel Essence (H)	1																										0
+Duriel Item (H) Desecrated B			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip A	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	Ancient Statue 2	2		0																		0
+Duriel (H) - Base Desecrated B			-2					0	Duriel Item (H) Desecrated B	1	Duriel Essence (H)	1																										0
+Duriel Item (H) Desecrated C			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	Ancient Statue 2	2		0																		0
+Duriel (H) - Base Desecrated C			-2					0	Duriel Item (H) Desecrated C	1	Duriel Essence (H)	1																										0
+Duriel Item (H) Desecrated D			7	983	983	983	1024	19	gld,mul=2048	11	Act 5 (H) Equip C	19	Act 5 (H) Junk	15	Act 5 (H) Good	3	Ancient Statue 2	2		0																		0
+Duriel (H) - Base Desecrated D			-2					0	Duriel Item (H) Desecrated D	1	Duriel Essence (H)	1																										0
 Durielq - Base			7	993	993	1024	1024	19	Act 3 Equip A	19	Act 3 Good	3																										0
 Durielq (N) - Base			7	993	993	1024	1024	19	Act 3 (N) Equip A	19	Act 3 (N) Good	3																										0
 Durielq (H) - Base			7	993	993	1024	1024	19	Act 3 (H) Equip A	19	Act 3 (H) Good	3	tes	2																								0
@@ -831,41 +840,6 @@ Radament (H) Desecrated D	21	96	1					0	Radament Item (H) Desecrated D	1								
 Flying Scimitar			1					100	Act 2 Good	3	scm	57																										0
 Flying Scimitar (N)			1					100	Act 2 (N) Good	3	scm	25	9sm	32																								0
 Flying Scimitar (H)			1					100	Act 2 (H) Good	3	scm	7	9sm	18	7sm	32																						0
-Mephisto			7	983	983	983	1024	15	gld,mul=1280	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																						0
-Mephisto Desecrated A	22	26	7	983	983	983	1024	15	gld,mul=1280	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																						0
-Mephisto Desecrated B	22	38	7	983	983	983	1024	15	gld,mul=1280	5	Act 5 Equip C	52	Act 5 Junk	5	Act 5 Good	3																						0
-Mephisto Desecrated C	22	48	7	983	983	983	1024	15	gld,mul=1280	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
-Mephisto (N)			7	983	983	983	1024	15	gld,mul=1536	5	Act 4 (N) Equip A	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																						0
-Mephisto (N) Desecrated A	22	59	7	983	983	983	1024	15	gld,mul=1536	5	Act 4 (N) Equip B	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																						0
-Mephisto (N) Desecrated B	22	66	7	983	983	983	1024	15	gld,mul=1536	5	Act 5 (N) Equip C	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
-Mephisto (N) Desecrated C	22	73	7	983	983	983	1024	15	gld,mul=1536	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
-Mephisto (H)			-2	983	983	983	1024	0	Mephisto Essence (H)	1	Mephisto Items (H)	1																										0
-Mephisto Item (H) Desecrated A			7	983	983	983	1024	15	gld,mul=2048	5	Act 4 (H) Equip B	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	ceh	1	Ancient Statue 3	2																		0
-Mephisto Item (H) Desecrated B			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	ceh	1	Ancient Statue 3	2																		0
-Mephisto Item (H) Desecrated C			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	ceh	1	Ancient Statue 3	2																		0
-Mephisto Item (H) Desecrated D			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	ceh	1	Ancient Statue 3	2																		0
-Mephisto (H) Desecrated A	22	87	1					0	Mephisto Item (H) Desecrated A	1																												0
-Mephisto (H) Desecrated B	22	90	1					0	Mephisto Item (H) Desecrated B	1																												0
-Mephisto (H) Desecrated C	22	93	1					0	Mephisto Item (H) Desecrated C	1																												0
-Mephisto (H) Desecrated D	22	96	1					0	Mephisto Item (H) Desecrated D	1																												0
-Mephistoq			7	993	993	1024	1024	15	Act 4 Equip A	52	Act 4 Good	3																										0
-Mephistoq (N)			7	993	993	1024	1024	15	Act 4 (N) Equip A	52	Act 4 (N) Good	3																										0
-Mephistoq (H)			7	993	993	1024	1024	15	Act 4 (H) Equip A	52	Act 4 (H) Good	3	ceh	1																								0
-Diablo			7	983	983	983	1024	15	gld,mul=1280	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																						0
-Diablo Desecrated A	23	40	7	983	983	983	1024	15	gld,mul=1280	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																						0
-Diablo Desecrated B	23	48	7	983	983	983	1024	15	gld,mul=1280	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
-Diablo (N)			7	983	983	983	1024	15	gld,mul=1536	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
-Diablo (N) Desecrated A	23	62	7	983	983	983	1024	15	gld,mul=1536	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
-Diablo (N) Desecrated B	23	67	7	983	983	983	1024	15	gld,mul=1536	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																						0
-Diablo (N) Desecrated C	23	73	7	983	983	983	1024	15	gld,mul=1536	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
-Diablo (H)			-2	983	983	983	1024	0	Diablo Essence (H)	1	Diablo Items (H)	1																										0
-Diablo Item (H) Desecrated A			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1	Ancient Statue 4	2																		0
-Diablo Item (H) Desecrated B			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	bet	1	Ancient Statue 4	2																		0
-Diablo (H) Desecrated A	23	94	1					0	Diablo Item (H) Desecrated A	1																												0
-Diablo (H) Desecrated B	23	96	1					0	Diablo Item (H) Desecrated B	1																												0
-Diabloq			7	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																										0
-Diabloq (N)			7	993	993	1024	1024	15	Act 5 (N) Equip A	52	Act 5 (N) Good	3																										0
-Diabloq (H)			7	993	993	1024	1024	15	Act 5 (H) Equip A	52	Act 5 (H) Good	3	bet	1																								0
 Summoner			5	900	900	972	1024	19	gld,mul=1280	9	Act 2 Equip C	15	Act 3 Junk	5	Act 2 Good	3	Act 3 Magic A	4																				0
 Summoner Desecrated A	24	18	5	900	900	972	1024	19	gld,mul=1280	9	Act 2 Equip C	15	Act 3 Junk	5	Act 2 Good	3	Act 3 Magic A	4																				0
 Summoner Desecrated B	24	32	5	900	900	972	1024	19	gld,mul=1280	9	Act 4 Equip B	15	Act 5 Junk	5	Act 4 Good	3	Act 5 Magic A	4																				0
@@ -925,6 +899,45 @@ Cow (H)	99	0	1					100	gld,mul=4864	1	Act 5 (H) Equip B	19	Act 5 (H) Junk	19	Act
 Trapped Soul			1					100	Gold	19	Act 4 Equip A	8	Act 4 Junk	33																								0
 Trapped Soul (N)			1					100	Gold	19	Act 4 (N) Equip A	8	Act 4 (N) Junk	33																								0
 Trapped Soul (H)			1					100	Gold	19	Act 4 (H) Equip A	8	Act 4 (H) Junk	33																								0
+Mephisto Essence (H)			1					0	ceh	1																												0
+Mephisto Items (H)			7	983	983	983	1024	15	gld,mul=2048	5	Act 4 (H) Equip A	52	Act 4 (H) Junk	5	Act 4 (H) Good	3																						0
+Mephisto			7	983	983	983	1024	15	gld,mul=1280	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																						0
+Mephisto Desecrated A	22	26	7	983	983	983	1024	15	gld,mul=1280	5	Act 4 Equip A	52	Act 4 Junk	5	Act 4 Good	3																						0
+Mephisto Desecrated B	22	38	7	983	983	983	1024	15	gld,mul=1280	5	Act 5 Equip C	52	Act 5 Junk	5	Act 5 Good	3																						0
+Mephisto Desecrated C	22	48	7	983	983	983	1024	15	gld,mul=1280	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
+Mephisto (N)			7	983	983	983	1024	15	gld,mul=1536	5	Act 4 (N) Equip A	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																						0
+Mephisto (N) Desecrated A	22	59	7	983	983	983	1024	15	gld,mul=1536	5	Act 4 (N) Equip B	52	Act 4 (N) Junk	5	Act 4 (N) Good	3																						0
+Mephisto (N) Desecrated B	22	66	7	983	983	983	1024	15	gld,mul=1536	5	Act 5 (N) Equip C	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
+Mephisto (N) Desecrated C	22	73	7	983	983	983	1024	15	gld,mul=1536	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
+Mephisto (H)			-2	983	983	983	1024	0	Mephisto Essence (H)	1	Mephisto Items (H)	1																										0
+Mephisto Item (H) Desecrated A			7	983	983	983	1024	15	gld,mul=2048	5	Act 4 (H) Equip B	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	Ancient Statue 3	2		0																		0
+Mephisto Item (H) Desecrated B			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 3	2		0																		0
+Mephisto Item (H) Desecrated C			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 3	2		0																		0
+Mephisto Item (H) Desecrated D			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 3	2		0																		0
+Mephisto (H) Desecrated A	22	87	-2					0	Mephisto Item (H) Desecrated A	1	Mephisto Essence (H)	1																										0
+Mephisto (H) Desecrated B	22	90	-2					0	Mephisto Item (H) Desecrated B	1	Mephisto Essence (H)	1																										0
+Mephisto (H) Desecrated C	22	93	-2					0	Mephisto Item (H) Desecrated C	1	Mephisto Essence (H)	1																										0
+Mephisto (H) Desecrated D	22	96	-2					0	Mephisto Item (H) Desecrated D	1	Mephisto Essence (H)	1																										0
+Mephistoq			7	993	993	1024	1024	15	Act 4 Equip A	52	Act 4 Good	3																										0
+Mephistoq (N)			7	993	993	1024	1024	15	Act 4 (N) Equip A	52	Act 4 (N) Good	3																										0
+Mephistoq (H)			7	993	993	1024	1024	15	Act 4 (H) Equip A	52	Act 4 (H) Good	3	ceh	1																								0
+Diablo Essence (H)			1					0	bet	1																												0
+Diablo Items (H)			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3																						0
+Diablo			7	983	983	983	1024	15	gld,mul=1280	5	Act 5 Equip A	52	Act 5 Junk	5	Act 5 Good	3																						0
+Diablo Desecrated A	23	40	7	983	983	983	1024	15	gld,mul=1280	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																						0
+Diablo Desecrated B	23	48	7	983	983	983	1024	15	gld,mul=1280	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
+Diablo (N)			7	983	983	983	1024	15	gld,mul=1536	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
+Diablo (N) Desecrated A	23	62	7	983	983	983	1024	15	gld,mul=1536	5	Act 5 (N) Equip A	52	Act 5 (N) Junk	5	Act 5 (N) Good	3																						0
+Diablo (N) Desecrated B	23	67	7	983	983	983	1024	15	gld,mul=1536	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																						0
+Diablo (N) Desecrated C	23	73	7	983	983	983	1024	15	gld,mul=1536	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
+Diablo (H)			-2	983	983	983	1024	0	Diablo Essence (H)	1	Diablo Items (H)	1																										0
+Diablo Item (H) Desecrated A			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 4	2		0																		0
+Diablo Item (H) Desecrated B			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 4	2		0																		0
+Diablo (H) Desecrated A	23	94	-2					0	Diablo Item (H) Desecrated A	1	Diablo Essence (H)	1																										0
+Diablo (H) Desecrated B	23	96	-2					0	Diablo Item (H) Desecrated B	1	Diablo Essence (H)	1																										0
+Diabloq			7	993	993	1024	1024	15	Act 5 Equip A	52	Act 5 Good	3																										0
+Diabloq (N)			7	993	993	1024	1024	15	Act 5 (N) Equip A	52	Act 5 (N) Good	3																										0
+Diabloq (H)			7	993	993	1024	1024	15	Act 5 (H) Equip A	52	Act 5 (H) Good	3	bet	1																								0
 Haphesto			5	800	800	900	1024	19	gld,mul=1280	14	Act 5 Equip A	19	Act 5 Junk	5	Act 5 Good	3																						0
 Haphesto Desecrated A	27	28	5	800	800	900	1024	19	gld,mul=1280	14	Act 5 Equip A	19	Act 5 Junk	5	Act 5 Good	3																						0
 Haphesto Desecrated B	27	38	5	800	800	900	1024	19	gld,mul=1280	14	Act 5 Equip C	19	Act 5 Junk	5	Act 5 Good	3																						0
@@ -947,12 +960,14 @@ Nihlathak (N) Desecrated	28	73	5	900	900	900	1024	19	gld,mul=1280	14	Act 3 (H) E
 Nihlathak (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) Junk	9	Act 5 (H) Good	3	pk1	2																				0
 Nihlathak Item (H) Desecrated			5	900	900	900	1024	19	gld,mul=2048	14	Act 5 (H) Equip C	19	Act 5 (H) Junk	5	Act 5 (H) Good	3	pk1	2																				0
 Nihlathak (H) Desecrated	28	95	1						Nihlathak Item (H) Desecrated	1																												0
+Baal Essence (H)			1					0	fed	1																												0
+Baal Items (H)			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3																						0
 Baal			7	983	983	983	1024	15	gld,mul=1280	5	Act 1 (N) Equip A	52	Act 1 (N) Junk	5	Act 1 (N) Good	3																						0
 Baal Desecrated	29	60	7	983	983	983	1024	15	gld,mul=1280	5	Act 3 (N) Equip A	52	Act 3 (N) Junk	5	Act 3 (N) Good	3																						0
 Baal (N)			7	983	983	983	1024	15	gld,mul=1536	5	Act 1 (H) Equip A	52	Act 1 (H) Junk	5	Act 1 (H) Good	3																						0
 Baal (N) Desecrated	29	75	7	983	983	983	1024	15	gld,mul=1536	5	Act 3 (H) Equip A	52	Act 3 (H) Junk	5	Act 3 (H) Good	3																						0
 Baal (H)			-2	983	983	983	1024	0	Baal Essence (H)	1	Baal Items (H)	1																										0
-Baal Item (H) Desecrated			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	fed	1	Ancient Statue 5	2																		0
+Baal Item (H) Desecrated			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip C	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 5	2		0																		0
 Baal (H) Desecrated	29	99	-2					0	Baal Item (H) Desecrated	1	Baal Essence (H)	1																										0
 Baalq			7	993	993	1024	1024	15	Act 1 (N) Equip A	52	Act 1 (N) Good	3																										0
 Baalq (N)			7	993	993	1024	1024	15	Act 1 (H) Equip A	52	Act 1 (H) Good	3																										0
@@ -1347,26 +1362,15 @@ Act 5 (H) Herald C	41	96	-6	800	800	850	1024	0	Act 5 (H) Herald Item N	2	Act 5 (
 AND			1																																			0
 Craft		1	1					0	pct	1	bct	1	cct	1	sct	1																						0
 Ultrarare consumable			1					4700	rrr	1	AND	2600	rtr	1	fel	1																						0
-Andariel Essence (H)			1					0	tes	1																												0
-Andariel Items (H)			7	983	983	983	1024	19	gld,mul=2048	11	Act 2 (H) Equip A	19	Act 5 (H) Junk	15	Act 2 (H) Good	3																						0
-Andarielq Essence (H)			1					0	tes	1																												0
-Andarielq Items (H)			7	995	995	1024	1024	19	Act 2 (H) Equip A	19	Act 2 (H) Good	3	Ancient Statue 1	2																								0
-Duriel Essence (H)			1					0	tes	1																												0
-Duriel Items (H)			7	983	983	983	1024	19	gld,mul=2048	11	Act 3 (H) Equip A	19	Act 3 (H) Junk	15	Act 3 (H) Good	3	Ancient Statue 2	2																				0
-Mephisto Essence (H)			1					0	ceh	1																												0
-Mephisto Items (H)			7	983	983	983	1024	15	gld,mul=2048	5	Act 4 (H) Equip A	52	Act 4 (H) Junk	5	Act 4 (H) Good	3	Ancient Statue 3	2																				0
-Diablo Essence (H)			1					0	bet	1																												0
-Diablo Items (H)			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip A	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 4	2																				0
-Baal Essence (H)			1					0	fed	1																												0
-Baal Items (H)			7	983	983	983	1024	15	gld,mul=2048	5	Act 5 (H) Equip B	52	Act 5 (H) Junk	5	Act 5 (H) Good	3	Ancient Statue 5	2																				0
 Corpsefire Titans	18	0	-2	800	800	972	1024	0	Act 1 Cpot A	1	Titan's Echo	1																										0
 Uber Mephisto			1				1024	0	cm1	1																												0
 Uber Diablo			1				1024	0	cm2	1																												0
 Uber Baal			1	800			1024	0	cm3	1																												0
 Snapchip (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) Junk	9	Act 5 (H) Good	3	pk1	2																				0
 Rift Gold			1					0	gld,mul=5000	1	AND	20																										0
-Rift Crafts (N) Premium			1					900	brk	12	std	12	Ultrarare Consumable	2	All Acts Terrorize Consumable	1	Ancient Statue Random	1																				0
-Rift Crafts (H) Premium			1					300	brk	23	std	23	Ultrarare Consumable	5	All Acts Terrorize Consumable	10	Ancient Statue Random	10																				0
+Rift Crafts Premium			1					900	Rift Crafts (N) Premium	50	brk	1	std	1																								0
+Rift Crafts (N) Premium			1					900	brk	12	std	12	Ultrarare consumable	2	All Acts Terrorize Consumable	1	Ancient Statue Random	1																				0
+Rift Crafts (H) Premium			1					300	brk	23	std	23	Ultrarare consumable	5	All Acts Terrorize Consumable	10	Ancient Statue Random	10																				0
 Rift Good			1					475	Flawed Gem	15	Normal Gem	1	Runes 5	4	Runes 6	2	Craft	3																				0
 Rift Good Low			1					432	Chipped Gem	12	Flawed Gem	3	Runes 4	3	Craft	2																						0
 Rift Good High			1					204	Normal Gem	5	Flawless Gem	3	Runes 7	1	Craft	3																						0
