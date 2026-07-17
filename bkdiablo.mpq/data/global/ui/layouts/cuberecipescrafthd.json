@@ -1,0 +1,2429 @@
+{
+  "type": "SettingsPanel",
+  "name": "CubeRecipesCraft",
+  "fields": {
+    "priority": 9003,
+    "rect": "$OptionsPanelRect",
+    "anchor": { "x": 0.5 },
+    "applySettingsImmediately": false
+  },
+  "children": [
+    {
+      "type": "ImageWidget",
+      "name": "ScrollBarBackground",
+      "fields": {
+        "rect": "$OptionsScrollBarBackgroundRect",
+        "anchor": { "x": 1.0 },
+        "filename": "PauseMenu\\VerticalScroll"
+      },
+      "children": [
+        {
+          "type": "ScrollControllerWidget",
+          "name": "ScrollController",
+          "fields": {
+            "rect": "$OptionsScrollBarRect",
+            "anchor": { "x": 1.0 },
+            "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+            "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+            "barFilepath": "PauseMenu\\VerticalIndicator",
+            "viewName": "ScrollView",
+            "wheelScrollSound": "cursor_scroll_hd",
+            "buttonScrollSound": "cursor_scroll_hd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ScrollViewWidget",
+      "name": "ScrollView",
+      "fields": {
+        "fitToParent": true,
+        "scrollControllerName": "ScrollController"
+      },
+      "children": [
+        {
+          "type": "TableWidget",
+          "name": "CubeRecipesCraftingTable",
+          "fields": {
+            "columns": [
+              { "width": 830, "alignment": { "h": "fit", "v": "fit" } },
+              { "width": 900, "alignment": { "h": "fit", "v": "fit" } }
+            ],
+            "rowHeight": "$OptionsTableRowHeight",
+            "cellPadding": { "left": 0, "right": 50 }
+          },
+          "children": [
+            {
+              "type": "TableRowWidget",
+              "name": "headers",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients Header",
+                  "fields": {
+                    "text": "@strIngredients",
+                    "style": "$StyleSettingsTitle"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result Header",
+                  "fields": {
+                    "text": "@strResult",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "crafting_eth",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCraftingEthIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCraftingEthResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blood_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBloodRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBloodRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "safety_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSafetyRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSafetyRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "caster_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCasterRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCasterRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "hitpower_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strHitPowerRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strHitPowerRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_blood_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedBloodWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedBloodWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_safety_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSafetyWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSafetyWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_caster_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedCasterWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedCasterWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_boots",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerBootsIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerBootsResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_gloves",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerGlovesIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerGlovesResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_belt",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerBeltIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerBeltResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_amulet",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerAmuletIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerAmuletResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_ring",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerRingIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerRingResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_hitpower_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedHitPowerWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedHitPowerWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

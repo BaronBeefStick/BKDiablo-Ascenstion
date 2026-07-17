@@ -25,8 +25,6 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 4 Healing Potions (Any) + 1 Perfect Ruby + 1 Magic Sword -> Sword of the Leech	0				0					6	"swor,mag"	gpr	"hpot,qty=4"					"usetype,mag,suf=352"	30		60																																																																																				0
 1 Perfect Diamond + 1 Kris + 1 Staff + 1 Belt -> Savage Polearm	0				0					4	kri	gpw	staf	belt				"pole,mag,pre=191"	50		60																																																																																				0
 1 Strangling Gas Potion + 1 Healing Potion (Any) -> Antidote Potion	1				0					2	gpl	hpot						yps																																																																																							0
-WIP 2 Arrows -> Bolts with MF + Sockets	1				0					2	"aqv,qty=2"							cqv	99		99	mag%/lvl	100		4	4	sock	100		3	3																																																																										0
-WIP 2 Bolts -> Arrows with MF + Sockets	1				0					2	"cqv,qty=2"							aqv	99		99	mag%/lvl	100		4	4	sock	100		3	3																																																																										0
 3 Perfect Gems (Any) + 1 Magic Item -> Re-rolled Magic Item	1				100					4	"any,mag"	"gem4,qty=3"						"usetype,mag"			100																																																																																				0
 6 Perfect Skulls + 1 Rare Item -> 1 Low Quality Rare Item	1				0					7	"any,rar"	"skz,qty=6"						"usetype,rar"		40	40																																																																																				0
 1 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> 1 High Quality Rare Item	1				0					3	"any,rar"	skz	The Stone of Jordan					"usetype,rar"		66	66																																																																																				0
@@ -47,9 +45,19 @@ Infernal Mawstone + Item --> Rerolls Set; Potential Upgrade or Downgrade	1				10
 Infernal Mawstone + Item --> Rerolls Ethereal Unique ; Potential Upgrade or Downgrade	1				100					2	any,uni,eth	rrr						usetype,uni	99		99	ethereal	100		1	1																																																																															0
 Infernal Mawstone + Item --> Rerolls Unique ; Potential Upgrade or Downgrade	1				100					2	any,uni,noe	rrr						usetype,uni	99		99																																																																																				0
 Fracture Halo --> Return Base + Socketed Items	1				100					2	any,sock	rtr						useitem,rem																																																																																							0
+Arrows - Level 40+ - 3 Sockets	1				100	3	12	40		2	aqv	tsc						aqv	99		99	sock	100		3	3	mag%/lvl	100		4	4																																																																										0
+Arrows - Level 25+ - 2 Sockets	1				100	3	12	25		2	aqv	tsc						aqv	99		99	sock	100		2	2	mag%/lvl	100		4	4																																																																										0
+Arrows - Level 1-24 - 1 Socket	1				100					2	aqv	tsc						aqv	99		99	sock	100		1	1	mag%/lvl	100		4	4																																																																										0
+Bolts - Level 40+ - 3 Sockets	1				100	3	12	40		2	cqv	tsc						cqv	99		99	sock	100		3	3	mag%/lvl	100		4	4																																																																										0
+Bolts - Level 25+ - 2 Sockets	1				100	3	12	25		2	cqv	tsc						cqv	99		99	sock	100		2	2	mag%/lvl	100		4	4																																																																										0
+Bolts - Level 1-24 - 1 Socket	1				100					2	cqv	tsc						cqv	99		99	sock	100		1	1	mag%/lvl	100		4	4																																																																										0
 3 Prime Sigil's  = 1 Gull Dagger	1				100					3	gwh,qty=3							Gull	21		21																																																																																				0
 4 Prime Sigil's  = 1 Tarnhelm	1				100					4	gwh,qty=4							Tarnhelm	21		21																																																																																				0
-1 Thaw for Blank Charm	1				100					1	wms							mfd	99		99																										mfd																													mfd																													0
+Set + Blank Charm = Updated Item	1				100					2	any,set,noe	wms						usetype,set	99		99																																																																																				0
+Uni + Blank Charm = Updated Item	1				100					2	any,uni,noe	wms						usetype,uni	99		99																																																																																				0
+E Set + Blank Charm = Updated Item	1				100					2	any,set,eth	wms						usetype,set	99		99	ethereal	100		1																																																																																0
+E Uni + Blank Charm = Updated Item	1				100					2	any,uni,eth	wms						usetype,uni	99		99	ethereal	100		1																																																																																0
+1 Thaw for Blank Charm	1				100					1	wms							mfd	99		99																																																																																				0
 2 Thaw for Modifiers Charm	1				100					2	wms,qty=2							Charm Modifiers	99		99																																																																																				0
 3 Thaw for Level Reward Charm	1				100					3	wms,qty=3							Charm Level Reward	99		99																																																																																				0
 Magic Wand + Blood Coiled Stone + Mana Potion = Wand of Lower Res	1				100					3	wand,mag	voa	mpot					usetype,mag				oskill	100	91	1	1																																																																															0
@@ -95,8 +103,8 @@ Charsi's Malus + Annihilus  -> 3 Standard of Heroes	1				0					2	Annihilus	mls		
 Charsi's Malus + Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	mls						mfp																													mfp																													mfp																													0
 1 Ort Rune + 1 Weapon -> Fully Repaired Weapon	1				100					2	"weap,noe"	r09						"useitem,rep,rch,qty=500"																																																																																							0
 1 Ral Rune + 1 Armor -> Fully Repaired Armor	1				100					2	"armo,noe"	r08						"useitem,rep,rch,qty=500"																																																																																							0
-1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	1				100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=500"																																																																																							0
-1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	1				100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=500"																																																																																							0
+1 Ort Rune + 1 Chipped Gem (Any) + 1 Weapon -> Fully Repaired and Recharged Weapon	0				100					3	"weap,noe"	r09	gem0					"useitem,rep,rch,qty=500"																																																																																							0
+1 Ral Rune + 1 Flawed Gem (Any) + 1 Armor -> Fully Repaired and Recharged Armor	0				100					3	"armo,noe"	r08	gem1					"useitem,rep,rch,qty=500"																																																																																							0
 1 pk2 + Thawing Potion  -> 1 pk1	1				100					2	pk2	wms						pk1																																																																																							0
 1 pk3 + Thawing Potion -> 1 pk1	1				100					2	pk3	wms						pk1																																																																																							0
 3 Pandemonium Keys -> Portal to Matron's Den/Forgotten Sands/Furnace of Pain (Random)	1				100	28				3	ukey,qty=3							Pandemonium Portal																																																																																							0
@@ -105,12 +113,15 @@ Charsi's Malus + Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	ml
 3 Twisted Essence of Suffering -> 1 Charged Essence of Hatred	1				100					3	tes,qty=3							ceh																																																																																							0
 3 Charged Essence of Hatred -> 1 Burning Essence of Terror	1				100					3	ceh,qty=3							bet																																																																																							0
 3 Burning Essence of Terror -> 1 Festering Essence of Destruction	1				100					3	bet,qty=3							fed																																																																																							0
-3 Festering Essence of Destruction -> Twisted Essence of Suffering	1				100					3	fed,qty=3							tes,qty=3																																																																																							0
+3 Festering Essence of Destruction -> 3 Twisted Essence of Suffering	1				100					3	fed,qty=3							tes																													tes																													tes																													0
 35 Standard of Heroes + Thawing Potion = Flask of Etheric Light	1				100					36	std,qty=35	wms						fel																																																																																							0
 20 Bricks = Pile of Bricks	1				100					20	brk,qty=20							mbk																																																																																							0
-10 Bricks + Thawing Potion = Gul Rune	1				100					11	brk,qty=10	wms						r25	99		99																																																																																				0
-20 Bricks + Thawing Potion = Vex Rune	1				100					21	brk,qty=20	wms						r26	99		99																																																																																				0
-30 Bricks + Thawing Potion = Ohm Rune	1				100					31	brk,qty=30	wms						r27	99		99																																																																																				0
+9 Bricks + Thawing Potion = Pul Rune	1				100					10	brk,qty=9	wms						r21	99		99																																																																																				0
+15 Bricks + Thawing Potion = Mal Rune	1				100					16	brk,qty=15	wms						r23	99		99																																																																																				0
+21 Bricks + Thawing Potion = Gul Rune	1				100					22	brk,qty=21	wms						r25	99		99																																																																																				0
+27 Bricks + Thawing Potion = Ohm Rune	1				100					28	brk,qty=27	wms						r27	99		99																																																																																				0
+33 Bricks + Thawing Potion = Sur Rune	1				100					34	brk,qty=33	wms						r29	99		99																																																																																				0
+36 Bricks + Thawing Potion = Ber Rune	1				100					37	brk,qty=36	wms						r30	99		99																																																																																				0
 9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	skz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
 5 Pile of Bricks + Prime Sigil = The Divine Standard 	1				100					6	mbk,qty=5	gwh						dsd	99		99																																																																																				0
 5 Ascended Diamonds + Prime Sigil = Diablo's Soulstone + SoH	1				100					6	gaw,qty=5	gwh						dss																													std	99		99																																																							0
@@ -176,13 +187,27 @@ Charsi's Malus + Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	ml
 9 Flawed Skulls -> 3 Standard Skull	1				100					9	"skf,qty=9"							sku																													sku																													sku																													0
 9 Standard Skulls -> 3 Flawless Skull	1				100					9	"sku,qty=9"							skl																													skl																													skl																													0
 9 Flawless Skulls -> 3 Perfect Skull	1				100					9	"skl,qty=9"							skz																													skz																													skz																													0
-27 Standard Amethysts + Thawing = 3 Perfect Amethysts	1				100					28	gsv,gty=27	wms						gpv																													gpv																													gpv																													0
-27 Standard Rubies + Thawing = 3 Perfect Rubies	1				100					28	gsr,gty=27	wms						gpr																													gpr																													gpr																													0
-27 Standard Sapphires + Thawing = 3 Perfect Sapphires 	1				100					28	gsb,gty=27	wms						gpb																													gpb																													gpb																													0
-27 Standard Topazes + Thawing = 3 Perfect Topazes 	1				100					28	gsy,gty=27	wms						gpy																													gpy																													gpy																													0
-27 Standard Emeralds + Thawing = 3 Perfect Emeralds	1				100					28	gsg,gty=27	wms						gpg																													gpg																													gpg																													0
-27 Standard Diamonds + Thawing = 3 Perfect Diamonds	1				100					28	gsw,gty=27	wms						gpw																													gpw																													gpw																													0
-27 Standard Skulls + Thawing = 3 Perfect Skulls	1				100					28	sku,gty=27	wms						skz																													skz																													skz																													0
+27 Chipped Amethysts + Thawing = 3 Standard Amethysts	1				100					28	gcv,qty=27	wms						gsv																													gsv																													gsv																													0
+27 Chipped Rubies + Thawing = 3 Standard Rubies	1				100					28	gcr,qty=27	wms						gsr																													gsr																													gsr																													0
+27 Chipped Sapphires + Thawing = 3 Standard Sapphires	1				100					28	gcb,qty=27	wms						gsb																													gsb																													gsb																													0
+27 Chipped Topazes + Thawing = 3 Standard Topazes	1				100					28	gcy,qty=27	wms						gsy																													gsy																													gsy																													0
+27 Chipped Emeralds + Thawing = 3 Standard Emeralds	1				100					28	gcg,qty=27	wms						gsg																													gsg																													gsg																													0
+27 Chipped Diamonds + Thawing = 3 Standard Diamonds	1				100					28	gcw,qty=27	wms						gsw																													gsw																													gsw																													0
+27 Chipped Skulls + Thawing = 3 Standard Skulls	1				100					28	skc,qty=27	wms						sku																													sku																													sku																													0
+27 Flawed Amethysts + Thawing = 3 Flawless Amethysts	1				100					28	gfv,qty=27	wms						gzv																													gzv																													gzv																													0
+27 Flawed Rubies + Thawing = 3 Flawless Rubies	1				100					28	gfr,qty=27	wms						glr																													glr																													glr																													0
+27 Flawed Sapphires + Thawing = 3 Flawless Sapphires	1				100					28	gfb,qty=27	wms						glb																													glb																													glb																													0
+27 Flawed Topazes + Thawing = 3 Flawless Topazes	1				100					28	gfy,qty=27	wms						gly																													gly																													gly																													0
+27 Flawed Emeralds + Thawing = 3 Flawless Emeralds	1				100					28	gfg,qty=27	wms						glg																													glg																													glg																													0
+27 Flawed Diamonds + Thawing = 3 Flawless Diamonds	1				100					28	gfw,qty=27	wms						glw																													glw																													glw																													0
+27 Flawed Skulls + Thawing = 3 Flawless Skulls	1				100					28	skf,qty=27	wms						skl																													skl																													skl																													0
+27 Standard Amethysts + Thawing = 3 Perfect Amethysts	1				100					28	gsv,qty=27	wms						gpv																													gpv																													gpv																													0
+27 Standard Rubies + Thawing = 3 Perfect Rubies	1				100					28	gsr,qty=27	wms						gpr																													gpr																													gpr																													0
+27 Standard Sapphires + Thawing = 3 Perfect Sapphires	1				100					28	gsb,qty=27	wms						gpb																													gpb																													gpb																													0
+27 Standard Topazes + Thawing = 3 Perfect Topazes	1				100					28	gsy,qty=27	wms						gpy																													gpy																													gpy																													0
+27 Standard Emeralds + Thawing = 3 Perfect Emeralds	1				100					28	gsg,qty=27	wms						gpg																													gpg																													gpg																													0
+27 Standard Diamonds + Thawing = 3 Perfect Diamonds	1				100					28	gsw,qty=27	wms						gpw																													gpw																													gpw																													0
+27 Standard Skulls + Thawing = 3 Perfect Skulls	1				100					28	sku,qty=27	wms						skz																													skz																													skz																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Amethyst -> 3 Perfect Amethyst	1				100					5	gem4,qty=3	wms	gsv					gpv																													gpv																													gpv																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Diamond -> 3 Perfect Diamonds	1				100					5	gem4,qty=3	wms	gsw					gpw																													gpw																													gpw																													0
 3 Perfect Gems + Thawing Potion + 1 Standard Emerald -> 3 Perfect Emeralds	1				100					5	gem4,qty=3	wms	gsg					gpg																													gpg																													gpg																													0
@@ -325,8 +350,6 @@ Charsi's Malus + Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	ml
 8 Sur Runes + Thawing Potion = Cham Rune + SoH	1				100					9	r29,qty=8	wms						r32																													std																																																										0
 8 Ber Runes + Thawing Potion = Zod Rune + SoH	1				100					9	r30,qty=8	wms						r33																													std																																																										0
 8 Jah Runes + Thawing Potion =  2 Zod Runes + SoH	1				100					9	r31,qty=8	wms						r33																													std																													r33																													0
-8 Cham Runes + Thawing Potion =  3 Zod Rune + SoH	0				100					28	r32,qty=27	wms																																			std																																																										0
-8 Zod Runes + Thawing Potion =  4 Zod Rune + SoH	0				100					28	r33,qty=27	wms																																			std																																																										0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,noe	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200						addxp	100		1	5																																																											0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire + 1 Eth Rune + 1 Chasi's Malus -> Hit Power Helm	1				100					6	helm,mag,noe	jew	r06	gpb	r05	mls		usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1	addxp	100		1	5																																																											0
 1 Magic Full Helm + 1 Jewel + 1 Ith Rune + 1 Perfect Sapphire -> Hit Power Helm	1				100					4	helm,mag,eth	jew	r06	gpb				usetype,crf		50	50	gethit-skill		44	5	4	balance1			20	20	att			150	200	ethereal	100		1	1	addxp	100		1	5																																																											0
@@ -778,8 +801,6 @@ SUP 1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed He
 1 Ral Rune + 1 Thul Rune + 1 Perfect Sapphire + 1 Normal Helm -> Socketed Helm	1				100					4	helm,nor,nos	r08	r10	gpb				useitem				sock			1	6																																																																															0
 SUP 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,hiq,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
 1 Tal Rune + 1 Amn Rune + 1 Perfect Ruby + 1 Normal Shield -> Socketed Shield	1				100					4	shld,nor,nos	r07	r11	gpr				useitem				sock			1	6																																																																															0
-Arrows	1				100					2	aqv	tsc						aqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
-Bolts	1				100					2	cqv	tsc						cqv	99		99	sock	100		1	3	mag%/lvl	100		4	4																																																																										0
 Helm	1				0					2	helm,nor,nos	lmr						useitem				sock			6	6																																																																															0
 Helm Inf	1				0					2	helm,low	lmr						useitem				sock			6	6																																																																															0
 Helm Sup	1				0					2	helm,hiq,noe,nos	lmr						useitem				sock			6	6																																																																															0

@@ -1,0 +1,349 @@
+{
+  "type": "SettingsPanel",
+  "name": "CubeRecipesSockets",
+  "fields": {
+    "priority": 9003,
+    "rect": "$OptionsPanelRect",
+    "anchor": { "x": 0.5 },
+    "applySettingsImmediately": false
+  },
+  "children": [
+    {
+      "type": "ImageWidget",
+      "name": "ScrollBarBackground",
+      "fields": {
+        "rect": "$OptionsScrollBarBackgroundRect",
+        "anchor": { "x": 1.0 },
+        "filename": "PauseMenu\\VerticalScroll"
+      },
+      "children": [
+        {
+          "type": "ScrollControllerWidget",
+          "name": "ScrollController",
+          "fields": {
+            "rect": "$OptionsScrollBarRect",
+            "anchor": { "x": 1.0 },
+            "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+            "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+            "barFilepath": "PauseMenu\\VerticalIndicator",
+            "viewName": "ScrollView",
+            "wheelScrollSound": "cursor_scroll_hd",
+            "buttonScrollSound": "cursor_scroll_hd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ScrollViewWidget",
+      "name": "ScrollView",
+      "fields": {
+        "fitToParent": true,
+        "scrollControllerName": "ScrollController"
+      },
+      "children": [
+        {
+          "type": "TableWidget",
+          "name": "CubeRecipesGeneralTable",
+          "fields": {
+            "columns": [
+              { "width": 830, "alignment": { "h": "fit", "v": "fit" } },
+              { "width": 900, "alignment": { "h": "fit", "v": "fit" } }
+            ],
+            "rowHeight": "$OptionsTableRowHeight",
+            "cellPadding": { "left": 0, "right": 50 }
+          },
+          "children": [
+            {
+              "type": "TableRowWidget",
+              "name": "headers",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients Header",
+                  "fields": {
+                    "text": "@strIngredients",
+                    "style": "$StyleSettingsTitle"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result Header",
+                  "fields": {
+                    "text": "@strResult",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "socket_recipe_armor",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSocketRecipeArmorIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSocketRecipeArmorResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "socket_recipe_weapon",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSocketRecipeWeaponIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSocketRecipeWeaponResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "socket_recipe_helm",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSocketRecipeHelmIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSocketRecipeHelmResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "socket_recipe_shield",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strSocketRecipeShieldIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strSocketRecipeShieldResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "larzuk_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strLarzukRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strLarzukRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "corruption_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCorruptionRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCorruptionRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "corruption_recipe_two",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strCorruptionRecipeTwoIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strCorruptionRecipeTwoResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "arrows_bolts_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strQuiversIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strQuiversResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

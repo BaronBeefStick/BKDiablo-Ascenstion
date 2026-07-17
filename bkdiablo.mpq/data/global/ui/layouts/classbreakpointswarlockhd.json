@@ -1,0 +1,268 @@
+{
+  "type": "SettingsPanel",
+  "name": "ClassBreakpointsWarlock",
+  "fields": {
+    "priority": 9003,
+    "rect": "$OptionsPanelRect",
+    "anchor": { "x": 0.5 },
+    "applySettingsImmediately": false
+  },
+  "children": [
+    {
+      "type": "ScrollViewWidget",
+      "name": "ScrollView",
+      "fields": {
+        "fitToParent": true,
+        "scrollControllerName": "ScrollController"
+      },
+      "children": [
+        {
+          "type": "TableWidget",
+          "name": "ClassBreakpointsWarlockTable",
+          "fields": {
+            "columns": [
+              { "width": 350, "alignment": { "h": "fit", "v": "fit" } },
+              { "width": 1400, "alignment": { "h": "fit", "v": "fit" } }
+            ],
+            "rowHeight": "$OptionsTableRowHeight",
+            "cellPadding": { "left": 0, "right": 10 }
+          },
+          "children": [
+            {
+              "type": "TableRowWidget",
+              "name": "fcr_header",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strFasterCastRate",
+                    "style": "$StyleSettingsTitle"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strCastingFrames",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strSkills",
+                    "style": "$StyleSettingsTitle"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "15 |14 |13 |12 |11 |10 | 9",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strAll",
+                    "style": "$StyleSettingsText"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": " 0      9     18    30    48    75    125",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "Action Flags",
+                    "style": "$StyleSettingsText"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": " 8                   7                   6                  5",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "name": "fhr_header",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strFasterHitRecovery",
+                    "style": "$StyleSettingsTitle"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strHitRecoveryFrames",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strWeapons",
+                    "style": "$StyleSettingsTitle"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "13 |12 |11 |10 | 9 | 8 | 7 | 6 | 5 | 4",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strAll",
+                    "style": "$StyleSettingsText"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": " 0      5     10    16    26    39    56    86    152   377",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "name": "block_header",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strFasterBlockRate",
+                    "style": "$StyleSettingsTitle"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strBlockFrames",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strWeapons",
+                    "style": "$StyleSettingsTitle"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "11 |10 | 9 | 8 | 7 | 6 | 5",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+
+            {
+              "type": "TableRowWidget",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": "@strAll",
+                    "style": "$StyleSettingsText"
+                  }
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "fields": {
+                    "text": " 0      6     13    20    32    52    86",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,448 @@
+{
+    "type": "SettingsPanel", "name": "CubeRecipesGems",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "CubeRecipesGemsTable",
+                    "fields": {
+                        "columns": [ 
+                            { "width": 830, "alignment": { "h": "fit", "v": "fit" } },
+                            { "width": 900, "alignment": { "h": "fit", "v": "fit" } }
+                        ],
+                        "rowHeight": "$OptionsTableRowHeight",
+                        "cellPadding": { "left": 0, "right": 50 }
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "headers",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients Header",
+                                    "fields": {
+                                        "text": "@strIngredients",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result Header",
+                                    "fields": {
+                                        "text": "@strResult",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "gem_upgrade_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strGemUpgradeIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strGemUpgradeResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "gem_upgrade_multi_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strGemUpgradeMultiIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strGemUpgradeMultiResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "gem_upgrade_multi_two_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strGemUpgradeMultiTwoIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strGemUpgradeMultiTwoResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascendedgem_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedGemIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedGemResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_diamond_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedDiamondIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedDiamondResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_amethyst_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedAmethystIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedAmethystResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_ruby_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedRubyIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedRubyResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_sapphire_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedSapphireIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedSapphireResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_emerald_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedEmeraldIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedEmeraldResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_topaz_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedTopazIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedTopazResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "ascended_skull_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strAscendedSkullIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strAscendedSkullResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "gem_conversion_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strGemConversionIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strGemConversionResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "gem_reroll_recipe",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strGemRerollIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strGemRerollResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

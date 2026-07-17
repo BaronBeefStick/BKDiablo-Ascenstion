@@ -1,0 +1,445 @@
+{
+  "type": "SettingsPanel",
+  "name": "CubeRecipesUniqueSet",
+  "fields": {
+    "priority": 9003,
+    "rect": "$OptionsPanelRect",
+    "anchor": { "x": 0.5 },
+    "applySettingsImmediately": false
+  },
+  "children": [
+    {
+      "type": "ImageWidget",
+      "name": "ScrollBarBackground",
+      "fields": {
+        "rect": "$OptionsScrollBarBackgroundRect",
+        "anchor": { "x": 1.0 },
+        "filename": "PauseMenu\\VerticalScroll"
+      },
+      "children": [
+        {
+          "type": "ScrollControllerWidget",
+          "name": "ScrollController",
+          "fields": {
+            "rect": "$OptionsScrollBarRect",
+            "anchor": { "x": 1.0 },
+            "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+            "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+            "barFilepath": "PauseMenu\\VerticalIndicator",
+            "viewName": "ScrollView",
+            "wheelScrollSound": "cursor_scroll_hd",
+            "buttonScrollSound": "cursor_scroll_hd"
+          }
+        }
+      ]
+    },
+    {
+      "type": "ScrollViewWidget",
+      "name": "ScrollView",
+      "fields": {
+        "fitToParent": true,
+        "scrollControllerName": "ScrollController"
+      },
+      "children": [
+        {
+          "type": "TableWidget",
+          "name": "CubeRecipesGeneralTable",
+          "fields": {
+            "columns": [
+              { "width": 830, "alignment": { "h": "fit", "v": "fit" } },
+              { "width": 900, "alignment": { "h": "fit", "v": "fit" } }
+            ],
+            "rowHeight": "$OptionsTableRowHeight",
+            "cellPadding": { "left": 0, "right": 50 }
+          },
+          "children": [
+            {
+              "type": "TableRowWidget",
+              "name": "headers",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients Header",
+                  "fields": {
+                    "text": "@strIngredients",
+                    "style": "$StyleSettingsTitle"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result Header",
+                  "fields": {
+                    "text": "@strResult",
+                    "style": "$StyleSettingsTitle"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "unique_jewelry_recycle",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strUniqueJewelryRecycleIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strUniqueJewelryRecycleResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "unique_reroll",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strUniqueRerollIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strUniqueRerollResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "blank_charm_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBlankCharmRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBlankCharmRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "unique_update",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strUniqueUpdateIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strUniqueUpdateResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "gull_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strGullRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strGullRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "tarnhelm_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strTarnhelmRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strTarnhelmRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "unique_jewel_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strUniqueJewelRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strUniqueJewelRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_amethyst_unique",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedAmethystUniqueIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedAmethystUniqueResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_ruby_unique",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedRubyUniqueIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedRubyUniqueResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_sapphire_unique",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedSapphireUniqueIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedSapphireUniqueResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "ascended_emerald_unique",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strAscendedEmeraldUniqueIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strAscendedEmeraldUniqueResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

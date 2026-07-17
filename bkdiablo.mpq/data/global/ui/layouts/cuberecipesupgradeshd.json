@@ -1,0 +1,568 @@
+{
+    "type": "SettingsPanel", "name": "CubeRecipesUpgrades",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "CubeRecipesGeneralTable",
+                    "fields": {
+                        "columns": [ 
+                            { "width": 830, "alignment": { "h": "fit", "v": "fit" } },
+                            { "width": 900, "alignment": { "h": "fit", "v": "fit" } }
+                        ],
+                        "rowHeight": "$OptionsTableRowHeight",
+                        "cellPadding": { "left": 0, "right": 50 }
+                    },
+                    "children": [
+                      {
+                        "type": "TableRowWidget",
+                        "name": "headers",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients Header",
+                            "fields": {
+                              "text": "@strIngredients",
+                              "style": "$StyleSettingsTitle"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result Header",
+                            "fields": {
+                              "text": "@strResult",
+                              "style": "$StyleSettingsTitle"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "augment_zod",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strAugmentZodIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strAugmentZodResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "augment_cham",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strAugmentChamIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strAugmentChamResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "augment_gul",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strAugmentGulIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strAugmentGulResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "repair_augment",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strRepairAugmentIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strRepairAugmentResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "repair_tome",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strRepairTomeIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strRepairTomeResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "flask_recipe",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strFlaskRecipeIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strFlaskRecipeResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "charsi_recipe",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strCharsiRecipeIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strCharsiRecipeResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "corruption_recipe",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strCorruptionRecipeIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strCorruptionRecipeResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "corruption_recipe_two",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strCorruptionRecipeTwoIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strCorruptionRecipeTwoResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "upgrade_gear_recipe",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strUpgradeGearRecipeIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strUpgradeGearRecipeResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "upgrade_gear_recipe_two",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strUpgradeGearRecipeTwoIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strUpgradeGearRecipeTwoResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "breakdown_torch_recipe",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strBreakdownTorchIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strBreakdownTorchResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "augment_torch",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strAugmentTorchIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strAugmentTorchResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "augment_anni",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strAugmentAnniIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strAugmentAnniResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "type": "TableRowWidget",
+                        "name": "augment_gheeds",
+                        "children": [
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Ingredients",
+                            "fields": {
+                              "text": "@strAugmentGheedsIngredient",
+                              "style": "$StyleSettingsText"
+                            },
+                            "children": [
+                              {
+                                "type": "ImageWidget",
+                                "name": "Divider",
+                                "fields": {
+                                  "rect": "$OptionsDividerRect",
+                                  "filename": "PauseMenu\\Divider"
+                                }
+                              }
+                            ]
+                          },
+                          {
+                            "type": "TextBoxWidget",
+                            "name": "Result",
+                            "fields": {
+                              "text": "@strAugmentGheedsResult",
+                              "style": "$StyleSettingsText"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -384,7 +384,7 @@
     "ItemCellSize": { "x": 98, "y": 98 },
 
     // Settings
-    "OptionsPanelWidth": 1730,
+    "OptionsPanelWidth": 1720,
     "OptionsPanelHeight": 1284,
     "OptionsPanelRect": { "x": -865, "y": 400, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
     "OptionsScrollBarRect": { "x": -31, "y": 29, "width": 26, "height": 1208 },
@@ -523,7 +523,7 @@
         },
         "text": "@MoviePlaybackHoldToSkip",
     },
-    "HoldToSkipDurationMilliseconds": 500,
+    "HoldToSkipDurationMilliseconds": 20,
     "HoldToSkipTextTimeoutMilliseconds": 5000,
 
     // Account Linking
@@ -537,7 +537,7 @@
     //Switch handheld resized panels
     "SettingsPanelAnchorRect": { "x": -975, "y": -953, "width": 1950, "height": 1763 },
     "SettingsPanelBackgroundRect": { "x": -896, "y": 270, "width": "$OptionsPanelWidth", "height": "$OptionsPanelHeight" },
-    "SettingsPanelTabsRect": { "x": -865, "y": 282, "width": "$OptionsPanelWidth", "height": 121 },
+    "SettingsPanelTabsRect": { "x": -865, "y": 280, "width": "$OptionsPanelWidth", "height": 121 },
 
     //Tutorial Tooltips
     "TutorialTooltipIntroRect" : { "x": 175, "y": 351, "width": 900, "height": 1150 },

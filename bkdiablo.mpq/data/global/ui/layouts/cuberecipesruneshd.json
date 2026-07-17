@@ -1,0 +1,308 @@
+{
+    "type": "SettingsPanel", "name": "CubeRecipesRunes",
+    "fields": {
+        "priority": 9003,
+        "rect": "$OptionsPanelRect",
+        "anchor": { "x": 0.5 },
+        "applySettingsImmediately": false
+    },
+    "children": [
+        {
+            "type": "ImageWidget", "name": "ScrollBarBackground",
+            "fields": {
+                "rect": "$OptionsScrollBarBackgroundRect",
+                "anchor": { "x": 1.0 },
+                "filename": "PauseMenu\\VerticalScroll"
+            },
+            "children": [
+                {
+                    "type": "ScrollControllerWidget", "name": "ScrollController",
+                    "fields": {
+                        "rect": "$OptionsScrollBarRect",
+                        "anchor": { "x": 1.0 },
+                        "upArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollUpBtn",
+                        "downArrowFilepath": "FrontEnd\\HD\\Final\\FrontEnd_ScrollDownBtn",
+                        "barFilepath": "PauseMenu\\VerticalIndicator",
+                        "viewName": "ScrollView",
+                        "wheelScrollSound": "cursor_scroll_hd",
+                        "buttonScrollSound": "cursor_scroll_hd"
+                    }
+                }
+            ]
+        },
+        {
+            "type": "ScrollViewWidget", "name": "ScrollView",
+            "fields": {
+                "fitToParent": true,
+                "scrollControllerName": "ScrollController"
+            },
+            "children": [
+                {
+                    "type": "TableWidget", "name": "CubeRecipesRunesTable",
+                    "fields": {
+                        "columns": [ 
+                            { "width": 830, "alignment": { "h": "fit", "v": "fit" } },
+                            { "width": 900, "alignment": { "h": "fit", "v": "fit" } }
+                        ],
+                        "rowHeight": "$OptionsTableRowHeight",
+                        "cellPadding": { "left": 0, "right": 50 }
+                    },
+                    "children": [
+                        {
+                            "type": "TableRowWidget", "name": "headers",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients Header",
+                                    "fields": {
+                                        "text": "@strIngredients",
+                                        "style": "$StyleSettingsTitle"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result Header",
+                                    "fields": {
+                                        "text": "@strResult",
+                                        "style": "$StyleSettingsTitle"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "rune_downgrade",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strRuneDowngradeIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strRuneDowngradeResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "rune_upgrade_low",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeLowIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "rune_upgrade_high",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeHighIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "rune_upgrade_low_multi",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeLowMultiIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeTwoResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "rune_upgrade_low_multi_two",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeLowMultiTwoIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeThreeResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        }, 
+                        {
+                            "type": "TableRowWidget", "name": "rune_upgrade_High_multi",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeHighMultiIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strRuneUpgradeThreeResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "item_repair_ort",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strItemRepairOrtIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strItemRepairOrtResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "type": "TableRowWidget", "name": "item_repair_ral",
+                            "children": [
+                                {
+                                    "type": "TextBoxWidget", "name": "Ingredients",
+                                    "fields": {
+                                        "text": "@strItemRepairRalIngredient",
+                                        "style": "$StyleSettingsText"
+                                    },
+                                    "children": [
+                                        {
+                                            "type": "ImageWidget", "name": "Divider",
+                                            "fields": {
+                                                "rect": "$OptionsDividerRect",
+                                                "filename": "PauseMenu\\Divider"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "TextBoxWidget", "name": "Result",
+                                    "fields": {
+                                        "text": "@strItemRepairRalResult",
+                                        "style": "$StyleSettingsText"
+                                    }
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
