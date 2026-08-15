@@ -1372,11 +1372,11 @@ Uber Diablo			1				1024	0	cm2	1																												0
 Uber Baal			1	800			1024	0	cm3	1																												0
 Snapchip (H)			5	900	900	900	1024	19	gld,mul=2048	10	Act 5 (H) Equip C	19	Act 5 (H) Junk	9	Act 5 (H) Good	3	pk1	2																				0
 Rift Gold			1					0	gld,mul=5000	1	AND	15																										0
-Rift Crafts Premium			1					300	Rift Crafts (N) Premium	5	brk	1	std	1	AND	190																						0
-Rift Crafts (N) Premium			1					300	brk	12	std	12	Ultrarare consumable	2	All Acts Terrorize Consumable	1	Ancient Statue Random	1	AND	175																		0
-Rift Crafts (H) Premium			1					150	brk	20	std	23	Ultrarare consumable	5	All Acts Terrorize Consumable	10	Ancient Statue Random	10	AND	150																		0
-Rift Good			1					75	Flawed Gem	15	Normal Gem	1	Runes 5	4	Runes 6	2	Craft	3	AND	360																		0
-Rift Good Low			1					60	Chipped Gem	12	Flawed Gem	3	Runes 4	3	Craft	2	AND	380																				0
+Rift Crafts Premium			1					300	brk	1	std	1	AND	940																								0
+Rift Crafts (N) Premium			1					375	brk	1	std	2	Ultrarare consumable	1	All Acts Terrorize Consumable	8	Ancient Statue Random	5	AND	800																		0
+Rift Crafts (H) Premium			1					375	brk	1	std	2	Ultrarare consumable	1	All Acts Terrorize Consumable	8	Ancient Statue Random	6	AND	780																		0
+Rift Good			1					75	Flawed Gem	15	Normal Gem	1	Runes 5	3	Craft	3	AND	400																				0
+Rift Good Low			1					60	Chipped Gem	12	Flawed Gem	3	Runes 4	4	Craft	2	AND	450																				0
 Rift Good High			1					54	Normal Gem	5	Flawless Gem	3	Runes 7	1	Craft	3	AND	150																				0
 Rift Monster Misc			1					80	yps	1	wms	1	hp5	4	mp5	4	Rift Gold	22	AND	20	Ultrarare consumable	1																0
 Rift Monster Base			-2					0	Rift Monster Misc	1	Rift Good	1																										0
@@ -1386,9 +1386,9 @@ Rift Champion			-4					0	Rift Monster Misc	1	Rift Good	1	Rift Crafts Premium	1	R
 Rift Unique			-4					0	Rift Monster Misc	1	Rift Good High	1	Rift Crafts Premium	1	Rift Gold	1																						0
 Rift Desecrated Champion			-5					0	Rift Monster Misc	1	Rift Good High	1	Rift Crafts Premium	1	Rift Gold	2																						0
 Rift Desecrated Unique			-5					0	Rift Monster Misc	1	Rift Good High	1	Rift Crafts Premium	1	Rift Gold	2																						0
-Rift (N) Good			1					75	Normal Gem	15	Flawless Gem	1	Runes 10	4	Runes 11	2	Craft	3	AND	360																		0
-Rift (N) Good Low			1					60	Normal Gem	12	Flawless Gem	3	Runes 9	3	Craft	3	AND	380																				0
-Rift (N) Good High			1					54	Normal Gem	5	Flawless Gem	3	Runes 12	1	Craft	4	AND	150																				0
+Rift (N) Good			1					75	Normal Gem	15	Flawless Gem	1	Runes 10	1	Runes 11	8	Craft	2	AND	400																		0
+Rift (N) Good Low			1					60	Normal Gem	6	Flawless Gem	3	Runes 9	6	Craft	3	AND	350																				0
+Rift (N) Good High			1					54	Normal Gem	5	Flawless Gem	3	Runes 12	5	Craft	4	AND	150																				0
 Rift (N) Monster Misc			1					80	yps	1	wms	1	mp5	2	hp5	2	Rift Gold	22	AND	20	Ultrarare consumable	1																0
 Rift (N) Monster Base			-2					0	Rift (N) Monster Misc	1	Rift (N) Good	1																										0
 Rift (N) Monster Low			-2					0	Rift (N) Monster Misc	3	Rift (N) Good Low	1																										0
@@ -1397,9 +1397,9 @@ Rift (N) Champion			-4					0	Rift (N) Monster Misc	1	Rift (N) Good	1	Rift Crafts
 Rift (N) Unique			-4					0	Rift (N) Monster Misc	1	Rift (N) Good High	1	Rift Crafts (N) Premium	1	Rift Gold	1																						0
 Rift (N) Desecrated Champion			-5					0	Rift (N) Monster Misc	1	Rift (N) Good High	1	Rift Crafts (N) Premium	1	Rift Gold	2																						0
 Rift (N) Desecrated Unique			-5					0	Rift (N) Monster Misc	1	Rift (N) Good High	1	Rift Crafts (N) Premium	1	Rift Gold	2																						0
-Rift (H) Good			1					75	Flawless Gem	15	Perfect Gem	1	Runes 15	4	Runes 17	2	Craft	2	AND	360																		0
-Rift (H) Good Low			1					60	Flawless Gem	12	Runes 14	3	Craft	2	AND	380																						0
-Rift (H) Good High			1					54	Perfect Gem	4	Runes 17	3	Ultrarare consumable	1	Craft	2	AND	150																				0
+Rift (H) Good			1					75	Flawless Gem	15	Perfect Gem	1	Runes 15	1	Runes 17	8	Craft	2	AND	400																		0
+Rift (H) Good Low			1					60	Flawless Gem	12	Runes 14	5	Craft	2	AND	390																						0
+Rift (H) Good High			1					54	Perfect Gem	2	Runes 17	8	Ultrarare consumable	1	Craft	2	AND	95																				0
 Rift (H) Monster Misc			1					80	wms	1	mp5	2	hp5	2	rvl	4	Rift Gold	22	AND	20	Ultrarare consumable	1																0
 Rift (H) Monster Base			-2					0	Rift (H) Monster Misc	1	Rift (H) Good	1																										0
 Rift (H) Monster Low			-2					0	Rift (H) Monster Misc	1	Rift (H) Good Low	1																										0

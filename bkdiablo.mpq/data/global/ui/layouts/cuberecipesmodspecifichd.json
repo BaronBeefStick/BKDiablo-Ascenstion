@@ -108,6 +108,38 @@
             },
             {
               "type": "TableRowWidget",
+              "name": "blank_charm_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strBlankCharmRecipeIngredient",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strBlankCharmRecipeResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
               "name": "modifiers_charm_recipe",
               "children": [
                 {
@@ -293,6 +325,38 @@
                   "name": "Result",
                   "fields": {
                     "text": "@strFractureHaloResult",
+                    "style": "$StyleSettingsText"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "TableRowWidget",
+              "name": "flask_recipe",
+              "children": [
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Ingredients",
+                  "fields": {
+                    "text": "@strFlaskofEthericLightRecipe",
+                    "style": "$StyleSettingsText"
+                  },
+                  "children": [
+                    {
+                      "type": "ImageWidget",
+                      "name": "Divider",
+                      "fields": {
+                        "rect": "$OptionsDividerRect",
+                        "filename": "PauseMenu\\Divider"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "type": "TextBoxWidget",
+                  "name": "Result",
+                  "fields": {
+                    "text": "@strFlaskofEthericLightResult",
                     "style": "$StyleSettingsText"
                   }
                 }

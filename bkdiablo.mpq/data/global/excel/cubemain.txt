@@ -32,11 +32,11 @@ Wirt's Leg  -> Portal to The Secret Cow Level	1				0	28				1	leg							Cow Porta
 1 El Rune + 1 Chipped Gem (Any) + 1 Low Quality Armor -> Normal Armor	0				100					3	armo,low	r01	gem0					usetype,nor																																																																																							0
 1 Hel Rune + Scroll of Town Portal + 1 Socketed Item -> Clear Sockets on Item	1				100					3	any,sock	r15	tsc					useitem,uns																																																																																							0
 1 Uber Ancient Summon Material from Act 1 + Act2 + Act3 + Act 4 + Act 5 -> Portal to Colossal Summit	1			2	100	28				5	ua1	ua2	ua3	ua4	ua5			"Red Portal,lvl=137,qty=1"																																																																																							0
-2 Uber Ancient Summon Material convert next Tier 1	1				100					2	"ua5,qty=2"							ua4																																																																																							0
-2 Uber Ancient Summon Material convert next Tier 2	1				100					2	"ua4,qty=2"							ua3																																																																																							0
-2 Uber Ancient Summon Material convert next Tier 3	1				100					2	"ua3,qty=2"							ua2																																																																																							0
-2 Uber Ancient Summon Material convert next Tier 4	1				100					2	"ua2,qty=2"							ua1																																																																																							0
-2 Uber Ancient Summon Material convert next Tier 5	1				100					2	"ua1,qty=2"							ua5																																																																																							0
+2 Talic Statues = 1 Korlic Statue	1				100					2	"ua1,qty=2"							ua2																																																																																							0
+2 Korlic Statues = 1 Madawc Statue	1				100					2	"ua2,qty=2"							ua3																																																																																							0
+2 Madawc Statues = 1 Bul-Kathos Statue	1				100					2	"ua3,qty=2"							ua4																																																																																							0
+2 Bul-Kathos Statues = 1 Warusk Statue	1				100					2	"ua4,qty=2"							ua5																																																																																							0
+2 Warusk Statues = 1 Talic Statue	1				100					2	"ua5,qty=2"							ua1																																																																																							0
 3 Perfect Skull + 1 Rare Item + 1 Stone of Jordan -> Add 3 Socket to Rare Item	1				0					5	"any,rar,nos"	"skz,qty=3"	The Stone of Jordan					"useitem,sock=3"																																																																																							0
 2 Unique Jewerly = SOH	1				0					3	jwly,uni,qty=2	wms						std																																																																																							0
 Seasonal Gift	0				100					1	gft							r15g	51																												"r01g,qty=5"	35																												"gem,qty=5"																													0
@@ -117,11 +117,11 @@ Charsi's Malus + Gheed's Fortune -> 3 MF Potions	1				0					2	Gheed's Fortune	ml
 35 Standard of Heroes + Thawing Potion = Flask of Etheric Light	1				100					36	std,qty=35	wms						fel																																																																																							0
 20 Bricks = Pile of Bricks	1				100					20	brk,qty=20							mbk																																																																																							0
 9 Bricks + Thawing Potion = Pul Rune	1				100					10	brk,qty=9	wms						r21	99		99																																																																																				0
-15 Bricks + Thawing Potion = Mal Rune	1				100					16	brk,qty=15	wms						r23	99		99																																																																																				0
-21 Bricks + Thawing Potion = Gul Rune	1				100					22	brk,qty=21	wms						r25	99		99																																																																																				0
-27 Bricks + Thawing Potion = Ohm Rune	1				100					28	brk,qty=27	wms						r27	99		99																																																																																				0
-33 Bricks + Thawing Potion = Sur Rune	1				100					34	brk,qty=33	wms						r29	99		99																																																																																				0
-36 Bricks + Thawing Potion = Ber Rune	1				100					37	brk,qty=36	wms						r30	99		99																																																																																				0
+15 Bricks + Thawing Potion = Um Rune + 2 Pul Runes	1				100					16	brk,qty=15	wms						r22	99		99																										r21																													r21																													0
+21 Bricks + Thawing Potion = Mal Rune + Um Rune + Pul Rune	1				100					22	brk,qty=21	wms						r23	99		99																										r22																													r21																													0
+27 Bricks + Thawing Potion = Ist Rune + Mal Rune	1				100					28	brk,qty=27	wms						r24	99		99																										r23																																																										0
+31 Bricks + Thawing Potion = Ist Rune + Mal Rune + Um Rune	1				100					32	brk,qty=31	wms						r24	99		99																										r23																													r22																													0
+35 Bricks + Thawing Potion = Gul Rune + Ist Rune	1				100					36	brk,qty=35	wms						r25	99		99																										r24																																																										0
 9 Pskulls + 3 Hellfire Ash + Larzuk's Forging Hammer + Unique Jewel = Random Unique Jewel	1				100					14	skz,qty=9	lmr	jew,uni	tds,qty=3				jew,uni	99		99																																																																																				0
 5 Pile of Bricks + Prime Sigil = The Divine Standard 	1				100					6	mbk,qty=5	gwh						dsd	99		99																																																																																				0
 5 Ascended Diamonds + Prime Sigil = Diablo's Soulstone + SoH	1				100					6	gaw,qty=5	gwh						dss																													std	99		99																																																							0
