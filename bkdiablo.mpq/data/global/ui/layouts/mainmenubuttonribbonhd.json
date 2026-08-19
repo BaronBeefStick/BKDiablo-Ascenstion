@@ -181,7 +181,7 @@
                   "name": "MotDBodyText",
                   "fields": {
                     "rect": { "x": 5, "y": 5, "width": 594, "height": 500 },
-                    "text": "BKDiablo: Ascension v17.0\n\nLATEST CHANGES\n\n• Restored Summon Melee Splash\n• Fixed and Rebalanced Several Cube Recipes\n• Improved Cube Recipes Button Interactions\n• Updated Rift Treasure Classes\n• Additional Fixes and Improvements\n\nReport Bugs in BKD-BugReport\n\nThanks for Playing!",
+                    "text": "BKDiablo: Ascension v17.1\n\nLATEST CHANGES\n\n• Restored Summon Melee Splash\n• Fixed and Rebalanced Several Cube Recipes\n• Improved Cube Recipes Button Interactions\n• Updated Rift Treasure Classes\n• Unique Item Changes\n• New Unique Items\n• Additional Fixes and Improvements\n\nReport Bugs in BKD-BugReport\n\nThanks for Playing!",
                     "fitToText": true,
                     "style": {
                       "fontFace": "BlizzardGlobal",
