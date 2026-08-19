@@ -32264,5 +32264,39 @@
     "ptBR": "Use 5 para criar ÿc4O Estandarte Divinoÿc0\nPoder combinado dos tijolos",
     "ruRU": "Используйте 5, чтобы создать ÿc4Божественный Стандартÿc0\nОбъединённая сила кирпичей",
     "zhCN": "使用 5 个来制作 ÿc4神圣旗帜ÿc0\n砖块力量的结合"
+  },
+  {
+    "id": 72195,
+    "Key": "Titan's Force",
+    "enUS": "Titan's Force",
+    "zhTW": "泰坦之力",
+    "deDE": "Titans Kraft",
+    "esES": "La Fuerza de Titán",
+    "frFR": "La Force de Titan",
+    "itIT": "La Forza di Titano",
+    "koKR": "타이탄의 힘",
+    "plPL": "Siła Tytana",
+    "esMX": "La Fuerza de Titán",
+    "jaJP": "タイタンの力",
+    "ptBR": "A Força de Titã",
+    "ruRU": "Сила Титана",
+    "zhCN": "泰坦之力"
+  },
+  {
+    "id": 72196,
+    "Key": "Titan's Resolve",
+    "enUS": "Titan's Resolve",
+    "zhTW": "泰坦的決心",
+    "deDE": "Titans Entschlossenheit",
+    "esES": "La determinación de Titán",
+    "frFR": "La détermination de Titan",
+    "itIT": "La determinazione di Titano",
+    "koKR": "타이탄의 결의",
+    "plPL": "Determinacja Tytana",
+    "esMX": "La determinación de Titán",
+    "jaJP": "タイタンの決意",
+    "ptBR": "A Determinação de Titã",
+    "ruRU": "Решимость Титана",
+    "zhCN": "泰坦的决心"
   }
 ]
