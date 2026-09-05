@@ -54,3 +54,4 @@ M'avina's Disappointment	M'avina's Disappointment	100																											
 Death's Embrace	Death's Embrace	100																																	oskill	Blood Oath	1	1	oskill	Death Mark	1	1	oskill	Bind Demon	1	1	addxp		15	15	mag%		100	100	res-all		40	40	gold%		150	150						0
 Destiny	Destiny	100																																	oskill	teleport	1	1	addxp		15	15	mag%		150	150	res-all		50	50	allskills		2	2	gold%		150	150										0
 Horazon's Heirloom	Horazon's Heirloom	100																																	allskills		2	2	addxp		15	15	mag%		150	150	gold%		150	150	red-dmg%		10	10	pierce-mag		30	30	pierce-fire		25	25	res-all		25	25	war	0
+The Paradox	The Paradox	100																																	allskills		1	1	swing2		40	40	balance2		100	100	cast2		20	20	move2		50	50	addxp		15	15	mag%		50	50	res-all		30	30		0
