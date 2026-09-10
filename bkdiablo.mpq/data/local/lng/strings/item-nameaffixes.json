@@ -17763,5 +17763,39 @@
     "ptBR": "Branco",
     "ruRU": "Белый",
     "zhCN": "白色的"
+  },  
+  {
+    "id": 61490,
+    "Key": "of Damage Amplify",
+    "enUS": "of Amplify Damage",
+    "zhTW": "傷害加深之",
+    "deDE": "des verstärkten Schadens",
+    "esES": "de Amplificar daño",
+    "frFR": "d’augmentation des dégâts",
+    "itIT": "dei Danni Amplificati",
+    "koKR": "피해 증폭의",
+    "plPL": "Zwiększenia Obrażeń",
+    "esMX": "de daño amplificado",
+    "jaJP": "腐呪の",
+    "ptBR": "de Amplificar Dano",
+    "ruRU": "усиленного урона",
+    "zhCN": "伤害加深之"
+  },
+  {
+    "id": 61491,
+    "Key": "of Lower Resist",
+    "enUS": "of Lower Resist",
+    "zhTW": "降低抗性之",
+    "deDE": "des geringen Widerstandes",
+    "esES": "de Reducción de resistencia",
+    "frFR": "de résistance diminuée",
+    "itIT": "delle Resistenze Ridotte",
+    "koKR": "저항 감소의",
+    "plPL": "Zmniejszenia Odporności",
+    "esMX": "de reducción de resistencia",
+    "jaJP": "耐性低下の",
+    "ptBR": "de Diminuir Resistência",
+    "ruRU": "сниженного сопротивления",
+    "zhCN": "降低抗性之"
   }
 ]
