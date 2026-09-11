@@ -401,12 +401,12 @@ Rainbow Facet	397	100		1					1	1	85	49	jew	jewel		3	5000								dmg-cold	3	24	38
 Rainbow Facet	398	100		1					1	1	85	49	jew	jewel		3	5000								dmg-fire		17	45	pierce-fire		4	5	extra-fire		4	5	levelup-skill	Blaze	100	29	addxp		2	2																														0
 Rainbow Facet	399	100		1					1	1	85	49	jew	jewel		3	5000								dmg-pois	50	187	187	pierce-pois		4	5	extra-pois		4	5	levelup-skill	Venom	100	23	addxp		2	2																														0
 Hellfire Torch	400	100		1					1	1	110	75	cm2	charm		3	5000			flptrch	invtrch	item_gem	12	item_gem	randclassskill1		0	7	all-stats		10	20	res-all		10	20	light		8	8	charged	Hydra	10	30																														0
-Cold Rupture	401	100		1			2	2	1	1	69	75	cm3	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-90	-70																																										0
-Flame Rift	402	100		1			2	2	1	1	69	75	cm3	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-90	-70																																										0
-Crack of the Heavens	403	100		1			2	2	1	1	69	75	cm3	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-90	-70																																										0
-Rotting Fissure	404	100		1			2	2	1	1	69	75	cm3	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-90	-70																																										0
-Bone Break	405	100		1			2	2	1	1	69	75	cm3	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-20	-10																																										0
-Black Cleft	406	100		1			2	2	1	1	69	75	cm3	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-65	-45																																										0
+Cold Rupture	401	100		1			2	2	1	1	87	75	cm3	charm		3	5000	lblu	lblu						pierce-immunity-cold		300	300	res-cold		-90	-70																																										0
+Flame Rift	402	100		1			2	2	1	1	87	75	cm3	charm		3	5000	lred	lred						pierce-immunity-fire		300	300	res-fire		-90	-70																																										0
+Crack of the Heavens	403	100		1			2	2	1	1	87	75	cm3	charm		3	5000	lyel	lyel						pierce-immunity-light		300	300	res-ltng		-90	-70																																										0
+Rotting Fissure	404	100		1			2	2	1	1	87	75	cm3	charm		3	5000	lgrn	lgrn						pierce-immunity-poison		300	300	res-pois		-90	-70																																										0
+Bone Break	405	100		1			2	2	1	1	87	75	cm3	charm		3	5000	whit	whit						pierce-immunity-damage		300	300	red-dmg%		-20	-10																																										0
+Black Cleft	406	100		1			2	2	1	1	87	75	cm3	charm		3	5000	lgry	lgry						pierce-immunity-magic		300	300	res-mag		-65	-45																																										0
 Warlock Class Pack																																																																										0
 Ars Al'Diablolos	408	100		1					1	1	85	80	waf	blasphemous grimoire		5	5000	cred	cred		invbbb				war		2	2	gethit-skill	Terror	15	1	cast1		30	30	ac%		170	200	extra-fire		15	25					mana-kill		5	10	res-fire		10	50	skill	Apocalypse	3	5	skill	Flame Wave	1	2	skill	Ring of Fire	1	2	mag%		10	25		0
 Ars Tor'Baalos	409	100		1					1	1	85	73	wae	blasphemous compendium		5	5000				invbbb				skilltab	21	4	4	gethit-skill	Decrepify	15	1	skill	Demonic Mastery	1	2	skill	Blood Boil	1	2	skill	Engorge	1	2	skill	Consume	1	2	ac%	 	120	150	hp		80	150	red-dmg%		5	15	mag%		10	25										0
