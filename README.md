@@ -10,7 +10,7 @@ WIKI is a WIP. [WIKI Link](https://bkdiablo.miraheze.org/wiki/Main_Page)
 - More Challenging
 - Built-in Loot Filter alongside Blizzard's Loot filter.
 - Item Stacking in ROTW.
-- Negative 0/70/140 all resist based on difficulty. (Only affects the Player)
+- Negative -30/-100/-170 all resist based on difficulty. (Only affects the Player)
 - Negative 199 Magic Find. Leveling up slowly gives Magic Find.
 - Start with nothing except the Horadric Cube
 - Horadric Cube is now 6x6
